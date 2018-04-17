@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Task Execution-rsses on Welcome to the Jiffy-RPA Help Center</title>
+    <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-execution/index.xml</link>
+    <description>Recent content in Task Execution-rsses on Welcome to the Jiffy-RPA Help Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Nov 2016 14:03:40 +0530</lastBuildDate>
+    <atom:link href="http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-execution/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>1. Overview</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-execution/1/</link>
+      <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-execution/1/</guid>
+      <description>&lt;p&gt;Once the tasks are designed, it can be executed from Task Execution. In order to trigger execution from Task Execution, the tasks needs to be assigned to environments. The following options are available in Task Execution
+&lt;ul&gt;
+&lt;li&gt;To execute single task/ bulk of tasks from same environment&lt;/li&gt;
+&lt;li&gt;To schedule the execution of single task/bulk of tasks from same environment&lt;/li&gt;
+&lt;li&gt;To execute/to schedule execution of tasks at LABEL level&lt;/li&gt; 
+&lt;/ul&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2. Run Tasks</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-execution/2/</link>
+      <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-execution/2/</guid>
+      <description>&lt;p&gt;&lt;b&gt;Execute single task: &lt;/b&gt; Navigate to &lt;i&gt;Task Execution &amp;gt; Run Task.&lt;/i&gt; Select the task to be executed. Click on Run button, the execution will be triggered immediately.
+&lt;br/&gt;
+&lt;b&gt;Execute bulk of tasks : &lt;/b&gt; Navigate to &lt;i&gt;Task Execution &amp;gt; Run Task.&lt;/i&gt; Select the set of tasks to be executed. Click on Run button, the execution will be triggered immediately. A bulkrun ID will be generated and user can use this bulkrun ID to refer the execution details later.
+&lt;br/&gt;
+Users can select tasks pagewise with single click.
+&lt;br/&gt;
+&lt;b&gt;Execute tasks at LABEL level:&lt;/b&gt; This allows the user to execute all the tasks which are labelled with given labels from the selected environment. Click on Label Execution and User will be asked to provide the below details,
+&lt;ul&gt;
+&lt;li&gt;Action - Two options ALL, ANY. ALL will pick all the tasks which are assigned with all the label names selected for execution. ANY will pick all the tasks which has any of the label names selected for execution.
+&lt;br/&gt;
+For example, Task1 has two labels L1,L2. Task2 has one label L1. In this case, if ALL option is selected and label names L1 and L2 are selected for execution then Jiffy will pick only Task1. If ANY option is selected and label names L1 and L2 are given for execution then both Task1 and Task2 will be picked for execution.&lt;/li&gt;
+&lt;li&gt;Label - Select the label names&lt;/li&gt;
+&lt;li&gt;start Date - Provide date&lt;/li&gt;
+&lt;li&gt;Time - Provide time&lt;/li&gt;
+&lt;/ul&gt;
+&lt;b&gt;Note: &lt;/b&gt;Same label name can be given to tasks across environments. But Label level execution triggered from an environment will pick only the tasks which has the specified label under that environment.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3. Scheduled Runs</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-execution/3/</link>
+      <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-execution/3/</guid>
+      <description>&lt;p&gt;&lt;b&gt;Schedule the execution of single task/bulk of tasks :&lt;/b&gt; This allows user to schedule the execution of selected tasks for a given date and time. Navigate to &lt;i&gt;Task Execution &amp;gt; Run Task.&lt;/i&gt; Select the set of tasks to be executed. Click on Schedule button, provide the date and time to trigger the execution. The schedule will be created and Jiffy will automatically initiate the execution on the exact date and time mentioned in schedule.
+&lt;br/&gt;
+User can view the schedules created and cancel the schedules (if required) in &lt;i&gt;Task Execution &amp;gt; Scheduled Runs.&lt;/i&gt;
+&lt;br/&gt;
+&lt;b&gt;Note&lt;/b&gt; Label level execution can also be scheduled by giving the date and time accordingly.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>4. Execution Summary</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-execution/4/</link>
+      <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-execution/4/</guid>
+      <description>&lt;p&gt;All the tasks which are executed from Task Execution will have summary and history captured in &lt;i&gt;Task Execution &amp;gt; Execution Summary&lt;/i&gt; and &lt;i&gt;Task Execution &amp;gt; Execution history.&lt;/i&gt;
+&lt;br/&gt;
+&lt;b&gt;Execution Summary:&lt;/b&gt; Summary will have details like Run Id, Execution Start time, total execution time, Total number of test cases (in case of bulk execution), Result of execution (Passed/Failed/Invalidated). In case of bulk execution, it will provide how many tasks are passed, how many are failed and how many are invalidated.
+&lt;br/&gt;
+&lt;b&gt;Execution History:&lt;/b&gt;  History can be accessed directly from Task Execution &amp;gt; Execution history. It will have the below execution details for each of the node for all the previous runs of the selected task.
+&lt;ul&gt;
+&lt;li&gt;Input data to the node&lt;/li&gt;
+&lt;li&gt;Output data generated from node&lt;/li&gt;
+&lt;li&gt;Input/output data for each iteration (when multiple iterations are present)&lt;/li&gt;
+&lt;li&gt;Screen shots captured (if any)&lt;/li&gt;
+&lt;li&gt;Details of validation – the expected result and actual result&lt;/li&gt;
+&lt;li&gt;Details of failure – in case of failed nodes&lt;/li&gt;
+&lt;/ul&gt;
+The below actions are available for each of the tasks in execution history
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Re run :&lt;/b&gt; execute the same task again with same set of input data used in previous execution)
+&lt;li&gt;&lt;b&gt;Restart :&lt;/b&gt; This allows the user to re-run an already executed task from a selected node. This avoids the need of rerunning the task always from the starting node. For example, the task execution failed at some step due to some connection issue in region, in this case, once the issue is fixed, use Restart button to re-run the task from the specific node. RESTART functionality will be available only from nodes which are succesfully executed.&lt;/p&gt;
+
+&lt;p&gt;Note : All the above details are available by selecting a Run ID from execution summary as well.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>5. Execution History</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-execution/5/</link>
+      <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-execution/5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>6. Polling History</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-execution/6/</link>
+      <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-execution/6/</guid>
+      <description>&lt;p&gt;Polling history maintains the history details of all polling tasks which are execution In progress/Completed. This gives the below details for all the polling tasks
+&lt;ul&gt;
+&lt;li&gt;Run ID&lt;/li&gt;
+&lt;li&gt;Task ID&lt;/li&gt;
+&lt;li&gt;Status&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Polling – Execution in progress&lt;/li&gt;
+&lt;li&gt;Stopped – Execution Completed&lt;/li&gt;
+&lt;li&gt;Pending – The very first round of execution in progress&lt;/li&gt;
+&lt;li&gt;Invalidated – Task design is incorrect. Execution cannot be performed&lt;/li&gt;&lt;/ul&gt;
+&lt;li&gt;Execution time&lt;/li&gt;
+ * Until the execution in progress, it gives execution triggered time. Once the execution stopped, it gives completion time.
+&lt;li&gt;Environment name&lt;/li&gt;
+&lt;/ul&gt;
+Once Polling in progress, users can stop the polling by clicking on polling button
+&lt;br/&gt;
+&lt;img src=&#34;&#34; alt=&#34;Image 20&#34; style=&#34;;;&#34;&gt;
+&lt;br/&gt;
+Please refer to Task Design &amp;gt; Task &amp;gt; Design Objects and Properties for more details on Polling.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

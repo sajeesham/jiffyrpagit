@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UI Tasks-rsses on Welcome to the Jiffy-RPA Help Center</title>
+    <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/ui-tasks/index.xml</link>
+    <description>Recent content in UI Tasks-rsses on Welcome to the Jiffy-RPA Help Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Nov 2016 14:03:40 +0530</lastBuildDate>
+    <atom:link href="http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/ui-tasks/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>1. Overview</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/ui-tasks/1/</link>
+      <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/ui-tasks/1/</guid>
+      <description>&lt;p&gt;Jiffy UI automation framework allows user to automate UI pages of both Web application and desktop based applications. Jiffy uses a two phase approach - Familiarization of the application to be automated followed by the automation task design.
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;Strong&gt;UI Familiarization :&lt;/Strong&gt;
+Jiffy Familiarization application is a desktop client that enables users to familiarize the UI objects of an application. Once familiarized, the UI objects are saved in repository and can then be used in task design steps.
+&lt;br/&gt;
+&lt;br/&gt;
+Once objects are familiarized, Jiffy provides information about the UI object and allows user to modify the properties. Object familiarization is one time activity. Saving these objects to server allows the users to use for respective automation scenarios. These familiarized controls are saved in Jiffy under Repository &amp;gt; UI controls.
+&lt;br/&gt;
+&lt;br/&gt;
+Users can use a UI component in conjunction with other Jiffy nodes in same task. Jiffy allows users to map data from (or to) any design node to the UI node.
+Jiffy UI familiarization does not follow script recording method and hence this approach reduces the maintenance effort of task with UI nodes and increases reusability. In case a web or desktop element changes in its technical aspects, only that element need to be re-familiarized. The task need not be re-written or modified.
+&lt;br/&gt;
+&lt;br/&gt;
+Creating a UI task is similar to create normal task from &lt;i&gt;Jiffy &amp;gt; Task Design &amp;gt; Task&lt;/i&gt;. User has to select the UI node (Web/Desktop/SAP/Mainframe) to design UI tasks.The major difference between UI and Non UI component is during task execution, UI component opens the UI application and performs the action as defined in the task.
+&lt;br/&gt;
+&lt;br/&gt;
+The following are the steps to be followed for UI automation.
+&lt;ol&gt;
+&lt;li&gt;Define the details of application to be familiarized in Jiffy. This needs to be defined in page ‘Jiffy base URL/mojo’, for eg. &lt;a href=&#34;http://172.16.10.21:8484/mojo&#34;&gt;http://172.16.10.21:8484/mojo&lt;/a&gt;. Only users with admin level access can define this in Jiffy.&lt;/li&gt;
+&lt;li&gt;Once the application details are added to mojo page, the same app needs to be added to user level configuration under Settings &amp;gt; User &amp;gt; UI learn configuration. This needs to be added to only those user ids which will be used for familiarization.&lt;/li&gt;
+&lt;li&gt;Login to Jiffy Learn App.  (User will be able to login only if step 2 is completed)&lt;/li&gt;
+&lt;li&gt;Learn the application pages as per requirement, the UI controls will be created in Jiffy repository&lt;/li&gt;
+&lt;li&gt;Login to Jiffy application&lt;/li&gt;
+&lt;li&gt;Design task using the UI controls &lt;/li&gt;
+&lt;/ol&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2. Configuration</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/ui-tasks/2/</link>
+      <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/ui-tasks/2/</guid>
+      <description>&lt;p&gt;The following configurations needs to be completed to start with familiarization.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Define the details of application to be familiarized in Jiffy. This needs to be defined in page ‘Jiffy base URL/mojo’, for eg. &lt;a href=&#34;http://172.16.10.21:8484/mojo&#34;&gt;http://172.16.10.21:8484/mojo&lt;/a&gt;. Only users with admin level access can define this in Jiffy.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/Kc28sOIMNDg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;p&gt;&lt;br/&gt;
+2. Once the application details are added to mojo page, the same app needs to be added to user level configuration under &lt;i&gt;Settings &amp;gt; User &amp;gt; UI learn configuration.&lt;/i&gt; This needs to be added to only those user ids which will be used for familiarization.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/lzQcPlzPUlA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>3. O3 Jiffy UI Learn Application</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/ui-tasks/3/</link>
+      <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/ui-tasks/3/</guid>
+      <description>&lt;p&gt;Jiffy UI Learn Application canbe installed in a windows machine. Shortcut will be created on the desktop.&lt;/p&gt;
+
+&lt;p&gt;Steps to be followed to familiarize an application:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Enter Username and Password (Jiffy Credentials) and click the Log In button.&lt;/li&gt;
+&lt;li&gt;Select the process name from the process drop down and select Web/Windows from the mode drop down.&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click on Proceed. O3 Jiffy UI Learn App screen will open up.O3 Jiffy UI Learn Application  screen comprises of 3 windows&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;App(s) under Test Tree Tool window :This is a tree structure and comprises of all the app(s) arranged in alphabetical order. App(s) comprises of Modules, Modules contains Elements&lt;/li&gt;
+&lt;li&gt;Jiffy Familiarization Web Browser window: It is used in Web Familiarization only. This window comprises of the Web browser during the familiarization process&lt;/li&gt;
+&lt;li&gt;Property Details Tool window&lt;br /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This window shows all the properties of the module or element familiarised.&lt;/li&gt;
+&lt;li&gt;Screen shots of the elements are also available.&lt;/li&gt;
+&lt;li&gt;Name and description of an element or module can be edited.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click on ‘Load App For Test’ from &lt;em&gt;Menu &amp;gt; Jiffy &amp;gt; UI Learn&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click on ‘Start Learn’ from &lt;em&gt;Menu &amp;gt; Jiffy &amp;gt; UI Learn&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Familiarization with CTRL+Mouse click: Mouse over the required field, use CTRL+Mouse click to familiarise, continue this for all the fields required. You can see the familiarised items are getting added in left side window.
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/mfwhg7YSBjw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Familiarization with Hit Switch:
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/vxCH6i8K26o&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click on ‘Stop Learn’ from &lt;em&gt;Menu &amp;gt; Jiffy &amp;gt; UI Learn&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click on ‘Save Data To Server’ from &lt;em&gt;Menu &amp;gt; Jiffy &amp;gt; UI Learn&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>4. UI Task Design</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/ui-tasks/4/</link>
+      <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/ui-tasks/4/</guid>
+      <description>&lt;p&gt;Task design using UI nodes are same as other Jiffy nodes.The UI node needs to be used here.&lt;/p&gt;
+
+&lt;p&gt;The steps to be followed.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Create a new task in Jiffy&lt;/li&gt;
+&lt;li&gt;Navigate to the &amp;ldquo;Steps&amp;rdquo; tab. Click on the &amp;lsquo;UI&amp;rsquo; tab in the &amp;ldquo;Objects&amp;rdquo; section on the right hand side of the page.&lt;/li&gt;
+&lt;li&gt;Drag and drop the UI node to the design screen.&lt;/li&gt;
+&lt;li&gt;Click on the UI node. Properties tab opens up on the right hand side of the page.  Key in the desired name and description in the &amp;lsquo;Name&amp;rsquo; and &amp;lsquo;Description&amp;rsquo; text boxes respectively.&lt;/li&gt;
+&lt;li&gt;Select the required configuration and the related Output template.The App name selected in the configuration has to be same as that is used in familiarisation.&lt;/li&gt;
+&lt;li&gt;Double click on the UI node. Edit UI screen comes up. Design the steps using UI elements which are already familiarized&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/8Vk5-ar8QHw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

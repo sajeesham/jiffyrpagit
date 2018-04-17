@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Settings on Welcome to the Jiffy-RPA Help Center</title>
+    <link>http://localhost:1313/settings/</link>
+    <description>Recent content in Settings on Welcome to the Jiffy-RPA Help Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Nov 2016 14:08:40 +0530</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/settings/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1. Functions</title>
+      <link>http://localhost:1313/settings/1.-functions/</link>
+      <pubDate>Mon, 07 Nov 2016 14:08:40 +0530</pubDate>
+      
+      <guid>http://localhost:1313/settings/1.-functions/</guid>
+      <description>In Jiffy, automated tasks are managed in a hierarchical structure
+&amp;lsquo;Function&amp;rsquo; can be user defined according to their requirements. For example, a JIFFY function could be:
+ Finance HR Admin  i.e All Finance related processes &amp;amp; tasks can be tracked under Function Finance, similarly HR and Admin.
+Creation and manage of Functions can be done only by users with ### Admin level access. Admin can also make the project Inactive.</description>
+    </item>
+    
+    <item>
+      <title>2. Roles</title>
+      <link>http://localhost:1313/settings/2.-roles/</link>
+      <pubDate>Mon, 07 Nov 2016 14:07:40 +0530</pubDate>
+      
+      <guid>http://localhost:1313/settings/2.-roles/</guid>
+      <description>Creation and Manage of Roles can only be done by a user with Admin level access.
+In Jiffy, the user accesses are controlled through the roles assigned against each user. Roles works as given below.
+For each user action, there will be a pre defined permission in Jiffy. For example, Add a Task, Update a task, Approve repository update, Add XML data to repository etc.
+ These permissions are categorized under three Entity Types – Function, Process and Repository.</description>
+    </item>
+    
+    <item>
+      <title>3. Users</title>
+      <link>http://localhost:1313/settings/3.-users/</link>
+      <pubDate>Mon, 07 Nov 2016 14:06:40 +0530</pubDate>
+      
+      <guid>http://localhost:1313/settings/3.-users/</guid>
+      <description>Jiffy users can be created and managed at Setting &amp;gt; Users. + The following are functionalities allowed here.
+Create User Users with admin level access only can create new users. The following details needs to be provided to create a user.
+   Field Description     Username User ID   Password Password   First name First name   Last name Last name   Timezone User timezone.</description>
+    </item>
+    
+    <item>
+      <title>4. Manage Your Password</title>
+      <link>http://localhost:1313/settings/4.-manage-your-password-/</link>
+      <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://localhost:1313/settings/4.-manage-your-password-/</guid>
+      <description>When a User ID is created, user will receive an automated email with password details.
+Forgot Your Password?  Click on Forgot password button from the Login page Password Reset page appears, Enter email id Click on Reset my password button Password reset successful page appears. You will get an email for setting up the new password  To Change Password  Click on the username displayed on the right side on the top of the page.</description>
+    </item>
+    
+  </channel>
+</rss>

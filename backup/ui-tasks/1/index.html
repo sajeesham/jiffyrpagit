@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en-us" class="no-js">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Welcome to the Jiffy-RPA Help Center</title>
+
+    
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/android-desktop.png">
+
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
+
+    
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto:300,400,500" rel="stylesheet">
+
+    
+    
+
+    <link href="http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/css/styles.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/css/docs.css" rel="stylesheet" type="text/css" />
+
+    <script src="http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/js/modernizr.js"></script>
+
+  </head>
+
+  <body>
+    <header class="page-header navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="docube-logo">
+            <img src="http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/images/jiffy-logo.png">
+          </a>
+          <button aria-controls="bs-navbar" aria-expanded="false" class="collapsed navbar-toggle" data-target="#bs-navbar" data-toggle="collapse" type="button">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <nav class="collapse navbar-collapse header-nav-wrap" id="bs-navbar">
+          <ul class="nav navbar-nav header-nav-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="solution.html">Solution</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+            <li><a class="active" href="support.html">Support</a></li>
+          </ul>
+          
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="contact-banner">
+      <div class="container">
+        <h3>User Guide</h3>
+        
+      </div>
+    </section>
+
+    <section id="support" class="fw-section dash-section">
+      <div class="container">
+
+        <div class="wrapper">
+
+          <header>
+            <ul>
+              <li><a href="http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/../support.html">Quick Start</a></li>
+              <li class="active"><a href="http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/index.html">User Guide</a></li>
+              <li><a href="http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/../tickets.html">Rise a Ticket</a></li>
+            </ul>
+          </header>
+
+          <section class="dash-main">
+
+            <main class="">
+              
+
+<div class="crumbs ">
+  <a href="http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/">Document Home</a> &gt; 1. Overview
+</div>
+
+<div class="dcb-container">
+  <div class="content-part">
+
+    <h1>1. Overview</h1>
+
+    <section class="space">
+      <p>Jiffy UI automation framework allows user to automate UI pages of both Web application and desktop based applications. Jiffy uses a two phase approach - Familiarization of the application to be automated followed by the automation task design.
+<br/>
+<br/>
+<Strong>UI Familiarization :</Strong>
+Jiffy Familiarization application is a desktop client that enables users to familiarize the UI objects of an application. Once familiarized, the UI objects are saved in repository and can then be used in task design steps.
+<br/>
+<br/>
+Once objects are familiarized, Jiffy provides information about the UI object and allows user to modify the properties. Object familiarization is one time activity. Saving these objects to server allows the users to use for respective automation scenarios. These familiarized controls are saved in Jiffy under Repository &gt; UI controls.
+<br/>
+<br/>
+Users can use a UI component in conjunction with other Jiffy nodes in same task. Jiffy allows users to map data from (or to) any design node to the UI node.
+Jiffy UI familiarization does not follow script recording method and hence this approach reduces the maintenance effort of task with UI nodes and increases reusability. In case a web or desktop element changes in its technical aspects, only that element need to be re-familiarized. The task need not be re-written or modified.
+<br/>
+<br/>
+Creating a UI task is similar to create normal task from <i>Jiffy &gt; Task Design &gt; Task</i>. User has to select the UI node (Web/Desktop/SAP/Mainframe) to design UI tasks.The major difference between UI and Non UI component is during task execution, UI component opens the UI application and performs the action as defined in the task.
+<br/>
+<br/>
+The following are the steps to be followed for UI automation.
+<ol>
+<li>Define the details of application to be familiarized in Jiffy. This needs to be defined in page ‘Jiffy base URL/mojo’, for eg. <a href="http://172.16.10.21:8484/mojo">http://172.16.10.21:8484/mojo</a>. Only users with admin level access can define this in Jiffy.</li>
+<li>Once the application details are added to mojo page, the same app needs to be added to user level configuration under Settings &gt; User &gt; UI learn configuration. This needs to be added to only those user ids which will be used for familiarization.</li>
+<li>Login to Jiffy Learn App.  (User will be able to login only if step 2 is completed)</li>
+<li>Learn the application pages as per requirement, the UI controls will be created in Jiffy repository</li>
+<li>Login to Jiffy application</li>
+<li>Design task using the UI controls </li>
+</ol></p>
+
+    </section>
+
+  </div>
+  <div class="sidebar-part">
+    <h4>Related Links</h4>
+    <ul>
+      
+      <li>
+        <a class="cd-faq-links" href="http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/ui-tasks/1/">1. Overview</a>
+      </li>
+      
+      <li>
+        <a class="cd-faq-links" href="http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/ui-tasks/2/">2. Configuration</a>
+      </li>
+      
+      <li>
+        <a class="cd-faq-links" href="http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/ui-tasks/3/">3. O3 Jiffy UI Learn Application</a>
+      </li>
+      
+      <li>
+        <a class="cd-faq-links" href="http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/ui-tasks/4/">4. UI Task Design</a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+
+            </main>
+
+          </section>
+
+        </div>
+
+      </div>
+      
+    </section>
+
+
+    <footer class="dcb-footer">
+      <div class="container">
+
+        <div class="dcb-footer-top">
+          <div class="row">
+            <div class="col-sm-5">
+              <h4>About Docube</h4>
+              <p>
+                Docube is the best way to visualize data, share insights and surprise your customers with visuals which speak your story. We have hidden all of the complexity of working iteratively over large data, providing a very simple yet flexible user interact,
+                allowing you to focus on getting maximum out of data.
+              </p>
+            </div>
+            <div class="col-sm-2">
+              <h4>Support</h4>
+              <ul>
+                <li><a href="#">Overview</a></li>
+                <li><a href="#">user guide</a></li>
+                <li><a href="#">Faq</a></li>
+                <li><a href="#">Log a ticket</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-2">
+              <h4>Quick links</h4>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="support.html">Support</a></li>
+              </ul>
+            </div>
+
+            <div class="col-sm-3 footer-contact">
+              <h4>Contact Us</h4>
+              <p class="company-name">OptionThree Consulting Pvt ltd</p>
+              <p>#1157, first floor, 5th main, 20th cross, sector 7, HSR layout, Bangalore 560102</p>
+              <p>Email : <a href="mailto:info@option3.com">info@option3.com</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="dcb-footer-btm">
+          <div class="row">
+            <div class="col-sm-5 col-sm-push-7">
+              <div class="footer-social-links">
+                <a target="blank" href="https://www.facebook.com/docube/">
+                  <i class="dcb-icons fb-icon"></i>
+                </a>
+                <a target="blank" href="#">
+                  <i class="dcb-icons gplus-icon"></i>
+                </a>
+                <a target="blank" href="https://twitter.com/docube_io">
+                  <i class="dcb-icons twitter-icon"></i>
+                </a>
+                <a target="blank" href="https://www.linkedin.com/company/13212574?trk=tyah&trkInfo=clickedVertical%3Ashowcase%2CclickedEntityId%3A13212574%2Cidx%3A2-1-2%2CtarId%3A1474278991361%2Ctas%3Adocube">
+                  <i class="dcb-icons linkedin-icon"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-7 col-sm-pull-5">
+              <p class="footer-btm-text">&copy; 2016 Option3Consulting. All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    
+    <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog dcb-modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Sign up for free</h4>
+          </div>
+          <div class="modal-body dcb-modal-body">
+            <form  data-toggle="validator" action="//docube.us9.list-manage.com/subscribe/post?u=68ede951422eaeee09ecd8af3&amp;id=4071e071da" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate>
+              <div id="mc_embed_signup_scroll">
+                <div class="dcb-modal-input form-group">
+                  <input class="dcb-input" type="text" value="" name="NAME" class="" id="mce-NAME" required placeholder="Your Name">
+                  <div class="help-block with-errors"></div>
+                </div>
+                <div class="dcb-modal-input form-group">
+                  <input class="dcb-input" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required placeholder="Email Id">
+                  <div class="help-block with-errors"></div>
+                </div>
+                <div class="dcb-modal-input form-group">
+                  <input class="dcb-input" type="text" value="" name="COMPANY" class="" id="mce-COMPANY" placeholder="Company Name">
+                  <div class="help-block with-errors"></div>
+                </div>
+
+                <div class="dcb-modal-input">
+                  <input type="hidden" name="type" value="signup" />
+                  <button class="btn btn-primary dcb-btn" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">Submit</button>
+                </div>
+
+                <div id="mce-responses" class="clear">
+                  <div class="response" id="mce-error-response" style="display:none"></div>
+                  <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>
+
+                
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_68ede951422eaeee09ecd8af3_4071e071da" tabindex="-1" value=""></div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/js/jquery-3.1.0.min.js"></script>
+    <script src="http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/js/bootstrap.min.js"></script>
+
+    <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+    <script src="http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/js/main.js"></script>
+    <script src="http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/js/custom.js"></script>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js" type="text/javascript"></script>
+    <script>
+
+(function (i, s, o, g, r, a, m) {
+  i['GoogleAnalyticsObject'] = r;
+  i[r] = i[r] || function () {
+    (i[r].q = i[r].q || []).push(arguments)
+  }, i[r].l = 1 * new Date();
+  a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+  a.async = 1;
+  a.src = g;
+  m.parentNode.insertBefore(a, m)
+})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+ga('create', 'UA-85019430-1', 'auto');
+ga('send', 'pageview');
+    </script>
+    <script>
+
+
+
+    </script>
+    <script>
+      
+
+    </script>
+  </body>
+
+</html>

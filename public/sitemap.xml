@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://localhost:1313/posts/newarticle/</loc>
+    <lastmod>2017-08-07T21:53:51+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/mappings/1.-overview/</loc>
+    <lastmod>2016-11-12T14:03:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/mappings/2.-easy-mapping/</loc>
+    <lastmod>2016-11-12T14:03:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/mappings/3.-element-mapping/</loc>
+    <lastmod>2016-11-12T14:03:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/mappings/5.-stale-mapping/</loc>
+    <lastmod>2016-11-12T14:03:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/mappings/6.-remove-empty-attributes--remove-empty-nodes-/</loc>
+    <lastmod>2016-11-12T14:03:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/task-design---task-plan/1.-process/</loc>
+    <lastmod>2016-11-08T14:03:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/task-design---task-plan/2.-environments/</loc>
+    <lastmod>2016-11-08T14:03:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/repository/1.-overview/</loc>
+    <lastmod>2016-11-07T14:13:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/repository/2.-task-repository/</loc>
+    <lastmod>2016-11-07T14:12:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/extras/1.-objects-and-properties/</loc>
+    <lastmod>2016-11-07T14:11:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/task-design---tasks/1.-add-task/</loc>
+    <lastmod>2016-11-07T14:10:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/task-design---tasks---objects-and-properties/1.-data-sources/</loc>
+    <lastmod>2016-11-07T14:10:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/repository/3.-xml-templates/</loc>
+    <lastmod>2016-11-07T14:10:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/task-design---tasks/2.-manage-task/</loc>
+    <lastmod>2016-11-07T14:09:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/task-design---tasks---objects-and-properties/2.-sterling-components/</loc>
+    <lastmod>2016-11-07T14:09:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/repository/4.-json-templates/</loc>
+    <lastmod>2016-11-07T14:09:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/settings/1.-functions/</loc>
+    <lastmod>2016-11-07T14:08:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/task-design---tasks/3.-re-using-design-nodes-copy-and-paste/</loc>
+    <lastmod>2016-11-07T14:08:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/task-design---tasks---objects-and-properties/3.-validators/</loc>
+    <lastmod>2016-11-07T14:08:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/repository/5.-csv-data/</loc>
+    <lastmod>2016-11-07T14:08:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/settings/2.-roles/</loc>
+    <lastmod>2016-11-07T14:07:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/task-design---tasks---objects-and-properties/4.-subtasks/</loc>
+    <lastmod>2016-11-07T14:07:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/task-design---tasks/4.-trial-run/</loc>
+    <lastmod>2016-11-07T14:07:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/repository/6.-xml-data/</loc>
+    <lastmod>2016-11-07T14:07:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/settings/3.-users/</loc>
+    <lastmod>2016-11-07T14:06:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/task-design---tasks/5.-design-controls/</loc>
+    <lastmod>2016-11-07T14:06:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/task-design---tasks---objects-and-properties/5.-ui/</loc>
+    <lastmod>2016-11-07T14:06:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/repository/7.-json-data/</loc>
+    <lastmod>2016-11-07T14:06:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/task-design---tasks---objects-and-properties/6.-email/</loc>
+    <lastmod>2016-11-07T14:05:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/repository/8.-web-services/</loc>
+    <lastmod>2016-11-07T14:05:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/task-design---tasks/6.-iteration/</loc>
+    <lastmod>2016-11-07T14:05:07+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/task-design---tasks---objects-and-properties/7.-miscellanous/</loc>
+    <lastmod>2016-11-07T14:04:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/repository/9.-ui-controls/</loc>
+    <lastmod>2016-11-07T14:04:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2.-dashboards/1.-actionables/</loc>
+    <lastmod>2016-11-07T14:03:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/faq/1.how-do-i-edit/</loc>
+    <lastmod>2016-11-07T14:03:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/components/1.-overview/</loc>
+    <lastmod>2016-11-07T14:03:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/task-execution/1.-overview/</loc>
+    <lastmod>2016-11-07T14:03:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/ui-tasks/1.-overview/</loc>
+    <lastmod>2016-11-07T14:03:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/getting-started-with-jiffy/what_is_jiffy/</loc>
+    <lastmod>2016-11-07T14:03:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/repository/10.-expressions/</loc>
+    <lastmod>2016-11-07T14:03:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/components/2.-bundled-components/</loc>
+    <lastmod>2016-11-07T14:03:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/ui-tasks/2.-configuration/</loc>
+    <lastmod>2016-11-07T14:03:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/faq/2.how-do-i-draw/</loc>
+    <lastmod>2016-11-07T14:03:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/getting-started-with-jiffy/jiffy_workspace/</loc>
+    <lastmod>2016-11-07T14:03:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/task-execution/2.-run-tasks/</loc>
+    <lastmod>2016-11-07T14:03:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/getting-started-with-jiffy/administrative_functions/</loc>
+    <lastmod>2016-11-07T14:03:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/ui-tasks/3.-o3-jiffy-ui-learn-application/</loc>
+    <lastmod>2016-11-07T14:03:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/task-execution/3.-scheduled-runs/</loc>
+    <lastmod>2016-11-07T14:03:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/components/3.-ui-components/</loc>
+    <lastmod>2016-11-07T14:03:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/task-execution/4.-execution-summary/</loc>
+    <lastmod>2016-11-07T14:03:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/faq/4.how-to-add/</loc>
+    <lastmod>2016-11-07T14:03:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/settings/4.-manage-your-password-/</loc>
+    <lastmod>2016-11-07T14:03:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/ui-tasks/4.-ui-task-design/</loc>
+    <lastmod>2016-11-07T14:03:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/task-execution/5.-execution-history/</loc>
+    <lastmod>2016-11-07T14:03:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/faq/5.how/</loc>
+    <lastmod>2016-11-07T14:03:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/task-execution/6.-polling-history/</loc>
+    <lastmod>2016-11-07T14:03:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/task-design---tasks---objects-and-properties/9.-global-variable-filtering-for-csv/</loc>
+    <lastmod>2016-11-07T14:03:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/faq/3.how-do-join-multiple-sheets-to-create-a-new-sungle-sheet/</loc>
+    <lastmod>2016-11-07T14:03:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/repository/11.-labels/</loc>
+    <lastmod>2016-11-07T14:02:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2.-dashboards/2.-report-task-design/</loc>
+    <lastmod>2016-11-07T14:02:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2.-dashboards/3.-report-task-execution/</loc>
+    <lastmod>2016-11-07T14:02:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2.-dashboards/4.-system-health/</loc>
+    <lastmod>2016-11-07T14:02:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/task-design---configurations/1.-overview/</loc>
+    <lastmod>2016-11-07T14:01:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/repository/12.-excel-macros/</loc>
+    <lastmod>2016-11-07T14:01:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/task-design---tasks/7.-color-codes-of-the-nodes/</loc>
+    <lastmod>2016-11-07T13:04:07+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/task-design---tasks/8.-global-variable-filtering-for-csv/</loc>
+    <lastmod>2016-11-07T13:03:07+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/task-design---configurations/2.-process-function-and-user-level-configurations/</loc>
+    <lastmod>2016-11-07T10:03:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/task-design---configurations/3.-configuration-priorities/</loc>
+    <lastmod>2016-11-07T05:02:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/getting-started-with-jiffy/test/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2.-dashboards/</loc>
+    <lastmod>2016-11-07T14:03:40+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/components/</loc>
+    <lastmod>2016-11-07T14:03:40+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/extras/</loc>
+    <lastmod>2016-11-07T14:11:40+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/faq/</loc>
+    <lastmod>2016-11-07T14:03:40+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/getting-started-with-jiffy/</loc>
+    <lastmod>2016-11-07T14:03:40+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/mappings/</loc>
+    <lastmod>2016-11-12T14:03:40+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2017-08-07T21:53:51+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/repository/</loc>
+    <lastmod>2016-11-07T14:13:40+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/settings/</loc>
+    <lastmod>2016-11-07T14:08:40+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/task-design---configurations/</loc>
+    <lastmod>2016-11-07T14:01:40+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/task-design---task-plan/</loc>
+    <lastmod>2016-11-08T14:03:40+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/task-design---tasks/</loc>
+    <lastmod>2016-11-07T14:10:40+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/task-design---tasks---objects-and-properties/</loc>
+    <lastmod>2016-11-07T14:10:40+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/task-execution/</loc>
+    <lastmod>2016-11-07T14:03:40+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/ui-tasks/</loc>
+    <lastmod>2016-11-07T14:03:40+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2017-08-07T21:53:51+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Repository-rsses on Welcome to the Jiffy-RPA Help Center</title>
+    <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/repository/index.xml</link>
+    <description>Recent content in Repository-rsses on Welcome to the Jiffy-RPA Help Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Nov 2016 14:13:40 +0530</lastBuildDate>
+    <atom:link href="http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/repository/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>1. Overview</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/repository/1/</link>
+      <pubDate>Mon, 07 Nov 2016 14:13:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/repository/1/</guid>
+      <description>&lt;p&gt;Repository refers to a central place where tasks and all other components which are reusable (eg. Input data files, templates, components  etc) are stored and maintained.  Users with relevent access can upload/download items into repository.&lt;/p&gt;
+
+&lt;p&gt;The following are the sub folders in repository&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Test Case Repository&lt;/li&gt;
+&lt;li&gt;XML templates&lt;/li&gt;
+&lt;li&gt;JSON templates&lt;/li&gt;
+&lt;li&gt;CSV data&lt;/li&gt;
+&lt;li&gt;JSON data&lt;/li&gt;
+&lt;li&gt;Web Services&lt;/li&gt;
+&lt;li&gt;UI Controls&lt;/li&gt;
+&lt;li&gt;Expressions&lt;/li&gt;
+&lt;li&gt;Labels&lt;/li&gt;
+&lt;li&gt;Macros&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2. Task Repository</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/repository/2/</link>
+      <pubDate>Mon, 07 Nov 2016 14:12:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/repository/2/</guid>
+      <description>
+
+&lt;p&gt;The primary objective of a task repository is to maintain the baselined versions of tasks that can be reused in future. The Repository provides a folder structure where you can logically group the tasks under various functional heads.&lt;/p&gt;
+
+&lt;p&gt;Once the task designed and verified, if it needs to be baselined to use in future it can be checked into the test case repository. The versioning feature of Jiffy allows to view the previous version of the task in the repository. &lt;/p&gt;
+
+&lt;p&gt;The following are the functionalities present in Task Repository&lt;/p&gt;
+
+&lt;p&gt;Create folder structure as per requirement using different buttons present on the left side&lt;br /&gt;
+&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image22.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;check-in-the-task-into-repository&#34;&gt;Check-in the task into repository&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Tasks can be added to repository using Check-in button from Task Design &amp;gt; Tasks.&lt;br /&gt;
+&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image23.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;When user click on check-in button for a task, it will not be updated into repository immediately. Instead it will wait for approval in Actionable &amp;gt; Pending Requests – Update Repository until it is approved by a user who has the relevant authority.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;copying-tasks-from-repository-to-process&#34;&gt;Copying tasks from repository to Process&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;As per user requirement, tasks can be copied to processes from repository. It can be done from Task Design &amp;gt; Task Plan or from Repository &amp;gt; Task Repository.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;check-out-the-task-for-making-changes&#34;&gt;Check -out the task for making changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;To make changes to the task which is saved in repository, first it needs to be assigned back to a process and then it needs to be checked-out in Task Design &amp;gt; Task. This check-out feature will ensure that only one person is editing the baselined task at a time. Until that user is check-in the task again, others will not be able to check out the same.
+&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image24.png&#34; alt=&#34;&#34; /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;synch-with-repository&#34;&gt;Synch with repository&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Once the tasks are taken from repository and modified in Task Design module, the task can be again keep same as repository version by clicking on the button Synch with repository in Task Design &amp;gt; Task Plan. This ignores all the changes done in task by loading again from repository version.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3. XML Templates</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/repository/3/</link>
+      <pubDate>Mon, 07 Nov 2016 14:10:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/repository/3/</guid>
+      <description>
+
+&lt;p&gt;The template repository is used to store all the templates that will be used as input/output templates for Jiffy nodes like API&amp;rsquo;s, Services etc in task design.
+As a one time activity, users have to upload all the templates that are required into this repository. &lt;/p&gt;
+
+&lt;p&gt;The following are the different functionalities available&lt;/p&gt;
+
+&lt;h3 id=&#34;add-new-templates&#34;&gt;Add new templates&lt;/h3&gt;
+
+&lt;p&gt;Add new template to repository. Jiffy provides an option to mention the mandatory fields during upload. The fields which are marked as mandatory will be mandated by Jiffy during mapping in task design. This will avoid all manual errors in mapping input templates for nodes.&lt;/p&gt;
+
+&lt;h3 id=&#34;archive-existing-templates&#34;&gt;Archive existing templates&lt;/h3&gt;
+
+&lt;p&gt;Allowed only if there are no tasks/components created using the template&lt;/p&gt;
+
+&lt;h3 id=&#34;edit-the-template-details&#34;&gt;Edit the template details&lt;/h3&gt;
+
+&lt;p&gt;This allows the user to edit details like name, description, mandatory fields  etc. This will notify the user with the list of tasks which are currently using this template. Once the modifications are done in the template, it will automatically reflect in all the tasks. For example, if the template name is modified from OLD to NEW, then all the tasks that currently use template OLD will be modified to NEW.&lt;/p&gt;
+
+&lt;h3 id=&#34;upload-replace-template&#34;&gt;Upload/Replace template&lt;/h3&gt;
+
+&lt;p&gt;This is to make modifications to the existing template. If there are any changes to the template, users will be able to replace the template with the new one using a single click. This action will notify the user with the list of tasks which are currently using this template. Once the new template is uploaded with same name, all the existing tasks that use this template will be automatically updated.  Please note that already executed task runs will not reflect the new changes. &lt;/p&gt;
+
+&lt;h4 id=&#34;note&#34;&gt;Note:&lt;/h4&gt;
+
+&lt;p&gt;Users have to make sure that they validate the mapping in existing tasks post template changes. If there are fields that are removed as part of the new template, necessary changes needs to be done as per the new template. Also any new fields have to be mapped into the corresponding design node.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>4. JSON Templates</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/repository/4/</link>
+      <pubDate>Mon, 07 Nov 2016 14:09:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/repository/4/</guid>
+      <description>&lt;p&gt;The functionalities of JSON templates are same as XML templates. Please refer to Repositories &amp;gt; XML template for the details.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>5. CSV Data</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/repository/5/</link>
+      <pubDate>Mon, 07 Nov 2016 14:08:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/repository/5/</guid>
+      <description>
+
+&lt;p&gt;These data repositories are used to upload the input data files that will be used as input data nodes in task design. The files loaded here will be available as dropdown option for user to choose in task design.&lt;/p&gt;
+
+&lt;p&gt;The following are the different functionalities available&lt;/p&gt;
+
+&lt;h3 id=&#34;add-new-data-file&#34;&gt;Add new data file&lt;/h3&gt;
+
+&lt;p&gt;Add new data file to repository.&lt;/p&gt;
+
+&lt;h3 id=&#34;view-data&#34;&gt;View data&lt;/h3&gt;
+
+&lt;p&gt;Data can be viewed as tree data or as Raw Data&lt;/p&gt;
+
+&lt;h3 id=&#34;archive-existing-data-files&#34;&gt;Archive existing data files&lt;/h3&gt;
+
+&lt;p&gt;Allowed only if there are no existing tasks/components using the data file&lt;/p&gt;
+
+&lt;h3 id=&#34;edit-the-data-file&#34;&gt;Edit the data file&lt;/h3&gt;
+
+&lt;p&gt;This allows the user to edit details like name, description. This will notify the user with the list of tasks which are currently using this data file. Once the modifications are done, it will automatically reflect in all the tasks which are currently using these data files.&lt;/p&gt;
+
+&lt;h3 id=&#34;upload-replace-template&#34;&gt;Upload/Replace template&lt;/h3&gt;
+
+&lt;p&gt;This is to make modifications to the content of data files. If there are changes to be done on data file, users will be able to replace the datafile with the new one using a single click. This action will notify the user with the list of tasks which are currently using this datafile. Once the new datafile is uploaded with same name, all the existing tasks that use this datafile will be automatically updated and will pick the new file during the next execution. &lt;/p&gt;
+
+&lt;h3 id=&#34;note&#34;&gt;Note:&lt;/h3&gt;
+
+&lt;p&gt;Users have to make sure that they validate the mapping in existing tasks post template changes. If there are fields that are removed as part of the new datafile, necessary changes needs to be done as per the new template.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>6. XML Data</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/repository/6/</link>
+      <pubDate>Mon, 07 Nov 2016 14:07:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/repository/6/</guid>
+      <description>&lt;p&gt;The functionalities of XML data are same as CSV data. Please refer to Repositories &amp;gt; XML data for the details.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>7. JSON Data</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/repository/7/</link>
+      <pubDate>Mon, 07 Nov 2016 14:06:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/repository/7/</guid>
+      <description>&lt;p&gt;The functionalities of JSON data are same as CSV data. Please refer to Repositories &amp;gt; CSV data for the details.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>8. Web Services</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/repository/8/</link>
+      <pubDate>Mon, 07 Nov 2016 14:05:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/repository/8/</guid>
+      <description>&lt;p&gt;Jiffy web service is framework for mocking web service responses for any external web service calls in the system. This framework provides a simple means to process the input and mock the response of external web services. In case the actual web service is not available or not integrated in the environment then users can create a webservice in Jiffy in order to proceed with task execution.&lt;/p&gt;
+
+&lt;p&gt;The following are the functionalities available in Repository &amp;gt; Web services&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Add new web services&lt;/li&gt;
+&lt;li&gt;Once the web service is created, the web service can be save and Run by using &lt;strong&gt;Save and Run&lt;/strong&gt; button&lt;/li&gt;
+&lt;li&gt;One or more web services can be executed by selecting them in Repository&amp;gt; web services and using the play button next to the Web service or by clicking the Run button on the top&lt;/li&gt;
+&lt;li&gt;Web service can be removed by clicking on Remove button at the top or go to the web services page and click on the Remove button next to the Web service to be removed&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>9. UI Controls</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/repository/9/</link>
+      <pubDate>Mon, 07 Nov 2016 14:04:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/repository/9/</guid>
+      <description>
+
+&lt;p&gt;UI Controls are used to save all the UI Modules and Controls which are created during UI familiarization using Jiffy UI Learn App. During familiarization when the familiarized controls are saved, those are automatically saved under this folder. If required, users can manually add new UI controls here. Also users are allowed to edit the existing UI controls for any new changes in UI pages instead of re familiarizing the page again.&lt;/p&gt;
+
+&lt;p&gt;The following are functionalities available&lt;/p&gt;
+
+&lt;h3 id=&#34;add-new-ui-module&#34;&gt;Add New UI Module&lt;/h3&gt;
+
+&lt;h3 id=&#34;add-new-ui-control&#34;&gt;Add new UI control&lt;/h3&gt;
+
+&lt;p&gt;In case of manually adding new UI Controls&lt;/p&gt;
+
+&lt;h3 id=&#34;view-ui-control&#34;&gt;View UI control&lt;/h3&gt;
+
+&lt;p&gt;The UI controls created can be viewed by clicking on the ID. The elements captured during familiarization can be viewed here.&lt;/p&gt;
+
+&lt;h3 id=&#34;pass-dynamic-arguments-during-execution&#34;&gt;Pass dynamic arguments during execution&lt;/h3&gt;
+
+&lt;p&gt;Using this option, Jiffy allows to pass dynamic arguments during execution. This is required only in cases where some features of the UI pages are getting changed dynamically during execution and those parameters are required to correctly locate the UI control. For these type of UI controls, during familiarization, Jiffy will update the Type as Dynamic and the variables will be listed in UI control. And Those variables can be passed from UI node during task design.&lt;/p&gt;
+
+&lt;h3 id=&#34;dynamic-scripting-to-override-familiarized-features&#34;&gt;Dynamic scripting to override familiarized features&lt;/h3&gt;
+
+&lt;p&gt;Users can write dynamic script which will be executed instead of familiarized controls. Click on UI control ID in Repositories &amp;gt; UI Control and select use dynamic script and write script in the edit window&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>10. Expressions</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/repository/10/</link>
+      <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/repository/10/</guid>
+      <description>
+
+&lt;p&gt;This is used to save custom expressions which can be used in scripting of all UI nodes. These expressions has to be written in Python language and can be reused in UI nodes of tasks across Processes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image25.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Users are allowed to create/edit/view/delete custom expressions in &lt;em&gt;Repository &amp;gt; Expressions&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;note&#34;&gt;Note:&lt;/h3&gt;
+
+&lt;p&gt;Jiffy also allows users to write expressions in mappings and places where conditions are written like validator node, IF node, IF/While conditions etc. These expressions will not be saved in repository. Those are used only in the tasks where it is written. For more details please refer to Mapping.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>11. Labels</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/repository/11/</link>
+      <pubDate>Mon, 07 Nov 2016 14:02:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/repository/11/</guid>
+      <description>
+
+&lt;p&gt;Labels are used for the logical grouping of tasks. Tasks that are spread across Function, Processes and Environments can be grouped under one label. During execution, users can select all the tasks labelled with same name under an environment for execution.&lt;/p&gt;
+
+&lt;p&gt;The following are the different functionalities available in &lt;em&gt;Repositories &amp;gt; Labels&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;add-label&#34;&gt;Add Label&lt;/h3&gt;
+
+&lt;p&gt;Navigate to Repository &amp;gt; Labels, Click on Add Labels.&lt;/p&gt;
+
+&lt;h3 id=&#34;view-all-tasks-linked-to-the-same-label&#34;&gt;View all tasks linked to the same label&lt;/h3&gt;
+
+&lt;p&gt;Click on label ID, all the tasks would be displayed&lt;/p&gt;
+
+&lt;h3 id=&#34;edit-label&#34;&gt;Edit Label&lt;/h3&gt;
+
+&lt;p&gt;Click on the Edit button. The Edit Label page is displayed. Name, Description of the label can be modified here. Tasks which are added to the label can be removed using (X) button on the right side.&lt;/p&gt;
+
+&lt;h3 id=&#34;archive-label&#34;&gt;Archive Label&lt;/h3&gt;
+
+&lt;p&gt;Click on the Archive button.&lt;/p&gt;
+
+&lt;h3 id=&#34;note&#34;&gt;Note:&lt;/h3&gt;
+
+&lt;p&gt;Please refer to &lt;i&gt;Task Design&amp;gt;Task Plan&amp;gt;Add Labels to task&lt;/i&gt; for more details on how to assign labels to task.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>12. Excel Macros</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/repository/12/</link>
+      <pubDate>Mon, 07 Nov 2016 14:01:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/repository/12/</guid>
+      <description>&lt;p&gt;Excel macros can be created and saved in repository and can be used while doing the scripting for Excel node in task design.&lt;/p&gt;
+
+&lt;p&gt;The following are the functionalities available&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Create new macros&lt;/li&gt;
+&lt;li&gt;Edit existing macros&lt;/li&gt;
+&lt;li&gt;Archive macros&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Once the macros are created in repository, this can be reused in Excel node scripting in task design.&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

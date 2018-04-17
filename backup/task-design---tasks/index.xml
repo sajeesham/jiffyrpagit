@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Task Design - Tasks-rsses on Welcome to the Jiffy-RPA Help Center</title>
+    <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks/index.xml</link>
+    <description>Recent content in Task Design - Tasks-rsses on Welcome to the Jiffy-RPA Help Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Nov 2016 14:10:40 +0530</lastBuildDate>
+    <atom:link href="http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>1. Add Task</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks/1/</link>
+      <pubDate>Mon, 07 Nov 2016 14:10:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks/1/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Add/Edit task&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Navigate to &lt;em&gt;Task Design &amp;gt;Tasks.&lt;/em&gt; Select Function &amp;amp; Process under which the task has to be created/edited. Click Add task button/select a task. Goto &lt;em&gt;STEPS&lt;/em&gt; tab.&lt;/p&gt;
+
+&lt;p&gt;Tasks can be designed/edited in this window using the built-in Jiffy nodes. Please refer to Task Design&amp;gt;Objects and Properties for more details on built-in Jiffy nodes.&lt;/p&gt;
+
+&lt;p&gt;Please refer to the video for more details on how to create a task.
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/kl_DiPz8jm4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update Task Details&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Navigate to Task Design &amp;gt;Tasks. Select Function &amp;amp; Process under which the task has to be created/viewed. Click Add task button/select a task. Fill in the below details in overview page.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Field&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Test Case ID&lt;/td&gt;
+&lt;td&gt;It is the unique number allocated to each test case and is system generated&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Test Case Title&lt;/td&gt;
+&lt;td&gt;It is the name of the test case&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Priority&lt;/td&gt;
+&lt;td&gt;Update the priority&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Type&lt;/td&gt;
+&lt;td&gt;Select Automated Requirements&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;CheckInto(TestSuite)&lt;/td&gt;
+&lt;td&gt;Test suite to which a task is assigned to in repository. This is required to check in a task to the repository. For more details on task repository process, Refer to Repository &amp;gt; Task repository&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Summary&lt;/td&gt;
+&lt;td&gt;Summary of the test case&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Pre-Condition&lt;/td&gt;
+&lt;td&gt;Any prerequisites that must be fulfilled prior to executing the test&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2. Manage Task</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks/2/</link>
+      <pubDate>Mon, 07 Nov 2016 14:09:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks/2/</guid>
+      <description>&lt;p&gt;Navigate to &lt;em&gt;Task Design &amp;gt; Tasks.&lt;/em&gt; Select Function &amp;amp; Process under which the task has to be viewed/edited. Select a task. Goto &lt;em&gt;Overview&lt;/em&gt; tab.&lt;/p&gt;
+
+&lt;p&gt;The following actions are available in overview page.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Duplicate a task :&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+Click on &lt;em&gt;duplicate&lt;/em&gt; to create a duplicate of the task with a new name under the same process.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Add to environment :&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+Click on &lt;em&gt;Tag to Environment&lt;/em&gt; to tag a task to an environment. Jiffy will allow user to link same task to multiple Environments created under a process. A task can be executed in Task Execution only if it is linked an environment.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Archive a task :&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+Click on &lt;em&gt;Archive&lt;/em&gt; to archive the task.  The archival will not be allowed if it is used as a child task in task node.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Download csv :&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+User can download the data pertaining to a task onto a csv file.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Change History of Task&lt;/strong&gt;&lt;br /&gt;
+Click on &lt;em&gt;Change History&lt;/em&gt; tab. Change History of a task is displayed here. For each version of the task, the details like When was the version updated, by which user etc are available for reference.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Execution History&lt;/strong&gt;&lt;br /&gt;
+Click on &lt;em&gt;Execution History&lt;/em&gt; tab.High level details of Execution history is displayed here. This will populate the executions triggered from Task Execution only. i.e Trial Runs from Task Design will not be updated here. More details on execution history can be viewed in Task Execution &amp;gt; Execution History.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Check-in and Check-out from Repository&lt;/strong&gt;&lt;br /&gt;
+Tasks can be added to repository using Check-in button from &lt;em&gt;Task Design &amp;gt; Tasks.&lt;/em&gt; Once the check-in is selected for a task, it will not be updated into repository immediately. Instead it will wait for approval in &lt;em&gt;Actionable &amp;gt; Pending Requests – Update Repository&lt;/em&gt; until it is approved by a user who has the relevant authority.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;&#34; alt=&#34;Image 16&#34; style=&#34;;;&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;To make changes to the task which is saved in repository, first it needs to be assigned back to a process and then it needs to be checked-out in Task Design &amp;gt; Task. This check-out feature will ensure that only one person is editing the baselined task at a time. Until that user is check-in the task again, others will not be able to check out the same.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;&#34; alt=&#34;Image 17&#34; style=&#34;;;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3. Re-Using Design Nodes (Copy And Paste)</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks/3/</link>
+      <pubDate>Mon, 07 Nov 2016 14:08:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks/3/</guid>
+      <description>&lt;p&gt;To reuse the jiffy nodes from existing tasks, users can copy and paste the Jiffy nodes from existing tasks to new tasks.&lt;/p&gt;
+
+&lt;p&gt;Steps to be followed,&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Open existing task&lt;/li&gt;
+&lt;li&gt;Press CTRL key+ Select the nodes&lt;/li&gt;
+&lt;li&gt;Copy the nodes (Ctrl +C)&lt;/li&gt;
+&lt;li&gt;Open new task&lt;/li&gt;
+&lt;li&gt;Paste (CTRL +V)&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/iAIrPuSwKE8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>4. Trial Run</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks/4/</link>
+      <pubDate>Mon, 07 Nov 2016 14:07:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks/4/</guid>
+      <description>&lt;p&gt;When the task design is completed, task can be trial runned by clicking on the play button at the top. The task gets automatically saved before the trial run. Irrespective of the task is tagged to any environment, the trial run picks the process level configuration to execute the task. &lt;/p&gt;
+
+&lt;p&gt;As the execution in progress, the color of the node changes based on the status of the node. Refer Color codes of the nodes for details.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/rAYHJVuBzco&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>5. Design Controls</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks/5/</link>
+      <pubDate>Mon, 07 Nov 2016 14:06:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks/5/</guid>
+      <description>&lt;p&gt;These are the tools provided at the right top corner of the design screen.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image19.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;&#34; alt=&#34;Image 20&#34; style=&#34;;;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>6. Iterations</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks/6/</link>
+      <pubDate>Mon, 07 Nov 2016 14:05:07 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks/6/</guid>
+      <description>&lt;p&gt;Jiffy allows multiple iteration of the task with multiple input data provided in input file. Each iteration will be continued from node to node only if the execution of the current node is successful.&lt;/p&gt;
+
+&lt;p&gt;For example, consider an input node with N lines of data. All N lines will be passed to first node, in case first node fails for x records in the input file then only N-x iterations will be passed to next node. The failed iteration will be mentioned as &amp;ldquo;skipped&amp;rdquo; in all the further nodes.&lt;/p&gt;
+
+&lt;p&gt;Note: some Jiffy nodes have the option to select CONTINUE ON FAILURE as ON/OFF in properties. If this is turned ON, even if the current iteration fails for that node, the execution will be continued to further nodes. Only the failed node will turn red to indicate an iteration failed for that node.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Color of the node&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Green: If all the iterations of a node are successful then after execution the node turns green.&lt;/li&gt;
+&lt;li&gt;Red: If at least one of the iteration fails, then the node turns red.&lt;/li&gt;
+&lt;li&gt;Orange: If some of the iterations are skipped (as those iterations are failed in the prior nodes) and rest all iterations are success then the node turns orange indicating that, there are some skipped iterations.&lt;/li&gt;
+&lt;li&gt;Grey: If all the iterations failed in prior nodes, then no data will be passed to subsequent nodes. In such case all the subsequent nodes will be grey. In the grey node all the iterations will be marked as skipped.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>7. Color Codes Of The Nodes</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks/7/</link>
+      <pubDate>Mon, 07 Nov 2016 13:04:07 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks/7/</guid>
+      <description>&lt;p&gt;Jiffy presents 5 different color codes for the nodes based on the execution status of the nodes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image18.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>8. Global Variable Filtering For CSV</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks/8/</link>
+      <pubDate>Mon, 07 Nov 2016 13:03:07 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks/8/</guid>
+      <description>&lt;p&gt;JIFFY_USER_ID, JIFFY_USER_NAME, JIFFY_ENV_NAME are the 3 global variables used to filter CSV input records during execution.&lt;/p&gt;
+
+&lt;p&gt;These variables are used to filter the input data based on the User Id (Id of the user logged in), User Name(user name of the logged in user) and Environment (environment in which execution is triggered) respectively.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JIFFY_USER_ID&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;When the CSV file is uploaded into the Task Design screen and clicked on View CSV, View CSV window is opened. The first row in window available for filtering.&lt;/p&gt;
+
+&lt;p&gt;If $[JIFFY_USER_ID] is typed in the USER ID  filtering column; then all the rows with the User ID of Jiffy logged-in user will be displayed.
+Say a user - User1 with user ID - 743, logged into Jiffy and types $[JIFFY_USER_ID] in the User Id filtering field, all the rows containing user ID 743 is filtered and displayed. Similarly, task will be executed only with those two input records.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JIFFY_USER_NAME&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Here $[JIFFY_USER_NAME] variable is used to filter the rows containing user name of Jiffy logged in user. Same as JIFFY_USER_ID.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JIFFY_ENV_NAME&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;JIFFY_ENV_NAME filtering is used to limit the CSV iteration according to environment in which the execution is triggered.
+This filter is applicable only for Task Execution screen. The Trial run execution in Task Design has no effect as it works at process level. If the Trial Run screen has to be tested, then it has to be filtered manually.
+When the execution is triggered from Task Execution, Iteration would be done only for the input records with Environment name same as environment in which execution is triggered.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

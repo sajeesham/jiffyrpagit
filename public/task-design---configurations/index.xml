@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Task Design - Configurations on Welcome to the Jiffy-RPA Help Center</title>
+    <link>http://localhost:1313/task-design---configurations/</link>
+    <description>Recent content in Task Design - Configurations on Welcome to the Jiffy-RPA Help Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Nov 2016 14:01:40 +0530</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/task-design---configurations/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1. Overview</title>
+      <link>http://localhost:1313/task-design---configurations/1.-overview/</link>
+      <pubDate>Mon, 07 Nov 2016 14:01:40 +0530</pubDate>
+      
+      <guid>http://localhost:1313/task-design---configurations/1.-overview/</guid>
+      <description>A Configuration in Jiffy means the environmental details that are required to execute the task. This includes the connection details of all the applications which will be used during task execution. For example,
+ Database Configuration Desktop Application Configuration DOCUBE Configuration Email Configuration File Transfer Configuration JMS Queue Configuration Mainframe Application Configuration REST API Configuration SAP Configuration Sterling Configuration Web Application Configuration
+  Jiffy provides a feature that the same tasks can be executed across multiple environments.</description>
+    </item>
+    
+    <item>
+      <title>2. Process, Function And User Level Configurations</title>
+      <link>http://localhost:1313/task-design---configurations/2.-process-function-and-user-level-configurations/</link>
+      <pubDate>Mon, 07 Nov 2016 10:03:40 +0530</pubDate>
+      
+      <guid>http://localhost:1313/task-design---configurations/2.-process-function-and-user-level-configurations/</guid>
+      <description>Jiffy allows users to define configurations at three levels
+ User Level Environment Level Process Level  User Level Some of the Jiffy nodes (not all) has this additional feature in properties tab where user can select the option to do execution using user level configuration. For Example, DB node has this feature.
+  If this is turned ON, during execution Jiffy use the user level configuration to execute the DB node.</description>
+    </item>
+    
+    <item>
+      <title>3. Configuration Priorities</title>
+      <link>http://localhost:1313/task-design---configurations/3.-configuration-priorities/</link>
+      <pubDate>Mon, 07 Nov 2016 05:02:40 +0530</pubDate>
+      
+      <guid>http://localhost:1313/task-design---configurations/3.-configuration-priorities/</guid>
+      <description>Priority of Configurations when Execution triggered from Task Design
+When a task is executed from Task Design window, only User level configurations and Process level configurations will be used. During execution, the priority would be as below:
+Note:
+Cases where the user configuration is turned ON but the configurations are not present in user level, Jiffy automatically picks the configuration entries of same name from Process level.
+Priority of Configurations when Execution triggered from Task Execution</description>
+    </item>
+    
+  </channel>
+</rss>

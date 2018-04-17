@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Components-rsses on Welcome to the Jiffy-RPA Help Center</title>
+    <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/components/index.xml</link>
+    <description>Recent content in Components-rsses on Welcome to the Jiffy-RPA Help Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Nov 2016 14:03:40 +0530</lastBuildDate>
+    <atom:link href="http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/components/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>1. Overview</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/components/1/</link>
+      <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/components/1/</guid>
+      <description>
+
+&lt;p&gt;Components in Jiffy allows user to save the frequently used Jiffy steps separately in repository so that those can be reused across tasks instead of writing the same steps again and again in tasks. These components can be used any number of times in any number of tasks. There are two types of components, &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Bundled Components&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;UI Components&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;bundled-components&#34;&gt;Bundled Components&lt;/h2&gt;
+
+&lt;p&gt;JIFFY users are provided with the functionality where a group of jiffy nodes that performs a task can be made as a component and can be used in any task. 
+Please refer to Bundled Components to know more on how to add bundled components.
+Please refer to Task design using Bundled Components to know more on how to use bundled component in tasks.&lt;/p&gt;
+
+&lt;h2 id=&#34;ui-components&#34;&gt;UI Components&lt;/h2&gt;
+
+&lt;p&gt;UI components are used to save a set of UI steps to perform a particular UI action separately in repository so that the same can be reused in UI node scripting across tasks. These saved components will be available in drop down of UI node edit window for user to select appropriately. &lt;/p&gt;
+
+&lt;p&gt;For example, in a web page, if the LOGIN action takes 3 steps and POST action takes 4 steps, then create two UI components &amp;lsquo;Login&amp;rsquo; and &amp;lsquo;Post&amp;rsquo; with relevant steps and reuse these two components instead of writing 7 steps in each task.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2. Bundled Components</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/components/2/</link>
+      <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/components/2/</guid>
+      <description>
+
+&lt;h3 id=&#34;create-edit-component&#34;&gt;Create/Edit Component&lt;/h3&gt;
+
+&lt;p&gt;To create a new component go to Components in the Jiffy menu and click on Bundled Components. You can see the list of existing bundled components. Also new bundled components can be created by clicking the button ‘Add Component’ on the top right of the screen.&lt;/p&gt;
+
+&lt;p&gt;It contains 3 tabs - Overview, Component and Trial room.&lt;/p&gt;
+
+&lt;h4 id=&#34;overview&#34;&gt;Overview :&lt;/h4&gt;
+
+&lt;p&gt;Overview contains the basic details of the components. User can make any changes and save using save button. Archive option is also provided. If the component is used in any of the task then it cannot be archived.&lt;/p&gt;
+
+&lt;h4 id=&#34;component&#34;&gt;Component :&lt;/h4&gt;
+
+&lt;p&gt;Component is the screen where a component is designed. It is similar to task design screen and can be designed in the similar way. Input Data and Output Data nodes are present as the Start node and End node. Just drag and drop any nodes same as task design window.&lt;/p&gt;
+
+&lt;p&gt;‘Input Data’ and ‘Output Data’ nodes are used to pass data between components and other nodes. User can choose data templates in both of these nodes. Mapping to the component can be done using the data templates selected in input data node and mapping from the component can be done using the output templates selected in the output data node.
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/779HpRaUyPA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h4 id=&#34;trial-room&#34;&gt;Trial Room :&lt;/h4&gt;
+
+&lt;p&gt;This option is provided to trial run a component created.
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/zLHQ-XgoF4o&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&#34;task-design-using-components&#34;&gt;Task Design using Components&lt;/h3&gt;
+
+&lt;p&gt;The following are the steps to be followed,&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Create a new task in Jiffy&lt;/li&gt;
+&lt;li&gt;Navigate to the &amp;ldquo;Steps&amp;rdquo; tab. Click on the &amp;lsquo;SubTasks&amp;rsquo; tab in the &amp;ldquo;Objects&amp;rdquo; section on the right hand side of the page.&lt;/li&gt;
+&lt;li&gt;Drag and drop the Component node to the edit window.&lt;/li&gt;
+&lt;li&gt;Click on the Component node. Key in the desired name and description in the &amp;lsquo;Name&amp;rsquo; and &amp;lsquo;Description&amp;rsquo; text boxes respectively in properties. Select the required Component name.&lt;/li&gt;
+&lt;li&gt;connect with previous node and next node, update mapping&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/jf-nSJKiw8w&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;h3 id=&#34;nested-components&#34;&gt;Nested components&lt;/h3&gt;
+
+&lt;p&gt;Component nodes can be used inside another Component. Maximum 5 levels of nested components are allowed. A component cannot call the same component, i.e Parent component name cannot be used in child component node.&lt;/p&gt;
+
+&lt;h3 id=&#34;mapping-to-and-from-component&#34;&gt;Mapping To and From Component&lt;/h3&gt;
+
+&lt;p&gt;Data templates can be selected for ‘Input Data’ and ‘Output Data’ node and this can be used to pass data between components and other nodes. The data templates selected for input node will be available in the mapping screen before component node to map values to component. Data from any previous node can be mapped to component. Similarly, the data templates selected in the output data node will be available in the mapping screen after component to map values from component to further nodes. Multiple data templates can be selected in ‘Input Data’ and ‘Output Data’ nodes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3. UI Components</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/components/3/</link>
+      <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/components/3/</guid>
+      <description>
+
+&lt;h2 id=&#34;to-create-a-new-ui-component&#34;&gt;To create a new UI Component&lt;/h2&gt;
+
+&lt;p&gt;To create a new UI component go to Components in the Jiffy menu and click on UI Components. You can see the list of existing UI components. Also new UI components can be created by clicking the button ‘Add UI Component’ on the top right of the screen.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Click on ADD UI Component.&lt;/li&gt;
+&lt;li&gt;Provide the details, choose the App from the drop down. Dropdown will populate all the Apps configured in Jiffy Mojo. Click on Save.&lt;/li&gt;
+&lt;li&gt;The window to update the UI steps will be displayed. All the options and UI controls available in task design window for the selected App will be available here as well. Complete the scripting. Variables can be defined in component to pass values to the component (as arguments) from task during execution.
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/Qm6knJP3NEs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;to-use-the-component-in-task-design&#34;&gt;To Use the component in Task design&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Create a new task in Jiffy&lt;/li&gt;
+&lt;li&gt;Navigate to the &amp;ldquo;Steps&amp;rdquo; tab. Click on the &amp;lsquo;UI&amp;rsquo; tab in the &amp;ldquo;Objects&amp;rdquo; section on the right hand side of the page.&lt;/li&gt;
+&lt;li&gt;Drag and drop a UI node to the edit window.&lt;/li&gt;
+&lt;li&gt;Click on UI node. Key in the desired name and description in the &amp;lsquo;Name&amp;rsquo; and &amp;lsquo;Description&amp;rsquo; text boxes respectively in properties.&lt;/li&gt;
+&lt;li&gt;Select the required configuration. The App name selected in the configuration has to be same as that is used in UI component.&lt;/li&gt;
+&lt;li&gt;Double click on the node, the UI component will be available in the drop down to select in the steps.&lt;/li&gt;
+&lt;li&gt;Values can be passed to Component for all the arguments defined in UI component
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/kXwEuQ3Puik&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

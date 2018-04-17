@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FAQ-rsses on Welcome to the Jiffy-RPA Help Center</title>
+    <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/faq/index.xml</link>
+    <description>Recent content in FAQ-rsses on Welcome to the Jiffy-RPA Help Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Nov 2016 14:03:40 +0530</lastBuildDate>
+    <atom:link href="http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/faq/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>1. How do i edit specific Columns in a spreadsheet.</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/faq/1/</link>
+      <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/faq/1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2. How do i draw a visual with data from multiple sheets</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/faq/2/</link>
+      <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/faq/2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>4. How to add multiple schedule refreshes</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/faq/4/</link>
+      <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/faq/4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>5. How </title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/faq/5/</link>
+      <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/faq/5/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/O9puUdIygY8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;p&gt;d
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/1.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Test&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How do I join multiple sheets to create a new consolidated sheet</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/faq/3/</link>
+      <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/faq/3/</guid>
+      <description>
+
+&lt;p&gt;Docube allows you to join multiple sheets the way you would do join two tables in SQL. You can use ANSI SQL not only to join but also transform the data.&lt;/p&gt;
+
+&lt;p&gt;&lt;/br&gt;
+SELECT datasheet1.column1, datasheet2.column2
+FROM ${/home/Datasheet1} AS datasheet1,
+    ${/home/Datasheet2} AS datasheet2
+WHERE datasheet2.column1=datasheet1.column2&lt;/p&gt;
+
+&lt;p&gt;&lt;/br&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;key-note&#34;&gt;Key note&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You can refer to a datasheet by its absolute path in the SQL editor by providing the full path. Use this only if you are sure that the path of the datasheet will not change in future.&lt;/li&gt;
+&lt;li&gt;If possible always use the relative path. You can refer to the datasheets in the same folder without providing a path. You can also provide a relative path using linux style folder navigation. For example, you can refer to the datasheet in parent folder by ${../datasheetname}&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,2075 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome to the Jiffy-RPA Help Center</title>
+    <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/index.xml</link>
+    <description>Recent content on Welcome to the Jiffy-RPA Help Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Aug 2017 21:53:51 +0530</lastBuildDate>
+    <atom:link href="http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>newarticle</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/posts/newarticle/</link>
+      <pubDate>Mon, 07 Aug 2017 21:53:51 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/posts/newarticle/</guid>
+      <description>&lt;p&gt;Docube is the best way to visualize data, share insights and delight your customers with visuals which speak your story. We have carefully hidden all the complexity of working iteratively over large data, providing a very simple yet flexible user experience.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1. Overview</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/mappings/1/</link>
+      <pubDate>Sat, 12 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/mappings/1/</guid>
+      <description>&lt;p&gt;Mapping defines the set of data to be passed to a specific node. Mapping for a particular node is defined at the connector that is connected to the input side of the node i.e. data input to the node is given from the connector situated to the left side of the node.&lt;/p&gt;
+
+&lt;p&gt;Once relevant nodes are selected for tasks, the mapping between nodes needs to be defined. This can be done in the mapping window. Jiffy mapping screen is very powerful and easy to update. The output of each of the nodes are available to be mapped as input in all the subsequent nodes.&lt;/p&gt;
+
+&lt;p&gt;Mapping screen appears in two ways:&lt;br /&gt;
+ 1. Double clicking on the link between the two connected nodes or&lt;br /&gt;
+ 2. Clicking the link between the two nodes and click the &amp;lsquo;Edit Mappings&amp;rsquo; button. 
+In the mapping window, Jiffy automatically list out all the outputs of all the previous nodes. User need to just select the template from where it needs to be mapped to the input of the current node.&lt;/p&gt;
+
+&lt;p&gt;There are two types of mapping:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Easy Mapping&lt;/li&gt;
+&lt;li&gt;Element Mapping&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2. Easy Mapping</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/mappings/2/</link>
+      <pubDate>Sat, 12 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/mappings/2/</guid>
+      <description>
+
+&lt;p&gt;If the mapping of the nodes and their attributes (within the Edit Mapping screen) is based on their relative names, Easy Map functionality can be used. Click the required parent node to be mapped on LHS &amp;amp; RHS and click on &amp;lsquo;Easy Map&amp;rsquo; button, this will map all the elements with same name on the either side. Once he easy mappings is done,will appear at the bottom of the screen.&lt;/p&gt;
+
+&lt;p&gt;Easy Map requires both LHS and RHS elements. If an element is selected only at one side and easy mapped, mapping will not be done. More than one value cannot be mapped to one RHS. But same LHS can be mapped to multiple RHS.&lt;/p&gt;
+
+&lt;h3 id=&#34;mapping-at-node-level-and-attribute-level&#34;&gt;Mapping at Node level and Attribute level:&lt;/h3&gt;
+
+&lt;p&gt;Mappings can be done both at node and attribute level.
+If a particular attribute has to be mapped, select that attribute and then you can click on Easy Map button. This will map that element along with its parent node.&lt;/p&gt;
+
+&lt;h3 id=&#34;notes&#34;&gt;Notes:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;In case user is trying to change the mapping which is already easy mapped, mapping will be done as per the new changes and the original history will be maintained.&lt;/li&gt;
+&lt;li&gt;Mapped values can be sorted in the tabular column, by clicking on the the empty area next the field to be sorted, an arrow appears. Click on the arrow to sort in ascending or descending order.&lt;/li&gt;
+&lt;li&gt;&amp;lsquo;From Where&amp;rsquo; field is disabled and hence cannot be changed.&lt;/li&gt;
+&lt;li&gt;Mappings can be searched from the table by typing in the search box.&lt;/li&gt;
+&lt;li&gt;Mapping can be deleted  by clicking on the Cross icon next to the element to be deleted. All the existing mappings can be deleted by clicking on the Recycle Bin icon After you press this icon , the table below will become empty.&lt;/li&gt;
+&lt;li&gt;Filter can be applied in “Which All” field.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/BH1tFgz9KN4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>3. Element Mapping</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/mappings/3/</link>
+      <pubDate>Sat, 12 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/mappings/3/</guid>
+      <description>
+
+&lt;p&gt;If you want to map particular elements you can use ELEMENT MAP.&lt;/p&gt;
+
+&lt;p&gt;This mapping simply maps the LHS element with the selected RHS element. You can click on the node/attribute and click on Element Map button, this will map only that particular element.&lt;/p&gt;
+
+&lt;p&gt;Once the element mapping is completed, it will appear at the bottom.&lt;/p&gt;
+
+&lt;p&gt;Element mapping also can be done both at node and attribute level.&lt;/p&gt;
+
+&lt;p&gt;Unlike Easy Map, Element map doesn’t require both LHS and RHS elements. If you select an element on either side or then press Element Map button, it works as constant mapping.&lt;/p&gt;
+
+&lt;p&gt;Four types of mappings can be selected in LHS&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Easy&lt;/li&gt;
+&lt;li&gt;XPath&lt;/li&gt;
+&lt;li&gt;Constant&lt;/li&gt;
+&lt;li&gt;Expression&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;easy&#34;&gt;Easy :&lt;/h3&gt;
+
+&lt;p&gt;Create XML structure on RHS and then user can edit to make appropriate changes.&lt;/p&gt;
+
+&lt;h3 id=&#34;xpath&#34;&gt;XPath :&lt;/h3&gt;
+
+&lt;p&gt;In Xpath mapping the values are hardcoded about a particular item. Xpath mapping has three options&lt;/p&gt;
+
+&lt;p&gt;i. 1:1 - Say, an item has to be copied from first line to third line, this option can be used&lt;/p&gt;
+
+&lt;p&gt;ii. 1:N - Say, an item has to be copied from 1st line to all lines, this option can be used.&lt;/p&gt;
+
+&lt;p&gt;iii. N:N - Say, an item id from multiple has to be copied to all lines, this option can be used.
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/9Z6SG9A5YQs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&#34;constant&#34;&gt;Constant :&lt;/h3&gt;
+
+&lt;p&gt;A constant value has to be provided in &amp;lsquo;What To Get&amp;rsquo; field, that will be mapped to RHS.
+Constant mapping has two options&lt;/p&gt;
+
+&lt;p&gt;i. 1:1 - Say, one field &amp;lsquo;Order Quantity&amp;rsquo; has to be 100 in first line, this option can be used.&lt;/p&gt;
+
+&lt;p&gt;ii. 1:N - Say, the field &amp;lsquo;Order Quantity&amp;rsquo;  in all lines has to be 100, this option can be used.
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/6veggftAFMU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&#34;expression&#34;&gt;Expression :&lt;/h3&gt;
+
+&lt;p&gt;In Expression mapping Java Script can be used. Click on the Editor button to open up editor screen. Text Editor Screen opens up. On the LHS, user can write Java script to get the desired value which needs to be mapped with RHS. All the output values from the previous nodes can be used to write expressions here, also user can choose the Jiffy built-in functions available on the right hand side of the window.
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/vU2mCdbsN8U&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>4. Stale Mapping</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/mappings/5/</link>
+      <pubDate>Sat, 12 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/mappings/5/</guid>
+      <description>&lt;p&gt;In Jiffy you can use existing task to Create new task. On copying the existing task nodes to the new task, if any mapping is missed then it comes as a red dotted line. This depicts that the mapping is stale. The stale mappings will be listed on the right hand side and those can be fixed easily to run the task.&lt;/p&gt;
+
+&lt;p&gt;Steps to be followed to fix Stale mapping
+&lt;br/&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;After pasting the nodes you can see the red dotted line coming up, this line depicts the stale mapping i.e. mapping is not copied correctly. The task won&amp;rsquo;t run until all the stale mappings are fixed. &amp;lt;/li.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;On double clicking the red dotted line you can view the stale mappings, which will get listed on the right hand side&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;To fix the stale mapping , open up the Mapping window&lt;/li&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Auto Fix button- In order to Auto Fix all the mappings click on the the Auto Fix button . Auto Fix” button acts upon “From where” column and “What to get” column in the table. It is preceded by a drop box which will list all the stale references in the table below.It will replace all the references of selected stale reference with the reference of the node selected at left hand side of the mapping dialog.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Fix Mapping Button-  In order to fix individual Mapping Line click on the the Fix Mapping Button.It is only applicable for the stale mappings whose source node is missing in the target graph. This button will correct the “From where” column of the mapping with the selected node from the left hand side of the mapping tree.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;On fixing all the stale mappings , red dotted lines will disappear and normal green lines will be visible between nodes.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/1238fJRDYrE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>5. Remove Empty Attributes &amp; Remove Empty Nodes</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/mappings/6/</link>
+      <pubDate>Sat, 12 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/mappings/6/</guid>
+      <description>&lt;p&gt;Remove Empty Attributes and Remove Empty Nodes are available as drop down at the RHS of the Edit Mapping data screen. These options are used to remove empty attributes/empty nodes from the input template of RHS node during execution.&lt;/p&gt;
+
+&lt;p&gt;For example, below task&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image29.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt; Mapping between XML data node and Sterling node is&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image28.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;XML data is uploaded as&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image27.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt; Both Remove Empty Attributes &amp;amp; Remove Empty Nodes has been selected in mapping window for RHS node&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image26.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In this case when the task is executed, in iteration 1 input to Sterling node will be formed as below with all attributes&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image30.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Whereas in iteration 2, attribute Enterprise code will not be removed from input template&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image31.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In iteration 3, complete node will be removed from input template&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1. Process</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---task-plan/1/</link>
+      <pubDate>Tue, 08 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---task-plan/1/</guid>
+      <description>&lt;p&gt;
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Create Process&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1
+2
+3
+4
+5
+6
+7&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;Once the Function is defined by admin user, any number of Processes can be added under that Function. 
+
+From Jiffy main screen, navigate to *Task Design&amp;gt;Task Plan.* Select a Function and click on Add Process button at the top.
+
+&amp;lt;br/&amp;gt;
+
+&amp;lt;img src=&amp;quot;\jiffyRpaDocRepoActual\static\media\image3.png&amp;quot; alt =&amp;quot;Image 3&amp;quot;&amp;gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Edit Process&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1
+2
+3&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;An existing Process Name, Start date, End Date and Description can be edited from Task Plan.  From Jiffy main screen, navigate to *Task Design &amp;gt; Task Plan.* Select a Process and click on Edit Process button at the top.
+&amp;lt;br/&amp;gt;
+&amp;lt;img src=&amp;quot;&amp;quot; alt=&amp;quot;Image 4&amp;quot; style=&amp;quot;;;&amp;quot;&amp;gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Duplicate Process&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1
+2
+3
+4&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;A copy of an existing Process can be created using duplicate button. This new process will be created under the same function. Also, the new Process will have all the environments and tasks same as original Process. From Jiffy main screen, navigate to *Task Design&amp;gt;Task Plan.* Select a Process and click on Duplicate Process button at the top.
+
+&amp;lt;br/&amp;gt;
+&amp;lt;img src=&amp;quot;&amp;quot; alt=&amp;quot;Image 5&amp;quot; style=&amp;quot;;;&amp;quot;&amp;gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Delete Process&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1
+2
+3
+4&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;Deletion of Process is allowed only if there are no active Environments and Tasks are present under the proces.  From Jiffy main screen, navigate to *Task Design&amp;gt;Task Plan.* Select a Process and click on Delete Process button at the top.
+
+&amp;lt;br/&amp;gt;
+&amp;lt;img src=&amp;quot;&amp;quot; alt=&amp;quot;Image 6&amp;quot; style=&amp;quot;;;&amp;quot;&amp;gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Add Task&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;**Create a New task **
+
+To Create a new task in Jiffy. Select the Process under which task needs to be created, Click on Add Tasks at the top, it will take the user to task design window.
+&amp;lt;br/&amp;gt;
+&amp;lt;img src=&amp;quot;&amp;quot; alt=&amp;quot;Image 7&amp;quot; style=&amp;quot;;;&amp;quot;&amp;gt;
+
+**Add From Repository**
+
+To Add a task from from Repository to the Selected Process. Select the Process under which task needs to be created, Click on Add from Repository at the top, it will take the user to Task Repository window from which user can choose the Task to added.
+&amp;lt;br/&amp;gt;
+&amp;lt;img src=&amp;quot;&amp;quot; alt=&amp;quot;Image 8&amp;quot; style=&amp;quot;;;&amp;quot;&amp;gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Archive Task&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;Navigate to the Process from which task needs to be archived, Select the task and click on Arcive at the top.
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Assign Task for Execution&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;This helps to assign a set of tasks to a user so that user will get the notification to execute all those tasks on next login. Navigate to the *Function &amp;gt; Process &amp;gt;Environment* that has the tasks to be assigned for execution, Select the tasks and click on Assign Tasks at the top
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Sync With Repository&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;A task which is checked out from task repository and being modified under process can again be reloaded with what is available in repository. Navigate to *Function &amp;gt; Process &amp;gt;Environment* and select the task to be reloaded, click on Sync with repository.
+
+The below message appears
+&amp;lt;br/&amp;gt;
+&amp;lt;img src=&amp;quot;&amp;quot; alt=&amp;quot;Image 9&amp;quot; style=&amp;quot;;;&amp;quot;&amp;gt;
+&amp;lt;br/&amp;gt;
+&amp;lt;br/&amp;gt;
+Override Changes: 
+&amp;lt;br/&amp;gt;
+Overrides the task with the changes from the task repository.
+&amp;lt;br/&amp;gt;
+&amp;lt;br/&amp;gt;
+Retain Changes: 
+&amp;lt;br/&amp;gt;
+Will not synch with repository, retains the latest changes of the task 
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Add Labels To Task&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1
+2
+3
+4
+5
+6&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;Labels are used to logically group the tasks. Tasks that are spread across different environments under a process can be grouped under one label. Tasks which are grouped under one label and under an environment can be executed in one go. 
+&amp;lt;br/&amp;gt;
+Navigate to Function &amp;gt; Process and select the tasks to be assigned to a label. Click on Add Labels to Task button on top. Provide the Labebr/&amp;gt;
+Before assigning tasks to a label, the Labels names need to be created under repository. 
+&amp;lt;br/&amp;gt;
+Please refer to Repository &amp;gt; Labels to get more details on Labels.
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2. Environments</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---task-plan/2/</link>
+      <pubDate>Tue, 08 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---task-plan/2/</guid>
+      <description>&lt;p&gt;Once a Process is created, environments can be added. Environment is the system/environment where the tasks needs to be executed. Jiffy provides the following functionalities for Environments.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Add Environment&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;From Jiffy main screen, navigate to Task Design &amp;gt; Task Plan. Select a Process under a Function and click on Add Environment button at the top.
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Delete Environment&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;Deletion of Environment is allowed only if there are no Tasks assigned to the selected environment. From Jiffy main screen, navigate to Task Design &amp;gt; Task Plan. Select the Environment to be deleted, and click on Delete Environment button at the top.
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Edit Environment&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;An existing environment Name and description can be edited from Task Plan.  From Jiffy main screen, navigate to Task Design &amp;gt; Task Plan. Select an environment and click on Edit button at the top.
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Duplicate Environment&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;A copy of an existing environment can be created under same process using duplicate button. Once duplicated, the new environment will have all the tasks assigned to the previous environment.
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Assign Tasks to Environment&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;Select an Environment and click on Assign Tasks button. This will open a window with all the tasks created under the selected Process, User can select the tasks to be assigned to the selected environment and click on Assign to Environment button.
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;UnAssign Tasks&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;Select an Environment and select the task to be un-assigned from the environment and click on Unassign Tasks button.
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Assign Tasks For Execution&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;This helps to assign a set of tasks to a user so that user will get the notification to execute all those tasks on next login. Navigate to the Function &amp;gt; Process &amp;gt; Environment that has the tasks to be assigned for execution, Select the tasks and click on Assign Tasks at the top. 
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1. Overview</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/repository/1/</link>
+      <pubDate>Mon, 07 Nov 2016 14:13:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/repository/1/</guid>
+      <description>&lt;p&gt;Repository refers to a central place where tasks and all other components which are reusable (eg. Input data files, templates, components  etc) are stored and maintained.  Users with relevent access can upload/download items into repository.&lt;/p&gt;
+
+&lt;p&gt;The following are the sub folders in repository&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Test Case Repository&lt;/li&gt;
+&lt;li&gt;XML templates&lt;/li&gt;
+&lt;li&gt;JSON templates&lt;/li&gt;
+&lt;li&gt;CSV data&lt;/li&gt;
+&lt;li&gt;JSON data&lt;/li&gt;
+&lt;li&gt;Web Services&lt;/li&gt;
+&lt;li&gt;UI Controls&lt;/li&gt;
+&lt;li&gt;Expressions&lt;/li&gt;
+&lt;li&gt;Labels&lt;/li&gt;
+&lt;li&gt;Macros&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2. Task Repository</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/repository/2/</link>
+      <pubDate>Mon, 07 Nov 2016 14:12:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/repository/2/</guid>
+      <description>
+
+&lt;p&gt;The primary objective of a task repository is to maintain the baselined versions of tasks that can be reused in future. The Repository provides a folder structure where you can logically group the tasks under various functional heads.&lt;/p&gt;
+
+&lt;p&gt;Once the task designed and verified, if it needs to be baselined to use in future it can be checked into the test case repository. The versioning feature of Jiffy allows to view the previous version of the task in the repository. &lt;/p&gt;
+
+&lt;p&gt;The following are the functionalities present in Task Repository&lt;/p&gt;
+
+&lt;p&gt;Create folder structure as per requirement using different buttons present on the left side&lt;br /&gt;
+&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image22.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;check-in-the-task-into-repository&#34;&gt;Check-in the task into repository&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Tasks can be added to repository using Check-in button from Task Design &amp;gt; Tasks.&lt;br /&gt;
+&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image23.png&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;When user click on check-in button for a task, it will not be updated into repository immediately. Instead it will wait for approval in Actionable &amp;gt; Pending Requests – Update Repository until it is approved by a user who has the relevant authority.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;copying-tasks-from-repository-to-process&#34;&gt;Copying tasks from repository to Process&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;As per user requirement, tasks can be copied to processes from repository. It can be done from Task Design &amp;gt; Task Plan or from Repository &amp;gt; Task Repository.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;check-out-the-task-for-making-changes&#34;&gt;Check -out the task for making changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;To make changes to the task which is saved in repository, first it needs to be assigned back to a process and then it needs to be checked-out in Task Design &amp;gt; Task. This check-out feature will ensure that only one person is editing the baselined task at a time. Until that user is check-in the task again, others will not be able to check out the same.
+&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image24.png&#34; alt=&#34;&#34; /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;synch-with-repository&#34;&gt;Synch with repository&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Once the tasks are taken from repository and modified in Task Design module, the task can be again keep same as repository version by clicking on the button Synch with repository in Task Design &amp;gt; Task Plan. This ignores all the changes done in task by loading again from repository version.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1. Objects And Properties</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/extras/1/</link>
+      <pubDate>Mon, 07 Nov 2016 14:11:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/extras/1/</guid>
+      <description>&lt;p&gt;
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Data Sources&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;These are the data nodes which can be used to provide input data for the tasks
+
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;CSV Data&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+This can be used where the task input needs to be given in a csv file. The CSV file needs to be uploaded into Repository &amp;gt; CSV file prior to using the same in task design. Pull the node to task design window and update the properties.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/br&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;img&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;src=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;alt=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;Image 10&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;;;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/br&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Refer Using CSV In Jiffy for the further details on CSV. 
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Refer Designing An Automated Task In JIFFY - Example Step 1 for the details on configuring the CSV data node. 
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;XML Data&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+This can be used where the task input needs to be given as XML data. The XML Data node expects the source file to be under &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;JiffyRoot&amp;gt;&lt;/span&gt; root element. Configuring XML data node is similar to CSV Data, XML file has to be selected instead of CSV file.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;JSON Data&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+This can be used where the task input needs to be given as JSON data.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;DB&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+A DB node is used when the input data is stored in the database. Jiffy DB(Database) node allows to connect to any configured Oracle Database. Jiffy allows Read/Update functionalities from the DB node. 
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Notes:
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+* DB configuration has to be completed at &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;i&amp;gt;&lt;/span&gt;Task design &amp;gt; Configurations &amp;gt; Database Configurations&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/i&amp;gt;&lt;/span&gt; prior to using the node in tasks
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Refer Designing An Automated task In JIFFY - Example Step 2 for the details on configuring the DB node
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Docube Query&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+This node allows the user to take input data from Jiffy Docube application. Here user can write SQL queries to read data from CSV files available in Docube application. 
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Notes:
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Docube configuration has to be completed at Task design -&amp;gt; Docube Configurations prior to using the node in tasks &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Query can be written to get data from existing CSV files from Docube applications. Only Select queries are allowed and the following are the formats to be used in queries&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;table&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;width:100%&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;th&amp;gt;&lt;/span&gt;Sl No&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;th&amp;gt;&lt;/span&gt;Description&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt; 
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;th&amp;gt;&lt;/span&gt;Format to be used&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;1&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Basic Queries to fetch all the data from the file&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt; 
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;select * from &lt;span style=&#34;color: #75715e&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;file_name&lt;/span&gt;&lt;span style=&#34;color: #75715e&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;2&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Query to fetch records if a given string matching with values in a particular column of CSV&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt; 
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;select * from &lt;span style=&#34;color: #75715e&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;file_name&lt;/span&gt;&lt;span style=&#34;color: #75715e&#34;&gt;}&lt;/span&gt; where coloumn_name=&amp;#39;string_to_matched&amp;#39;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;3&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Query to fetch records if a given integer matching with values in a particular column of CSV&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt; 
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;select * from &lt;span style=&#34;color: #75715e&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;file_name&lt;/span&gt;&lt;span style=&#34;color: #75715e&#34;&gt;}&lt;/span&gt; where coloumn_name=integer_to_matched&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;4&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Query to fetch records if the value of a mapped variable (integer type) matching with values in a particular column of CSV&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt; 
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;select * from &lt;span style=&#34;color: #75715e&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;file_name&lt;/span&gt;&lt;span style=&#34;color: #75715e&#34;&gt;}&lt;/span&gt; where coloumn_name=$[mapping_parameter]&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;5&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Query to fetch records if the value of a mapped variable (string type) matching with values in a particular column of CSV&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt; 
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;select * from &lt;span style=&#34;color: #75715e&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;file_name&lt;/span&gt;&lt;span style=&#34;color: #75715e&#34;&gt;}&lt;/span&gt; where coloumn_name=&amp;#39;$[mapping_parameter]&amp;#39;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/table&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;In case of specific column names to be returned, mention the exact column names in CSV file in properties tab with space separated&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;All the values returned will be available to be mapped as input to all nodes comes after Docube node&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Random Number&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Random number node creates a random number within the given range.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Sterling Components&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;These are nodes which can be used to perform different actions in Sterling application.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Sterling API&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+To invoke an API call to Sterling application. Before using these nodes, complete sterling configuration under &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;i&amp;gt;&lt;/span&gt;Task Design &amp;gt; Configurations&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/i&amp;gt;&lt;/span&gt;. Mention the configuration name, API name to be invoked and the input and output XML templates to be used for API call in the properties of the node.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Service Node&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+To invoke a service call to Sterling application. Before using these nodes, complete sterling configuration under &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;i&amp;gt;&lt;/span&gt;Task Design &amp;gt; Configurations&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/i&amp;gt;&lt;/span&gt;. Mention the configuration name, Service name to be invoked and the input and output XML templates to be used for service call in the properties of the node.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;JMS Publisher&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+JMS Publisher node publishes messages to any standard queue that is configured to Sterling process/server. Sterling process/server in turn picks up the messages and processes the message based on the business rules. Before using these nodes, complete JMS queue configuration under &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;i&amp;gt;&lt;/span&gt;Task Design &amp;gt; Configurations&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/i&amp;gt;&lt;/span&gt;. Mention the configuration name and XML template to be used to publish message in the properties of node.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;JMS QueueBrowser&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+JMS QueueBrowser is used to browse for a message in the queue as per the given search criteria. The queue browser reads the last 1000 messages and returns the message which matches as per the selection criteria. 
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Example 1: An email confirmation message is sent to the customer once an invoice is processed in the application. In order to get the email details, user can use Jiffy JMS queue browser to read the messages in the queue and get the correct email details from the queue
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Sterling SOAP Request&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+To invoke a SOAP based service call to other applications. Before using these nodes, complete SOAP configuration under &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;i&amp;gt;&lt;/span&gt;Task Design &amp;gt; Configurations&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/i&amp;gt;&lt;/span&gt;. Mention the configuration name, Service name to be invoked and the input and output XML templates to be used for service call in the properties of the node.
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Validators&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;These are the data nodes which can be used to provide input data for the tasks
+
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Validator&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+This nodes can be used to implement all kind of validations required as part of task execution. Multiple levels of complex validations rules can be added using constant values/Variables/expressions and different operators like =,!=,&lt;span style=&#34;color: #960050; background-color: #1e0010&#34;&gt;&amp;lt;&lt;/span&gt;,&amp;gt;,&lt;span style=&#34;color: #960050; background-color: #1e0010&#34;&gt;&amp;lt;&lt;/span&gt;=,&amp;gt;=,like, AND,OR etc. 
+
+By setting the toggle button - &amp;#39;Stop on validation error&amp;#39; to ON in properties, the further execution of the tsk can be controlled.
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;SubTasks&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Component&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Components are used to save the frequently used Jiffy steps separately in repository so that those can be reused across tasks instead of writing the same steps again and again. These components can be used any number of times in any number of tasks.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Please Refer to &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;i&amp;gt;&lt;/span&gt;Repository&amp;gt;components&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/i&amp;gt;&lt;/span&gt; to understand more on the usage of Components.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Start Sub Task &lt;span style=&#34;color: #960050; background-color: #1e0010&#34;&gt;&amp;amp;&lt;/span&gt; End Sub Task&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Sub Task consists of two nodes: Start Sub Task and End Sub Task. They work as a group. Maximum loop count and Maximum time that a sub task to be executed can be defined in the properties. This can be used in cases where
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;A group of nodes needs to be executed until some criteria is met&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;A group of nodes needs to be executed for N times&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+For example, as part of a task execution, step 4 can be executed only if an email is triggered post step 3. Add a subtask group after step 3 with a maximum delay of X seconds and loop count of Y times. Add a validator for the email in between start sub task and end sub task. In this case, the execution will come out of subtask and proceed with the execution of subsequent nodes if any one of the below condition is satisfied
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;If all nodes in the subtask is passed successfully (if there are more than one validator node within subtask, all validator nodes has to be passed successfully)&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;If the loop count reaches Y times&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;If the subtask execution time reaches X seconds&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;If,Else&lt;span style=&#34;color: #960050; background-color: #1e0010&#34;&gt;&amp;amp;&lt;/span&gt;EndIf&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+If-else-End If nodes brings conditional execution in JIFFY. Refer &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;i&amp;gt;&lt;/span&gt;task&amp;gt;If - Else – Endif&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/i&amp;gt;&lt;/span&gt; for more details.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Task&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Task node allows the users to access and execute another task of same release as a child task from the current task (Parent task). 
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Notes :
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Any number of child task nodes can be added in the parent task&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;No data can be passed between child task and parent task. i.e Task node does not allow any data to be mapped to the child task from previous nodes or mapped from child task to use in further nodes of parent task&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Nested tasks are not allowed, i.e another parent task (any task which has a task node) cannot be used in task node&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Task nodes are not allowed in Components&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Task nodes cannot be used in iteration. For example, if the execution of a task needs to be iterated with different input data, then a task node cannot be used&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;When CONTINUE ON FAILURE in properties is set to Off, if the child task execution is failed, then the nodes which comes after task node will not be executed&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;When the parent task executed from task design, the execution details of child task can be viewed only in Task Execution - &amp;gt; Execution History. The Run ID can be obtained  by clicking the view button of child task node and use the Run ID to get more details of the execution in Task Execution - &amp;gt; Execution History&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;When the parent task is executed form Task Execution tab, separate entries will be created in Execution history for parent task and each individual child task with all the execution details of each node&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Polling Nodes&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Polling nodes are used to trigger the execution of other tasks continuously at given time interval. Only task nodes are allowed within polling nodes. The execution of polling nodes will be continued until it is stopped manually, irrespective of child tasks are successfully executed or failed. So this can be considered as a scheduler which can trigger the execution of other child tasks at a given time interval. 
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Polling task execution can be triggered either from Task Design or Task Execution.  As soon as the polling task execution is triggered it creates the following, 
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;An entry in polling history with Status as POLLING, which says the execution is in progress&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;An entry in Execution Summary for each child task with details as how many times the child tasks are executed, out of which how many are successful execution and how many are failed&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;An entry for each round of execution for each of the child task within polling nodes, i.e if the child task within the polling nodes are executed 50 times, the execution history will have 50 entries with the details of each round of execution&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;If the polling task is triggered from Task execution, in addition to the above-mentioned entries it will have an entry for parent task in Execution Summary and Execution History&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/ui&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;strong&amp;gt;&lt;/span&gt;Stopping the polling node execution&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/strong&amp;gt;&lt;/span&gt;x
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Once the execution is triggered, it can be stopped by selecting the record from Polling history. If the execution is triggered from Task Design, user can also stop the execution by using Stop Run button available in Task design window.
+When the user click on Stop button, execution will not be instantly stopped, instead it will continue till the current iteration is completed for all the child tasks within polling nodes and then will be stopped.  Once stopped, the status of polling task in Polling History will be updated as STOPPED.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Notes
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Only task nodes are allowed within the polling nodes. In case if any other nodes are used, the polling will not be executed and the status in Polling history and Execution summary will be updated as INVALIDATED&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;No iterations are allowed within the polling nodes&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Polling nodes are not allowed in components&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Nested polling nodes are not allowed&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Tasks which has polling node cannot be selected in Task nodes, ie those tasks cannot be used as child tasks&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;RESTART functionality will not be available for polling tasks&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;UI&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;Jiffy UI nodes allows user to automate UI pages of any other application. For example, Web pages, Mainframe pages, SAP application, Desktop based applications etc. All UI nodes except Excel node works in similar method. Here automation is a two phase approach, first the UI pages needs to be familiarized using Jiffy UI Learn App and then scripting needs to be done in tasks using corresponding UI nodes. Please refer to UI automation using Jiffy for more details on this.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+But Excel node does not require UI familiarization, any excel sheet can be accessed and automated directly using Excel nodes. 
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Web UI&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Web UI nodes are used to automate web pages.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Please refer to UI automation using Jiffy for more details on this:
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;a&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;href=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;https://www.w3schools.com&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;UI Automation Using Jiffy&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Desktop UI&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+To automate UI pages of any desktop application.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Mainframe UI&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+To automate UI pages of Mainframe application.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;SAP UI&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+To automate UI pages of SAP application.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Excel&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+To access an excel sheet and perform different actions in excel sheets using Jiffy. Excel node does not require familiarization. Excel configurations needs to be completed in Task Design -&amp;gt; Configurations. Once configurations are completed, choose the correct configuration and the Excel sheet to be accessed (File path) in properties. File path needs to be provided with location and file name.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Double click on the node to update the actions to be performed on given Excel sheet.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;table&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;width:100%&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;th&amp;gt;&lt;/span&gt;Sl No&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;th&amp;gt;&lt;/span&gt;Command&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt; 
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;th&amp;gt;&lt;/span&gt;Purpose&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt;
+	&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;th&amp;gt;&lt;/span&gt;Syntax to be used/Parameters to be used&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;1&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Copy Selection&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt; 
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;To copy the content of selected cells&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+	&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Prior to this command, Select the required cells using Select Cells or Select Cell.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;2&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Get Selected Cell Value&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt; 
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;To get the cell values copied into predefined output variable Excel_Output to be used outside Excel node&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+	&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Prior to this command, use Select and copy commands to copy the required data. The variable Excel_Output is predefined and does not require explicit definition.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;3&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Paste&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt; 
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;To paste the copied content to the location currently selected&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+	&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;1. Keep_Source_Formatting, Options – True/False.Prior to this command, use Select and copy commands to copy the required data and again select the location where it needs to be pasted.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;4&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Save File AS&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt; 
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;To save the file using the name and location given in arguments, with all the latest changes done using excel node scripting.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+	&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;1. folder location, 2. File name, 3. Replace_if_Existing (True/False)&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;5&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Select Range&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt; 
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;To select the given range of cells.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+	&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;1. Range_Value – Values to be selected. Single cell or a range - Eg C3, A3:C3&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;6&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Update&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt; 
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;To update a cell/the selected range with given value&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+	&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;1. Range_Value – Range of cells to be updated with given value. Eg C3, A3:C3. 2. Value - Value to be updated in the selected range.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+ &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/table&amp;gt;&lt;/span&gt;
+ The values read from Excel using Get Selected Cell Value/Send Copied Cells/Send data will be saved in default pre defined variable Excel_Output. Once the execution is completed, these values can be viewed in the output data of excel node and can be mapped to further nodes.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;strong&amp;gt;&lt;/span&gt;Excel Macros&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/strong&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+ Excel macros can be created and saved in repository and can be used while doing the scripting for Excel node in task design
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+ Notes:
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;In order to use macros, the excel sheet used should be macro enabled with file extension .xlsm&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Excel has to be configured to accept VBA macros execution. Select the below marked options in File-&amp;gt; Option-&amp;gt;Trust Center -&amp;gt;Macro Settings&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;img&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;src=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;alt=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;Image 11&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;;;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Email&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17
+ 18
+ 19
+ 20
+ 21
+ 22
+ 23
+ 24
+ 25
+ 26
+ 27
+ 28
+ 29
+ 30
+ 31
+ 32
+ 33
+ 34
+ 35
+ 36
+ 37
+ 38
+ 39
+ 40
+ 41
+ 42
+ 43
+ 44
+ 45
+ 46
+ 47
+ 48
+ 49
+ 50
+ 51
+ 52
+ 53
+ 54
+ 55
+ 56
+ 57
+ 58
+ 59
+ 60
+ 61
+ 62
+ 63
+ 64
+ 65
+ 66
+ 67
+ 68
+ 69
+ 70
+ 71
+ 72
+ 73
+ 74
+ 75
+ 76
+ 77
+ 78
+ 79
+ 80
+ 81
+ 82
+ 83
+ 84
+ 85
+ 86
+ 87
+ 88
+ 89
+ 90
+ 91
+ 92
+ 93
+ 94
+ 95
+ 96
+ 97
+ 98
+ 99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288
+289
+290
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+308
+309
+310
+311
+312
+313
+314
+315
+316
+317
+318
+319
+320
+321
+322
+323
+324
+325
+326
+327
+328
+329
+330
+331
+332
+333
+334
+335
+336
+337&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;There are three nodes available in Jiffy to perform different actions related to Emails. 
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Browsing for a mail with a given search criteria - Email Browser&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Perform given action on a given Email - Email Actions&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Send an Email -  Email Sender&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Email Browser&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Email browser is used to search emails based on the configuration and Search criteria given in the node. 
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+The following needs to be provided in the properties
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;&lt;/span&gt;Configuration :&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/strong&amp;gt;&lt;/span&gt; Once the configuration entries are created in Task Design - &amp;gt; Configurations, those entries will be available in drop down of Email browser node in task window. All the Email protocols like IMAP/SMTP/EXCHANGE are available in Task Design - &amp;gt;Configuration Page, but configurations created with IMAP or EXCHANGE protocols only will be listed in Email Browser node.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;&lt;/span&gt;Search in folder :&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/strong&amp;gt;&lt;/span&gt; Provide the folder to be searched. Follow the below format. Default would be INBOX.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;img&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;src=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;alt=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;Image 14&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;;;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;&lt;/span&gt;Search Order:&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/strong&amp;gt;&lt;/span&gt; The order in which the mailbox needs to searched. Two options&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Latest first (Default) : Provides the latest email matching the search criteria based on received date&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Earliest first : Provides the earliest email matching the search criteria based on received date&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;&lt;/span&gt;Build Search Query :&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/strong&amp;gt;&lt;/span&gt; To build the search query. This action can be invoked by clicking on &amp;quot;Build Search Query&amp;quot; button or double clicking the Email browser icon. Search criteria is similar to building rules in Validation node.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;FROM   --- name/email address of the sender&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;TO --- name/email address of TO recipient&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;CC --- name/email address of CC recipient&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;BCC --- name/email address of BCC recipient&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Subject -- text to search in subject&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Body -- text to search in the body&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Received Date --- received date of email in format :  [MM/dd/yyyy HH:mm:ss]&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Is Read --- takes boolean (true, false) to search read or unread emails&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Default --- all emails shall be considered in the search&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Email UID --- takes Unique ID of email to search email (When this search criteria is provided all other search criteria&amp;#39;s shall be ignored.)&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt; Email Message Template : 
+This is the format of the output details returned by Email browser node. An XML templateb of the below template has to be uploaded before using the node &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;table&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;width:100%&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;th&amp;gt;&lt;/span&gt;Message Templates&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;th&amp;gt;&lt;/span&gt;Details&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;10&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;Message&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;FROM&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;Address&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;name&amp;gt;&amp;lt;/name&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;email&amp;gt;&amp;lt;/email&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;alias&amp;gt;&amp;lt;alias&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/Address&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/FROM&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Contains from address details -
+Name of the Sender, Email address of the
+Sender, Alias (Outlook alias) for the Sender&amp;#39;s
+contact&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;7&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;TO&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;Address&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;name&amp;gt;&amp;lt;/name&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;email&amp;gt;&amp;lt;/email&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/Address&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;TO address details -
+Name of the recipient, Email address of the
+recipient&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;7&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;/TO&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;CC&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;Address&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;name&amp;gt;&amp;lt;/name&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;email&amp;gt;&lt;/span&gt;/&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;email&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/Address&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/CC&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;CC address details
+Name of the recipient, Email address of the
+recipient&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;7&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;BCC&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;Address&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;name&amp;gt;&amp;lt;/name&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;email&amp;gt;&amp;lt;/email&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/Address&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/BCC&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;BCC address details
+Name of the recipient, Email address of the
+recipient&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;3&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;ReceivedDate&amp;gt;&amp;lt;/ReceivedDate&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Received date time stamp of the email to the
+inbox [MM/dd/yyyy HH:mm:ss - format]&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;3&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;Subject&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;TEXT&amp;gt;&amp;lt;/TEXT&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/Subject&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Subject of the email&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;5&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;Body&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;TEXT&amp;gt;&amp;lt;/TEXT&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;HTML&amp;gt;&amp;lt;/HTML&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/Body&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Text message of the email body
+If HTML content is present then the HTML
+content of the body is placed here&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;10&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;Attachments&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;Attachment&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;name&amp;gt;&amp;lt;/name&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;abs_path&amp;gt;&amp;lt;/abs_path&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;rel_path&amp;gt;&amp;lt;/rel_path&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;rel_url&amp;gt;&amp;lt;/rel_url&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/Attachment&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/Attachments&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Attachment Details
+Name of the attachment,Absolute path of the file
+in JIFFY server,Relative path of the file JIFFY
+server from the Media/Data folder of
+JIFFY,Relative URL to access/download the file
+from other servers&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;10&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;EML&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;name&amp;gt;&lt;/span&gt;message.eml&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/name&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;abs_path&amp;gt;&amp;lt;/abs_path&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;rel_path&amp;gt;&amp;lt;/rel_path&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;rel_url&amp;gt;&amp;lt;/rel_url&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/EML&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Always the name of EML is &amp;quot;message.eml&amp;quot; -
+contains entire email information
+Absolute path of the file in JIFFY server, Relative
+path of the file JIFFY server from the Media/Data
+folder of JIFFY, Relative URL to access/download
+the file from other servers.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;4&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;UID&amp;gt;&amp;lt;/UID&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/Message&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Unique ID of the Email - used as reference for
+taking actions on email and replies.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/table&amp;gt;&lt;/span&gt;
+
+Read more: http://html.com/tables/#ixzz4ptIAofyF
+
+Please refer to UI automation using Jiffy for more details on this:
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;a&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;href=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;https://www.w3schools.com&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;UI Automation Using Jiffy&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Email Sender&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Email Sender node is used to send new emails or forward/reply to the existing emails.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+The following needs to be provided in the properties
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;&lt;/span&gt;Configuration :&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/strong&amp;gt;&lt;/span&gt; Once the configuration entries are created in Task Design - &amp;gt; Configurations, those entries will be available in drop down of Email Sender node in design window. All the Email protocols like IMAP/SMTP/EXCHANGE are available in Task Design - &amp;gt;Configuration Page, but configurations created with SMTP or EXCHANGE protocols only will be listed in Email Sender node.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;&lt;/span&gt;Email Message Template:&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/strong&amp;gt;&lt;/span&gt; In order to mention the Mail to be forwarded/replied or the details of mail to be send, the details needs to be captured in the below XML template format and the XML template needs to be uploaded into repository.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;table&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;width:100%&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;th&amp;gt;&lt;/span&gt;Message&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;th&amp;gt;&lt;/span&gt;Details&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;7&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;Message&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;FROM&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;Address&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;email&amp;gt;&amp;lt;/email&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/Address&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/FROM&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;
+From Address and Email ID needs to be provided if the
+email needs to be sent from different/shared mailbox for
+which access is provided to the user provided in the
+configuration.
+If FROM address is provided, then sent mails shall be saved
+in the respective mailbox&amp;#39;s sent items folder.
+Otherwise, the sent items of user provided in configuration
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;7&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;TO&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;Address&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;email&amp;gt;&amp;lt;/email&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/Address&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/TO&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/textarea&amp;gt;&amp;lt;td&amp;gt;&lt;/span&gt;
+Set of TO Recipients
+In case of Reply and Reply all, recipients provided here will
+be added along with existing reply email list.
+In case of new and forward emails -- at least one recipient
+details need to be present.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;7&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;CC&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;Address&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;email&amp;gt;&amp;lt;/email&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/Address&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/CC&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;CC Recipients&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;7&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;BCC&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;Address&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;email&amp;gt;&amp;lt;/email&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/Address&amp;gt;&lt;/span&gt;;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/BCC&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/textarea&amp;gt;&amp;lt;td&amp;gt;&lt;/span&gt;BCC Recipients&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;4&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;Subject&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;TEXT&amp;gt;&amp;lt;/TEXT&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/Subject&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;
+Text to be placed in Subject
+In case of Reply/forward, if nothing is mapped here, then
+actual mail&amp;#39;s subject shall be used.
+In case of New, if no mapping is present, email with no
+subject shall be sent
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;7&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;Body&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;TEXT/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;HTML&amp;gt;&amp;lt;/HTML&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/Body&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Email body&amp;#39;s text and Email body&amp;#39;s html content.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;10&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;URL&lt;/span&gt; &lt;span style=&#34;color: #960050; background-color: #1e0010&#34;&gt;Attachments&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;URL&lt;/span&gt; &lt;span style=&#34;color: #960050; background-color: #1e0010&#34;&gt;Attachment&lt;/span&gt; &lt;span style=&#34;color: #960050; background-color: #1e0010&#34;&gt;Server&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;Url=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;Username=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;Password=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;Attachment&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;name=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;url=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/URLAttachment&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/URLAttachments&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;
+Attachments are accessed from HTTP URL and then
+attached to the email
+&amp;quot;ServerUrl -- server to connect for attachments
+Username/Password -- If present tries to authenticate using
+BASIC authentication scheme&amp;quot;
+&amp;quot;name -- Name of the attachment in the email
+url -- relative url to the attachment in the server&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;3&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;UID/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;UID should be the unique ID of the email retrieved in the Email browser.
+If UID is present, then the mail is prepared for reply (default)
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;3&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;ReplyAll/&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;ReplyAll -- flag (true or false) to mention whether replyAll
+or only to reply for the sender
+Default -- (false) only Reply
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;3&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;Forward/&amp;gt;&amp;lt;/Message&amp;gt;&amp;lt;/textarea&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Forward -- flag (true or false) to mention whether message
+needs to be forwarded or not.
+Default -- false
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/table&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Email Actions&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Email Actions node is used to perform below actions on the email object.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;UpdateSubject&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;MoveTo another folder&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;MarkAsRead&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;MarkAsUnread&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+The following needs to be provided in the properties
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;&lt;/span&gt;Configuration :&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/strong&amp;gt;&lt;/span&gt; Once the configuration entries are created in Task Design - &amp;gt; Configurations, those entries will be available in drop down of Email action node in task window. All the Email protocols like IMAP/SMTP/EXCHANGE are available in Task Design - &amp;gt;Configuration Page, but configurations created with IMAP or EXCHANGE protocols only will be listed in Email Action node.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;&lt;/span&gt;Email Action Template :&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/strong&amp;gt;&lt;/span&gt; An XML template of the below format needs to be created and uploaded to repository before using this node&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;table&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;width:100%&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;th&amp;gt;&lt;/span&gt;Template&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;th&amp;gt;&lt;/span&gt;Details&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;3&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;Message&amp;gt;&amp;lt;UID/&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;UID should be the unique ID of the email retrieved in the
+Email browser.If UID is not present, then the node fails since there is no
+email object to perform actions. This is a mandatory field.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;2&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;UpdateSubject/&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Used to update the subject of the email. This updates the
+given text as subject and saves the email.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;3&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;MoveTo/&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Provide the destination folder to move the email
+Folder pattern :&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;2&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;60&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;shared_mailbox_email&amp;gt;&lt;/span&gt;/&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;parent_folder&amp;gt;&lt;/span&gt;|&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;sub_folder&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;2&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;MarkAsRead/&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Takes true or false as input to mark email as Read.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;2&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;MarkAsUnread/&amp;gt;&amp;lt;/Message&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Takes true or false as input to mark email as Unread.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/table&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Miscellaneous&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Timer&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Timer node is used to add delays during execution by the time specified in the node.  
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Please refer to UI automation using Jiffy for more details on this:
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;a&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;href=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;https://www.w3schools.com&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;UI Automation Using Jiffy&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Rest API&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+REST API node is used to include the REST web services. Please refer to REST &lt;span style=&#34;color: #960050; background-color: #1e0010&#34;&gt;&amp;amp;&lt;/span&gt; SOAP Services in Jiffy for more details.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;File Tranfer&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+FTP node allows the user to SEND files to given location and RECEIVE files from given location.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+The following needs to be selected in properties
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Configurations needs to be updated in Task Design -&amp;gt;Configurations.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Mode : MODE set to SEND  is used to send and save the XML template selected in INPUT XML TEMPLATE with name and location mentioned at REMOTE PATH location.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;MODE set to RECEIVE is used to receive a file to OUTPUT  XML TEMPLATE from REMOTE PATH location. Filename including path needs to be given in location&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Kafka Producer&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Kafka Producer component posts messages to Kafka Topics. It accepts XML/JSON templates as input, if the template selected is XML, Jiffy converts it into JSON before publishing to the Topic.
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1. Add Task</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks/1/</link>
+      <pubDate>Mon, 07 Nov 2016 14:10:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks/1/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Add/Edit task&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Navigate to &lt;em&gt;Task Design &amp;gt;Tasks.&lt;/em&gt; Select Function &amp;amp; Process under which the task has to be created/edited. Click Add task button/select a task. Goto &lt;em&gt;STEPS&lt;/em&gt; tab.&lt;/p&gt;
+
+&lt;p&gt;Tasks can be designed/edited in this window using the built-in Jiffy nodes. Please refer to Task Design&amp;gt;Objects and Properties for more details on built-in Jiffy nodes.&lt;/p&gt;
+
+&lt;p&gt;Please refer to the video for more details on how to create a task.
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/kl_DiPz8jm4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update Task Details&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Navigate to Task Design &amp;gt;Tasks. Select Function &amp;amp; Process under which the task has to be created/viewed. Click Add task button/select a task. Fill in the below details in overview page.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Field&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Test Case ID&lt;/td&gt;
+&lt;td&gt;It is the unique number allocated to each test case and is system generated&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Test Case Title&lt;/td&gt;
+&lt;td&gt;It is the name of the test case&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Priority&lt;/td&gt;
+&lt;td&gt;Update the priority&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Type&lt;/td&gt;
+&lt;td&gt;Select Automated Requirements&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;CheckInto(TestSuite)&lt;/td&gt;
+&lt;td&gt;Test suite to which a task is assigned to in repository. This is required to check in a task to the repository. For more details on task repository process, Refer to Repository &amp;gt; Task repository&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Summary&lt;/td&gt;
+&lt;td&gt;Summary of the test case&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Pre-Condition&lt;/td&gt;
+&lt;td&gt;Any prerequisites that must be fulfilled prior to executing the test&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1. Data Sources</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks---objects-and-properties/1/</link>
+      <pubDate>Mon, 07 Nov 2016 14:10:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks---objects-and-properties/1/</guid>
+      <description>
+
+&lt;p&gt;These are the data nodes which can be used to provide input data for the tasks&lt;/p&gt;
+
+&lt;h2 id=&#34;csv-data&#34;&gt;CSV Data&lt;/h2&gt;
+
+&lt;p&gt;This can be used where the task input needs to be given in a csv file.&lt;br /&gt;
+The CSV file needs to be uploaded into Repository &amp;gt; CSV file prior to using the same in task design.&lt;br /&gt;
+Pull the node to task design window and update the properties.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image10.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Refer Using CSV In Jiffy for the further details on CSV. &lt;/p&gt;
+
+&lt;h2 id=&#34;xml-data&#34;&gt;XML Data&lt;/h2&gt;
+
+&lt;p&gt;This can be used where the task input needs to be given as XML data. The XML Data node expects the source file to be under &lt;JiffyRoot&gt; root element. Configuring XML data node is similar to CSV Data, XML file has to be selected instead of CSV file.&lt;/p&gt;
+
+&lt;h2 id=&#34;json-data&#34;&gt;JSON Data&lt;/h2&gt;
+
+&lt;p&gt;This can be used where the task input needs to be given as JSON data.&lt;/p&gt;
+
+&lt;h2 id=&#34;db&#34;&gt;DB&lt;/h2&gt;
+
+&lt;p&gt;A DB node is used when the input data is stored in the database. Jiffy DB(Database) node allows to connect to any configured Oracle Database. Jiffy allows Read/Update functionalities from the DB node.&lt;/p&gt;
+
+&lt;p&gt;Notes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;DB configuration has to be completed at &lt;i&gt;Task design &amp;gt; Configurations &amp;gt; Database Configurations&lt;/i&gt; prior to using the node in tasks&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Refer Designing An Automated task In JIFFY - Example Step 2 for the details on configuring the DB node&lt;/p&gt;
+
+&lt;h2 id=&#34;docube-query&#34;&gt;Docube Query&lt;/h2&gt;
+
+&lt;p&gt;This node allows the user to take input data from Jiffy Docube application. Here user can write SQL queries to read data from CSV files available in Docube application.&lt;/p&gt;
+
+&lt;p&gt;Notes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Docube configuration has to be completed at Task design -&amp;gt; Docube Configurations prior to using the node in tasks &lt;/li&gt;&lt;/li&gt;
+&lt;li&gt;Query can be written to get data from existing CSV files from Docube applications. Only Select queries are allowed and the following are the formats to be used in queries&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Sl No&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;th&gt;Format to be used&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Basic Queries to fetch all the data from the file&lt;/td&gt;
+&lt;td&gt;select * from ${file_name}&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;Query to fetch records if a given string matching with values in a particular column of CSV&lt;/td&gt;
+&lt;td&gt;select * from ${file_name} where coloumn_name=&amp;lsquo;string_to_matched&amp;rsquo;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;Query to fetch records if a given integer matching with values in a particular column of CSV&lt;/td&gt;
+&lt;td&gt;select * from ${file_name} where coloumn_name=integer_to_matched&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;Query to fetch records if the value of a mapped variable (integer type) matching with values in a particular column of CSV&lt;/td&gt;
+&lt;td&gt;select * from ${file_name} where coloumn_name=$[mapping_parameter]&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Query to fetch records if the value of a mapped variable (string type) matching with values in a particular column of CSV&lt;/td&gt;
+&lt;td&gt;select * from ${file_name} where coloumn_name=&amp;lsquo;$[mapping_parameter]&amp;rsquo;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;In case of specific column names to be returned, mention the exact column names in CSV file in properties tab with space separated&lt;/li&gt;&lt;/li&gt;
+&lt;li&gt;All the values returned will be available to be mapped as input to all nodes comes after Docube node&lt;/li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;random-number&#34;&gt;Random Number&lt;/h2&gt;
+
+&lt;p&gt;Random number node creates a random number within the given range.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3. XML Templates</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/repository/3/</link>
+      <pubDate>Mon, 07 Nov 2016 14:10:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/repository/3/</guid>
+      <description>
+
+&lt;p&gt;The template repository is used to store all the templates that will be used as input/output templates for Jiffy nodes like API&amp;rsquo;s, Services etc in task design.
+As a one time activity, users have to upload all the templates that are required into this repository. &lt;/p&gt;
+
+&lt;p&gt;The following are the different functionalities available&lt;/p&gt;
+
+&lt;h3 id=&#34;add-new-templates&#34;&gt;Add new templates&lt;/h3&gt;
+
+&lt;p&gt;Add new template to repository. Jiffy provides an option to mention the mandatory fields during upload. The fields which are marked as mandatory will be mandated by Jiffy during mapping in task design. This will avoid all manual errors in mapping input templates for nodes.&lt;/p&gt;
+
+&lt;h3 id=&#34;archive-existing-templates&#34;&gt;Archive existing templates&lt;/h3&gt;
+
+&lt;p&gt;Allowed only if there are no tasks/components created using the template&lt;/p&gt;
+
+&lt;h3 id=&#34;edit-the-template-details&#34;&gt;Edit the template details&lt;/h3&gt;
+
+&lt;p&gt;This allows the user to edit details like name, description, mandatory fields  etc. This will notify the user with the list of tasks which are currently using this template. Once the modifications are done in the template, it will automatically reflect in all the tasks. For example, if the template name is modified from OLD to NEW, then all the tasks that currently use template OLD will be modified to NEW.&lt;/p&gt;
+
+&lt;h3 id=&#34;upload-replace-template&#34;&gt;Upload/Replace template&lt;/h3&gt;
+
+&lt;p&gt;This is to make modifications to the existing template. If there are any changes to the template, users will be able to replace the template with the new one using a single click. This action will notify the user with the list of tasks which are currently using this template. Once the new template is uploaded with same name, all the existing tasks that use this template will be automatically updated.  Please note that already executed task runs will not reflect the new changes. &lt;/p&gt;
+
+&lt;h4 id=&#34;note&#34;&gt;Note:&lt;/h4&gt;
+
+&lt;p&gt;Users have to make sure that they validate the mapping in existing tasks post template changes. If there are fields that are removed as part of the new template, necessary changes needs to be done as per the new template. Also any new fields have to be mapped into the corresponding design node.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2. Manage Task</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks/2/</link>
+      <pubDate>Mon, 07 Nov 2016 14:09:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks/2/</guid>
+      <description>&lt;p&gt;Navigate to &lt;em&gt;Task Design &amp;gt; Tasks.&lt;/em&gt; Select Function &amp;amp; Process under which the task has to be viewed/edited. Select a task. Goto &lt;em&gt;Overview&lt;/em&gt; tab.&lt;/p&gt;
+
+&lt;p&gt;The following actions are available in overview page.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Duplicate a task :&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+Click on &lt;em&gt;duplicate&lt;/em&gt; to create a duplicate of the task with a new name under the same process.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Add to environment :&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+Click on &lt;em&gt;Tag to Environment&lt;/em&gt; to tag a task to an environment. Jiffy will allow user to link same task to multiple Environments created under a process. A task can be executed in Task Execution only if it is linked an environment.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Archive a task :&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+Click on &lt;em&gt;Archive&lt;/em&gt; to archive the task.  The archival will not be allowed if it is used as a child task in task node.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Download csv :&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+User can download the data pertaining to a task onto a csv file.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Change History of Task&lt;/strong&gt;&lt;br /&gt;
+Click on &lt;em&gt;Change History&lt;/em&gt; tab. Change History of a task is displayed here. For each version of the task, the details like When was the version updated, by which user etc are available for reference.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Execution History&lt;/strong&gt;&lt;br /&gt;
+Click on &lt;em&gt;Execution History&lt;/em&gt; tab.High level details of Execution history is displayed here. This will populate the executions triggered from Task Execution only. i.e Trial Runs from Task Design will not be updated here. More details on execution history can be viewed in Task Execution &amp;gt; Execution History.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Check-in and Check-out from Repository&lt;/strong&gt;&lt;br /&gt;
+Tasks can be added to repository using Check-in button from &lt;em&gt;Task Design &amp;gt; Tasks.&lt;/em&gt; Once the check-in is selected for a task, it will not be updated into repository immediately. Instead it will wait for approval in &lt;em&gt;Actionable &amp;gt; Pending Requests – Update Repository&lt;/em&gt; until it is approved by a user who has the relevant authority.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;&#34; alt=&#34;Image 16&#34; style=&#34;;;&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;To make changes to the task which is saved in repository, first it needs to be assigned back to a process and then it needs to be checked-out in Task Design &amp;gt; Task. This check-out feature will ensure that only one person is editing the baselined task at a time. Until that user is check-in the task again, others will not be able to check out the same.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;&#34; alt=&#34;Image 17&#34; style=&#34;;;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

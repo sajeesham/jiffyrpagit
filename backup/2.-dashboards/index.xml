@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2. Dashboards-rsses on Welcome to the Jiffy-RPA Help Center</title>
+    <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/2.-dashboards/index.xml</link>
+    <description>Recent content in 2. Dashboards-rsses on Welcome to the Jiffy-RPA Help Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Nov 2016 14:03:40 +0530</lastBuildDate>
+    <atom:link href="http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/2.-dashboards/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>1. Actionables</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/2.-dashboards/1/</link>
+      <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/2.-dashboards/1/</guid>
+      <description>
+
+&lt;p&gt;Annotes are typically unstuctured contents that you can associate with a slice of data. Annotes could be&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;an outcome of a data analysis, which you would want to associate with the slice of data for future reference.&lt;/li&gt;
+&lt;li&gt;a question you have on the data, which you would like to ask others.&lt;/li&gt;
+&lt;li&gt;or even could be issues associated with data, which you want to highlight or request to be fixed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;how-does-it-help&#34;&gt;How does it help&lt;/h3&gt;
+
+&lt;p&gt;Testing another line
+As a consumer of data, you get a one click access to all insights on any slice of data being presented visually. Click on any visual on docube or any visual component and see all the insights associated with it. You can even look at insights derived at granular level by clicking on a part of the pie or a single in a bar chart.&lt;/p&gt;
+
+&lt;p&gt;Have a question on a visual representing the data, you can ask a wider audience or your data owner directly.&lt;/p&gt;
+
+&lt;h3 id=&#34;creating-a-new-annote&#34;&gt;Creating a new annote&lt;/h3&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle &#34;&gt;1. You can select a visual component on the card and click on the annote icon to provide a new annote. &lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1
+2
+3&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;div&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;iframe&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;src=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;//www.youtube.com/embed/GBib5nJsJKg&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #960050; background-color: #1e0010&#34;&gt;allowfullscreen&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;frameborder=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;0&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/span&gt;
+ &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>2. Report: Task Design</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/2.-dashboards/2/</link>
+      <pubDate>Mon, 07 Nov 2016 14:02:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/2.-dashboards/2/</guid>
+      <description>&lt;p&gt;You can view annotes at various levels&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;You can view &lt;strong&gt;all the annotes around the data&lt;/strong&gt; presented on the card by clicking on the annotes icon (without selecting a component on visual). The count indicates the total number of annotes available on the data presented. A blue colored annotes icon indicates that you have unread annotes on this slice  of data. As soon as an annotes is rendered, it is considered as read by the used.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Annotes on a slice of data&lt;/strong&gt; - Post selection of a visual component on the card, if you select the annotes icon, it will display only the annotes relevant to the slice of documentation.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle &#34;&gt;Viewing annotes&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1
+2
+3&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;div&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;iframe&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;src=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;//www.youtube.com/embed/V5LGNPDksos&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #960050; background-color: #1e0010&#34;&gt;allowfullscreen&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;frameborder=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;0&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/span&gt;
+ &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;New annotes through notification
+Every annotes on the data to which you have access will be notified to you on the top &lt;strong&gt;notification panel&lt;/strong&gt;. You can look at the details of the annotes and drill into the detail.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3. Report: Task Execution</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/2.-dashboards/3/</link>
+      <pubDate>Mon, 07 Nov 2016 14:02:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/2.-dashboards/3/</guid>
+      <description>&lt;p&gt;You can view annotes at various levels&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;You can view &lt;strong&gt;all the annotes around the data&lt;/strong&gt; presented on the card by clicking on the annotes icon (without selecting a component on visual). The count indicates the total number of annotes available on the data presented. A blue colored annotes icon indicates that you have unread annotes on this slice  of data. As soon as an annotes is rendered, it is considered as read by the used.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Annotes on a slice of data&lt;/strong&gt; - Post selection of a visual component on the card, if you select the annotes icon, it will display only the annotes relevant to the slice of documentation.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle &#34;&gt;Viewing annotes&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1
+2
+3&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;div&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;iframe&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;src=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;//www.youtube.com/embed/V5LGNPDksos&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #960050; background-color: #1e0010&#34;&gt;allowfullscreen&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;frameborder=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;0&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/span&gt;
+ &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;New annotes through notification
+Every annotes on the data to which you have access will be notified to you on the top &lt;strong&gt;notification panel&lt;/strong&gt;. You can look at the details of the annotes and drill into the detail.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>4. System Health</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/2.-dashboards/4/</link>
+      <pubDate>Mon, 07 Nov 2016 14:02:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/2.-dashboards/4/</guid>
+      <description>&lt;p&gt;You can view annotes at various levels&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;You can view &lt;strong&gt;all the annotes around the data&lt;/strong&gt; presented on the card by clicking on the annotes icon (without selecting a component on visual). The count indicates the total number of annotes available on the data presented. A blue colored annotes icon indicates that you have unread annotes on this slice  of data. As soon as an annotes is rendered, it is considered as read by the used.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Annotes on a slice of data&lt;/strong&gt; - Post selection of a visual component on the card, if you select the annotes icon, it will display only the annotes relevant to the slice of documentation.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle &#34;&gt;Viewing annotes&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1
+2
+3&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;div&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;iframe&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;src=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;//www.youtube.com/embed/V5LGNPDksos&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #960050; background-color: #1e0010&#34;&gt;allowfullscreen&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;frameborder=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;0&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/span&gt;
+ &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;New annotes through notification
+Every annotes on the data to which you have access will be notified to you on the top &lt;strong&gt;notification panel&lt;/strong&gt;. You can look at the details of the annotes and drill into the detail.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Task Design - Task Plan-rsses on Welcome to the Jiffy-RPA Help Center</title>
+    <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---task-plan/index.xml</link>
+    <description>Recent content in Task Design - Task Plan-rsses on Welcome to the Jiffy-RPA Help Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Nov 2016 14:03:40 +0530</lastBuildDate>
+    <atom:link href="http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---task-plan/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>1. Process</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---task-plan/1/</link>
+      <pubDate>Tue, 08 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---task-plan/1/</guid>
+      <description>&lt;p&gt;
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Create Process&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1
+2
+3
+4
+5
+6
+7&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;Once the Function is defined by admin user, any number of Processes can be added under that Function. 
+
+From Jiffy main screen, navigate to *Task Design&amp;gt;Task Plan.* Select a Function and click on Add Process button at the top.
+
+&amp;lt;br/&amp;gt;
+
+&amp;lt;img src=&amp;quot;\jiffyRpaDocRepoActual\static\media\image3.png&amp;quot; alt =&amp;quot;Image 3&amp;quot;&amp;gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Edit Process&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1
+2
+3&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;An existing Process Name, Start date, End Date and Description can be edited from Task Plan.  From Jiffy main screen, navigate to *Task Design &amp;gt; Task Plan.* Select a Process and click on Edit Process button at the top.
+&amp;lt;br/&amp;gt;
+&amp;lt;img src=&amp;quot;&amp;quot; alt=&amp;quot;Image 4&amp;quot; style=&amp;quot;;;&amp;quot;&amp;gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Duplicate Process&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1
+2
+3
+4&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;A copy of an existing Process can be created using duplicate button. This new process will be created under the same function. Also, the new Process will have all the environments and tasks same as original Process. From Jiffy main screen, navigate to *Task Design&amp;gt;Task Plan.* Select a Process and click on Duplicate Process button at the top.
+
+&amp;lt;br/&amp;gt;
+&amp;lt;img src=&amp;quot;&amp;quot; alt=&amp;quot;Image 5&amp;quot; style=&amp;quot;;;&amp;quot;&amp;gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Delete Process&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1
+2
+3
+4&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;Deletion of Process is allowed only if there are no active Environments and Tasks are present under the proces.  From Jiffy main screen, navigate to *Task Design&amp;gt;Task Plan.* Select a Process and click on Delete Process button at the top.
+
+&amp;lt;br/&amp;gt;
+&amp;lt;img src=&amp;quot;&amp;quot; alt=&amp;quot;Image 6&amp;quot; style=&amp;quot;;;&amp;quot;&amp;gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Add Task&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;**Create a New task **
+
+To Create a new task in Jiffy. Select the Process under which task needs to be created, Click on Add Tasks at the top, it will take the user to task design window.
+&amp;lt;br/&amp;gt;
+&amp;lt;img src=&amp;quot;&amp;quot; alt=&amp;quot;Image 7&amp;quot; style=&amp;quot;;;&amp;quot;&amp;gt;
+
+**Add From Repository**
+
+To Add a task from from Repository to the Selected Process. Select the Process under which task needs to be created, Click on Add from Repository at the top, it will take the user to Task Repository window from which user can choose the Task to added.
+&amp;lt;br/&amp;gt;
+&amp;lt;img src=&amp;quot;&amp;quot; alt=&amp;quot;Image 8&amp;quot; style=&amp;quot;;;&amp;quot;&amp;gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Archive Task&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;Navigate to the Process from which task needs to be archived, Select the task and click on Arcive at the top.
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Assign Task for Execution&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;This helps to assign a set of tasks to a user so that user will get the notification to execute all those tasks on next login. Navigate to the *Function &amp;gt; Process &amp;gt;Environment* that has the tasks to be assigned for execution, Select the tasks and click on Assign Tasks at the top
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Sync With Repository&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;A task which is checked out from task repository and being modified under process can again be reloaded with what is available in repository. Navigate to *Function &amp;gt; Process &amp;gt;Environment* and select the task to be reloaded, click on Sync with repository.
+
+The below message appears
+&amp;lt;br/&amp;gt;
+&amp;lt;img src=&amp;quot;&amp;quot; alt=&amp;quot;Image 9&amp;quot; style=&amp;quot;;;&amp;quot;&amp;gt;
+&amp;lt;br/&amp;gt;
+&amp;lt;br/&amp;gt;
+Override Changes: 
+&amp;lt;br/&amp;gt;
+Overrides the task with the changes from the task repository.
+&amp;lt;br/&amp;gt;
+&amp;lt;br/&amp;gt;
+Retain Changes: 
+&amp;lt;br/&amp;gt;
+Will not synch with repository, retains the latest changes of the task 
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Add Labels To Task&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1
+2
+3
+4
+5
+6&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;Labels are used to logically group the tasks. Tasks that are spread across different environments under a process can be grouped under one label. Tasks which are grouped under one label and under an environment can be executed in one go. 
+&amp;lt;br/&amp;gt;
+Navigate to Function &amp;gt; Process and select the tasks to be assigned to a label. Click on Add Labels to Task button on top. Provide the Labebr/&amp;gt;
+Before assigning tasks to a label, the Labels names need to be created under repository. 
+&amp;lt;br/&amp;gt;
+Please refer to Repository &amp;gt; Labels to get more details on Labels.
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2. Environments</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---task-plan/2/</link>
+      <pubDate>Tue, 08 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---task-plan/2/</guid>
+      <description>&lt;p&gt;Once a Process is created, environments can be added. Environment is the system/environment where the tasks needs to be executed. Jiffy provides the following functionalities for Environments.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Add Environment&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;From Jiffy main screen, navigate to Task Design &amp;gt; Task Plan. Select a Process under a Function and click on Add Environment button at the top.
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Delete Environment&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;Deletion of Environment is allowed only if there are no Tasks assigned to the selected environment. From Jiffy main screen, navigate to Task Design &amp;gt; Task Plan. Select the Environment to be deleted, and click on Delete Environment button at the top.
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Edit Environment&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;An existing environment Name and description can be edited from Task Plan.  From Jiffy main screen, navigate to Task Design &amp;gt; Task Plan. Select an environment and click on Edit button at the top.
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Duplicate Environment&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;A copy of an existing environment can be created under same process using duplicate button. Once duplicated, the new environment will have all the tasks assigned to the previous environment.
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Assign Tasks to Environment&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;Select an Environment and click on Assign Tasks button. This will open a window with all the tasks created under the selected Process, User can select the tasks to be assigned to the selected environment and click on Assign to Environment button.
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;UnAssign Tasks&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;Select an Environment and select the task to be un-assigned from the environment and click on Unassign Tasks button.
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Assign Tasks For Execution&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;This helps to assign a set of tasks to a user so that user will get the notification to execute all those tasks on next login. Navigate to the Function &amp;gt; Process &amp;gt; Environment that has the tasks to be assigned for execution, Select the tasks and click on Assign Tasks at the top. 
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

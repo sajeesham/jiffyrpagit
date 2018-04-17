@@ -1,0 +1,1336 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Extras-rsses on Welcome to the Jiffy-RPA Help Center</title>
+    <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/extras/index.xml</link>
+    <description>Recent content in Extras-rsses on Welcome to the Jiffy-RPA Help Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Nov 2016 14:11:40 +0530</lastBuildDate>
+    <atom:link href="http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/extras/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>1. Objects And Properties</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/extras/1/</link>
+      <pubDate>Mon, 07 Nov 2016 14:11:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/extras/1/</guid>
+      <description>&lt;p&gt;
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Data Sources&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;These are the data nodes which can be used to provide input data for the tasks
+
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;CSV Data&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+This can be used where the task input needs to be given in a csv file. The CSV file needs to be uploaded into Repository &amp;gt; CSV file prior to using the same in task design. Pull the node to task design window and update the properties.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/br&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;img&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;src=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;alt=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;Image 10&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;;;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/br&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Refer Using CSV In Jiffy for the further details on CSV. 
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Refer Designing An Automated Task In JIFFY - Example Step 1 for the details on configuring the CSV data node. 
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;XML Data&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+This can be used where the task input needs to be given as XML data. The XML Data node expects the source file to be under &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;JiffyRoot&amp;gt;&lt;/span&gt; root element. Configuring XML data node is similar to CSV Data, XML file has to be selected instead of CSV file.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;JSON Data&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+This can be used where the task input needs to be given as JSON data.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;DB&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+A DB node is used when the input data is stored in the database. Jiffy DB(Database) node allows to connect to any configured Oracle Database. Jiffy allows Read/Update functionalities from the DB node. 
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Notes:
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+* DB configuration has to be completed at &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;i&amp;gt;&lt;/span&gt;Task design &amp;gt; Configurations &amp;gt; Database Configurations&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/i&amp;gt;&lt;/span&gt; prior to using the node in tasks
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Refer Designing An Automated task In JIFFY - Example Step 2 for the details on configuring the DB node
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Docube Query&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+This node allows the user to take input data from Jiffy Docube application. Here user can write SQL queries to read data from CSV files available in Docube application. 
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Notes:
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Docube configuration has to be completed at Task design -&amp;gt; Docube Configurations prior to using the node in tasks &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Query can be written to get data from existing CSV files from Docube applications. Only Select queries are allowed and the following are the formats to be used in queries&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;table&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;width:100%&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;th&amp;gt;&lt;/span&gt;Sl No&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;th&amp;gt;&lt;/span&gt;Description&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt; 
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;th&amp;gt;&lt;/span&gt;Format to be used&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;1&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Basic Queries to fetch all the data from the file&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt; 
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;select * from &lt;span style=&#34;color: #75715e&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;file_name&lt;/span&gt;&lt;span style=&#34;color: #75715e&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;2&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Query to fetch records if a given string matching with values in a particular column of CSV&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt; 
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;select * from &lt;span style=&#34;color: #75715e&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;file_name&lt;/span&gt;&lt;span style=&#34;color: #75715e&#34;&gt;}&lt;/span&gt; where coloumn_name=&amp;#39;string_to_matched&amp;#39;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;3&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Query to fetch records if a given integer matching with values in a particular column of CSV&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt; 
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;select * from &lt;span style=&#34;color: #75715e&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;file_name&lt;/span&gt;&lt;span style=&#34;color: #75715e&#34;&gt;}&lt;/span&gt; where coloumn_name=integer_to_matched&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;4&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Query to fetch records if the value of a mapped variable (integer type) matching with values in a particular column of CSV&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt; 
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;select * from &lt;span style=&#34;color: #75715e&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;file_name&lt;/span&gt;&lt;span style=&#34;color: #75715e&#34;&gt;}&lt;/span&gt; where coloumn_name=$[mapping_parameter]&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;5&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Query to fetch records if the value of a mapped variable (string type) matching with values in a particular column of CSV&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt; 
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;select * from &lt;span style=&#34;color: #75715e&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;file_name&lt;/span&gt;&lt;span style=&#34;color: #75715e&#34;&gt;}&lt;/span&gt; where coloumn_name=&amp;#39;$[mapping_parameter]&amp;#39;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/table&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;In case of specific column names to be returned, mention the exact column names in CSV file in properties tab with space separated&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;All the values returned will be available to be mapped as input to all nodes comes after Docube node&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Random Number&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Random number node creates a random number within the given range.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Sterling Components&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;These are nodes which can be used to perform different actions in Sterling application.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Sterling API&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+To invoke an API call to Sterling application. Before using these nodes, complete sterling configuration under &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;i&amp;gt;&lt;/span&gt;Task Design &amp;gt; Configurations&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/i&amp;gt;&lt;/span&gt;. Mention the configuration name, API name to be invoked and the input and output XML templates to be used for API call in the properties of the node.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Service Node&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+To invoke a service call to Sterling application. Before using these nodes, complete sterling configuration under &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;i&amp;gt;&lt;/span&gt;Task Design &amp;gt; Configurations&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/i&amp;gt;&lt;/span&gt;. Mention the configuration name, Service name to be invoked and the input and output XML templates to be used for service call in the properties of the node.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;JMS Publisher&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+JMS Publisher node publishes messages to any standard queue that is configured to Sterling process/server. Sterling process/server in turn picks up the messages and processes the message based on the business rules. Before using these nodes, complete JMS queue configuration under &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;i&amp;gt;&lt;/span&gt;Task Design &amp;gt; Configurations&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/i&amp;gt;&lt;/span&gt;. Mention the configuration name and XML template to be used to publish message in the properties of node.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;JMS QueueBrowser&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+JMS QueueBrowser is used to browse for a message in the queue as per the given search criteria. The queue browser reads the last 1000 messages and returns the message which matches as per the selection criteria. 
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Example 1: An email confirmation message is sent to the customer once an invoice is processed in the application. In order to get the email details, user can use Jiffy JMS queue browser to read the messages in the queue and get the correct email details from the queue
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Sterling SOAP Request&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+To invoke a SOAP based service call to other applications. Before using these nodes, complete SOAP configuration under &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;i&amp;gt;&lt;/span&gt;Task Design &amp;gt; Configurations&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/i&amp;gt;&lt;/span&gt;. Mention the configuration name, Service name to be invoked and the input and output XML templates to be used for service call in the properties of the node.
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Validators&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;These are the data nodes which can be used to provide input data for the tasks
+
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Validator&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+This nodes can be used to implement all kind of validations required as part of task execution. Multiple levels of complex validations rules can be added using constant values/Variables/expressions and different operators like =,!=,&lt;span style=&#34;color: #960050; background-color: #1e0010&#34;&gt;&amp;lt;&lt;/span&gt;,&amp;gt;,&lt;span style=&#34;color: #960050; background-color: #1e0010&#34;&gt;&amp;lt;&lt;/span&gt;=,&amp;gt;=,like, AND,OR etc. 
+
+By setting the toggle button - &amp;#39;Stop on validation error&amp;#39; to ON in properties, the further execution of the tsk can be controlled.
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;SubTasks&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Component&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Components are used to save the frequently used Jiffy steps separately in repository so that those can be reused across tasks instead of writing the same steps again and again. These components can be used any number of times in any number of tasks.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Please Refer to &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;i&amp;gt;&lt;/span&gt;Repository&amp;gt;components&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/i&amp;gt;&lt;/span&gt; to understand more on the usage of Components.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Start Sub Task &lt;span style=&#34;color: #960050; background-color: #1e0010&#34;&gt;&amp;amp;&lt;/span&gt; End Sub Task&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Sub Task consists of two nodes: Start Sub Task and End Sub Task. They work as a group. Maximum loop count and Maximum time that a sub task to be executed can be defined in the properties. This can be used in cases where
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;A group of nodes needs to be executed until some criteria is met&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;A group of nodes needs to be executed for N times&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+For example, as part of a task execution, step 4 can be executed only if an email is triggered post step 3. Add a subtask group after step 3 with a maximum delay of X seconds and loop count of Y times. Add a validator for the email in between start sub task and end sub task. In this case, the execution will come out of subtask and proceed with the execution of subsequent nodes if any one of the below condition is satisfied
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;If all nodes in the subtask is passed successfully (if there are more than one validator node within subtask, all validator nodes has to be passed successfully)&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;If the loop count reaches Y times&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;If the subtask execution time reaches X seconds&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;If,Else&lt;span style=&#34;color: #960050; background-color: #1e0010&#34;&gt;&amp;amp;&lt;/span&gt;EndIf&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+If-else-End If nodes brings conditional execution in JIFFY. Refer &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;i&amp;gt;&lt;/span&gt;task&amp;gt;If - Else – Endif&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/i&amp;gt;&lt;/span&gt; for more details.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Task&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Task node allows the users to access and execute another task of same release as a child task from the current task (Parent task). 
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Notes :
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Any number of child task nodes can be added in the parent task&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;No data can be passed between child task and parent task. i.e Task node does not allow any data to be mapped to the child task from previous nodes or mapped from child task to use in further nodes of parent task&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Nested tasks are not allowed, i.e another parent task (any task which has a task node) cannot be used in task node&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Task nodes are not allowed in Components&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Task nodes cannot be used in iteration. For example, if the execution of a task needs to be iterated with different input data, then a task node cannot be used&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;When CONTINUE ON FAILURE in properties is set to Off, if the child task execution is failed, then the nodes which comes after task node will not be executed&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;When the parent task executed from task design, the execution details of child task can be viewed only in Task Execution - &amp;gt; Execution History. The Run ID can be obtained  by clicking the view button of child task node and use the Run ID to get more details of the execution in Task Execution - &amp;gt; Execution History&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;When the parent task is executed form Task Execution tab, separate entries will be created in Execution history for parent task and each individual child task with all the execution details of each node&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Polling Nodes&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Polling nodes are used to trigger the execution of other tasks continuously at given time interval. Only task nodes are allowed within polling nodes. The execution of polling nodes will be continued until it is stopped manually, irrespective of child tasks are successfully executed or failed. So this can be considered as a scheduler which can trigger the execution of other child tasks at a given time interval. 
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Polling task execution can be triggered either from Task Design or Task Execution.  As soon as the polling task execution is triggered it creates the following, 
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;An entry in polling history with Status as POLLING, which says the execution is in progress&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;An entry in Execution Summary for each child task with details as how many times the child tasks are executed, out of which how many are successful execution and how many are failed&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;An entry for each round of execution for each of the child task within polling nodes, i.e if the child task within the polling nodes are executed 50 times, the execution history will have 50 entries with the details of each round of execution&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;If the polling task is triggered from Task execution, in addition to the above-mentioned entries it will have an entry for parent task in Execution Summary and Execution History&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/ui&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;strong&amp;gt;&lt;/span&gt;Stopping the polling node execution&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/strong&amp;gt;&lt;/span&gt;x
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Once the execution is triggered, it can be stopped by selecting the record from Polling history. If the execution is triggered from Task Design, user can also stop the execution by using Stop Run button available in Task design window.
+When the user click on Stop button, execution will not be instantly stopped, instead it will continue till the current iteration is completed for all the child tasks within polling nodes and then will be stopped.  Once stopped, the status of polling task in Polling History will be updated as STOPPED.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Notes
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Only task nodes are allowed within the polling nodes. In case if any other nodes are used, the polling will not be executed and the status in Polling history and Execution summary will be updated as INVALIDATED&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;No iterations are allowed within the polling nodes&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Polling nodes are not allowed in components&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Nested polling nodes are not allowed&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Tasks which has polling node cannot be selected in Task nodes, ie those tasks cannot be used as child tasks&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;RESTART functionality will not be available for polling tasks&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;UI&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;Jiffy UI nodes allows user to automate UI pages of any other application. For example, Web pages, Mainframe pages, SAP application, Desktop based applications etc. All UI nodes except Excel node works in similar method. Here automation is a two phase approach, first the UI pages needs to be familiarized using Jiffy UI Learn App and then scripting needs to be done in tasks using corresponding UI nodes. Please refer to UI automation using Jiffy for more details on this.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+But Excel node does not require UI familiarization, any excel sheet can be accessed and automated directly using Excel nodes. 
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Web UI&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Web UI nodes are used to automate web pages.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Please refer to UI automation using Jiffy for more details on this:
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;a&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;href=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;https://www.w3schools.com&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;UI Automation Using Jiffy&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Desktop UI&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+To automate UI pages of any desktop application.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Mainframe UI&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+To automate UI pages of Mainframe application.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;SAP UI&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+To automate UI pages of SAP application.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Excel&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+To access an excel sheet and perform different actions in excel sheets using Jiffy. Excel node does not require familiarization. Excel configurations needs to be completed in Task Design -&amp;gt; Configurations. Once configurations are completed, choose the correct configuration and the Excel sheet to be accessed (File path) in properties. File path needs to be provided with location and file name.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Double click on the node to update the actions to be performed on given Excel sheet.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;table&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;width:100%&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;th&amp;gt;&lt;/span&gt;Sl No&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;th&amp;gt;&lt;/span&gt;Command&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt; 
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;th&amp;gt;&lt;/span&gt;Purpose&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt;
+	&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;th&amp;gt;&lt;/span&gt;Syntax to be used/Parameters to be used&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;1&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Copy Selection&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt; 
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;To copy the content of selected cells&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+	&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Prior to this command, Select the required cells using Select Cells or Select Cell.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;2&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Get Selected Cell Value&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt; 
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;To get the cell values copied into predefined output variable Excel_Output to be used outside Excel node&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+	&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Prior to this command, use Select and copy commands to copy the required data. The variable Excel_Output is predefined and does not require explicit definition.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;3&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Paste&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt; 
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;To paste the copied content to the location currently selected&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+	&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;1. Keep_Source_Formatting, Options – True/False.Prior to this command, use Select and copy commands to copy the required data and again select the location where it needs to be pasted.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;4&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Save File AS&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt; 
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;To save the file using the name and location given in arguments, with all the latest changes done using excel node scripting.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+	&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;1. folder location, 2. File name, 3. Replace_if_Existing (True/False)&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;5&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Select Range&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt; 
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;To select the given range of cells.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+	&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;1. Range_Value – Values to be selected. Single cell or a range - Eg C3, A3:C3&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;6&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Update&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt; 
+    &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;To update a cell/the selected range with given value&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+	&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;1. Range_Value – Range of cells to be updated with given value. Eg C3, A3:C3. 2. Value - Value to be updated in the selected range.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+  &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+ &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/table&amp;gt;&lt;/span&gt;
+ The values read from Excel using Get Selected Cell Value/Send Copied Cells/Send data will be saved in default pre defined variable Excel_Output. Once the execution is completed, these values can be viewed in the output data of excel node and can be mapped to further nodes.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;strong&amp;gt;&lt;/span&gt;Excel Macros&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/strong&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+ Excel macros can be created and saved in repository and can be used while doing the scripting for Excel node in task design
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+ Notes:
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;In order to use macros, the excel sheet used should be macro enabled with file extension .xlsm&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Excel has to be configured to accept VBA macros execution. Select the below marked options in File-&amp;gt; Option-&amp;gt;Trust Center -&amp;gt;Macro Settings&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;img&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;src=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;alt=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;Image 11&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;;;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Email&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17
+ 18
+ 19
+ 20
+ 21
+ 22
+ 23
+ 24
+ 25
+ 26
+ 27
+ 28
+ 29
+ 30
+ 31
+ 32
+ 33
+ 34
+ 35
+ 36
+ 37
+ 38
+ 39
+ 40
+ 41
+ 42
+ 43
+ 44
+ 45
+ 46
+ 47
+ 48
+ 49
+ 50
+ 51
+ 52
+ 53
+ 54
+ 55
+ 56
+ 57
+ 58
+ 59
+ 60
+ 61
+ 62
+ 63
+ 64
+ 65
+ 66
+ 67
+ 68
+ 69
+ 70
+ 71
+ 72
+ 73
+ 74
+ 75
+ 76
+ 77
+ 78
+ 79
+ 80
+ 81
+ 82
+ 83
+ 84
+ 85
+ 86
+ 87
+ 88
+ 89
+ 90
+ 91
+ 92
+ 93
+ 94
+ 95
+ 96
+ 97
+ 98
+ 99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288
+289
+290
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+308
+309
+310
+311
+312
+313
+314
+315
+316
+317
+318
+319
+320
+321
+322
+323
+324
+325
+326
+327
+328
+329
+330
+331
+332
+333
+334
+335
+336
+337&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;There are three nodes available in Jiffy to perform different actions related to Emails. 
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Browsing for a mail with a given search criteria - Email Browser&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Perform given action on a given Email - Email Actions&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Send an Email -  Email Sender&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Email Browser&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Email browser is used to search emails based on the configuration and Search criteria given in the node. 
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+The following needs to be provided in the properties
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;&lt;/span&gt;Configuration :&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/strong&amp;gt;&lt;/span&gt; Once the configuration entries are created in Task Design - &amp;gt; Configurations, those entries will be available in drop down of Email browser node in task window. All the Email protocols like IMAP/SMTP/EXCHANGE are available in Task Design - &amp;gt;Configuration Page, but configurations created with IMAP or EXCHANGE protocols only will be listed in Email Browser node.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;&lt;/span&gt;Search in folder :&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/strong&amp;gt;&lt;/span&gt; Provide the folder to be searched. Follow the below format. Default would be INBOX.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;img&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;src=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;alt=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;Image 14&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;;;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;&lt;/span&gt;Search Order:&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/strong&amp;gt;&lt;/span&gt; The order in which the mailbox needs to searched. Two options&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Latest first (Default) : Provides the latest email matching the search criteria based on received date&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Earliest first : Provides the earliest email matching the search criteria based on received date&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;&lt;/span&gt;Build Search Query :&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/strong&amp;gt;&lt;/span&gt; To build the search query. This action can be invoked by clicking on &amp;quot;Build Search Query&amp;quot; button or double clicking the Email browser icon. Search criteria is similar to building rules in Validation node.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;FROM   --- name/email address of the sender&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;TO --- name/email address of TO recipient&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;CC --- name/email address of CC recipient&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;BCC --- name/email address of BCC recipient&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Subject -- text to search in subject&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Body -- text to search in the body&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Received Date --- received date of email in format :  [MM/dd/yyyy HH:mm:ss]&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Is Read --- takes boolean (true, false) to search read or unread emails&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Default --- all emails shall be considered in the search&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Email UID --- takes Unique ID of email to search email (When this search criteria is provided all other search criteria&amp;#39;s shall be ignored.)&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt; Email Message Template : 
+This is the format of the output details returned by Email browser node. An XML templateb of the below template has to be uploaded before using the node &lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;table&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;width:100%&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;th&amp;gt;&lt;/span&gt;Message Templates&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;th&amp;gt;&lt;/span&gt;Details&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;10&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;Message&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;FROM&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;Address&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;name&amp;gt;&amp;lt;/name&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;email&amp;gt;&amp;lt;/email&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;alias&amp;gt;&amp;lt;alias&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/Address&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/FROM&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Contains from address details -
+Name of the Sender, Email address of the
+Sender, Alias (Outlook alias) for the Sender&amp;#39;s
+contact&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;7&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;TO&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;Address&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;name&amp;gt;&amp;lt;/name&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;email&amp;gt;&amp;lt;/email&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/Address&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;TO address details -
+Name of the recipient, Email address of the
+recipient&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;7&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;/TO&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;CC&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;Address&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;name&amp;gt;&amp;lt;/name&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;email&amp;gt;&lt;/span&gt;/&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;email&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/Address&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/CC&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;CC address details
+Name of the recipient, Email address of the
+recipient&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;7&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;BCC&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;Address&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;name&amp;gt;&amp;lt;/name&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;email&amp;gt;&amp;lt;/email&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/Address&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/BCC&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;BCC address details
+Name of the recipient, Email address of the
+recipient&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;3&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;ReceivedDate&amp;gt;&amp;lt;/ReceivedDate&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Received date time stamp of the email to the
+inbox [MM/dd/yyyy HH:mm:ss - format]&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;3&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;Subject&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;TEXT&amp;gt;&amp;lt;/TEXT&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/Subject&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Subject of the email&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;5&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;Body&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;TEXT&amp;gt;&amp;lt;/TEXT&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;HTML&amp;gt;&amp;lt;/HTML&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/Body&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Text message of the email body
+If HTML content is present then the HTML
+content of the body is placed here&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;10&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;Attachments&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;Attachment&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;name&amp;gt;&amp;lt;/name&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;abs_path&amp;gt;&amp;lt;/abs_path&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;rel_path&amp;gt;&amp;lt;/rel_path&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;rel_url&amp;gt;&amp;lt;/rel_url&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/Attachment&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/Attachments&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Attachment Details
+Name of the attachment,Absolute path of the file
+in JIFFY server,Relative path of the file JIFFY
+server from the Media/Data folder of
+JIFFY,Relative URL to access/download the file
+from other servers&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;10&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;EML&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;name&amp;gt;&lt;/span&gt;message.eml&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/name&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;abs_path&amp;gt;&amp;lt;/abs_path&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;rel_path&amp;gt;&amp;lt;/rel_path&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;rel_url&amp;gt;&amp;lt;/rel_url&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/EML&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Always the name of EML is &amp;quot;message.eml&amp;quot; -
+contains entire email information
+Absolute path of the file in JIFFY server, Relative
+path of the file JIFFY server from the Media/Data
+folder of JIFFY, Relative URL to access/download
+the file from other servers.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;4&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;UID&amp;gt;&amp;lt;/UID&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/Message&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Unique ID of the Email - used as reference for
+taking actions on email and replies.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/table&amp;gt;&lt;/span&gt;
+
+Read more: http://html.com/tables/#ixzz4ptIAofyF
+
+Please refer to UI automation using Jiffy for more details on this:
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;a&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;href=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;https://www.w3schools.com&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;UI Automation Using Jiffy&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Email Sender&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Email Sender node is used to send new emails or forward/reply to the existing emails.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+The following needs to be provided in the properties
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;&lt;/span&gt;Configuration :&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/strong&amp;gt;&lt;/span&gt; Once the configuration entries are created in Task Design - &amp;gt; Configurations, those entries will be available in drop down of Email Sender node in design window. All the Email protocols like IMAP/SMTP/EXCHANGE are available in Task Design - &amp;gt;Configuration Page, but configurations created with SMTP or EXCHANGE protocols only will be listed in Email Sender node.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;&lt;/span&gt;Email Message Template:&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/strong&amp;gt;&lt;/span&gt; In order to mention the Mail to be forwarded/replied or the details of mail to be send, the details needs to be captured in the below XML template format and the XML template needs to be uploaded into repository.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;table&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;width:100%&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;th&amp;gt;&lt;/span&gt;Message&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;th&amp;gt;&lt;/span&gt;Details&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;7&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;Message&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;FROM&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;Address&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;email&amp;gt;&amp;lt;/email&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/Address&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/FROM&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;
+From Address and Email ID needs to be provided if the
+email needs to be sent from different/shared mailbox for
+which access is provided to the user provided in the
+configuration.
+If FROM address is provided, then sent mails shall be saved
+in the respective mailbox&amp;#39;s sent items folder.
+Otherwise, the sent items of user provided in configuration
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;7&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;TO&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;Address&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;email&amp;gt;&amp;lt;/email&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/Address&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/TO&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/textarea&amp;gt;&amp;lt;td&amp;gt;&lt;/span&gt;
+Set of TO Recipients
+In case of Reply and Reply all, recipients provided here will
+be added along with existing reply email list.
+In case of new and forward emails -- at least one recipient
+details need to be present.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;7&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;CC&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;Address&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;email&amp;gt;&amp;lt;/email&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/Address&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/CC&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;CC Recipients&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;7&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;BCC&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;Address&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;email&amp;gt;&amp;lt;/email&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/Address&amp;gt;&lt;/span&gt;;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/BCC&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/textarea&amp;gt;&amp;lt;td&amp;gt;&lt;/span&gt;BCC Recipients&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;4&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;Subject&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;TEXT&amp;gt;&amp;lt;/TEXT&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/Subject&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;
+Text to be placed in Subject
+In case of Reply/forward, if nothing is mapped here, then
+actual mail&amp;#39;s subject shall be used.
+In case of New, if no mapping is present, email with no
+subject shall be sent
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;7&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;Body&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;TEXT/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;HTML&amp;gt;&amp;lt;/HTML&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/Body&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Email body&amp;#39;s text and Email body&amp;#39;s html content.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;10&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;URL&lt;/span&gt; &lt;span style=&#34;color: #960050; background-color: #1e0010&#34;&gt;Attachments&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;URL&lt;/span&gt; &lt;span style=&#34;color: #960050; background-color: #1e0010&#34;&gt;Attachment&lt;/span&gt; &lt;span style=&#34;color: #960050; background-color: #1e0010&#34;&gt;Server&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;Url=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;Username=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;Password=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;Attachment&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;name=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;url=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/URLAttachment&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/URLAttachments&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;
+Attachments are accessed from HTTP URL and then
+attached to the email
+&amp;quot;ServerUrl -- server to connect for attachments
+Username/Password -- If present tries to authenticate using
+BASIC authentication scheme&amp;quot;
+&amp;quot;name -- Name of the attachment in the email
+url -- relative url to the attachment in the server&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;3&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;UID/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;UID should be the unique ID of the email retrieved in the Email browser.
+If UID is present, then the mail is prepared for reply (default)
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;3&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;ReplyAll/&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;ReplyAll -- flag (true or false) to mention whether replyAll
+or only to reply for the sender
+Default -- (false) only Reply
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;3&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;Forward/&amp;gt;&amp;lt;/Message&amp;gt;&amp;lt;/textarea&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Forward -- flag (true or false) to mention whether message
+needs to be forwarded or not.
+Default -- false
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/table&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Email Actions&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Email Actions node is used to perform below actions on the email object.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;UpdateSubject&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;MoveTo another folder&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;MarkAsRead&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;MarkAsUnread&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+The following needs to be provided in the properties
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;&lt;/span&gt;Configuration :&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/strong&amp;gt;&lt;/span&gt; Once the configuration entries are created in Task Design - &amp;gt; Configurations, those entries will be available in drop down of Email action node in task window. All the Email protocols like IMAP/SMTP/EXCHANGE are available in Task Design - &amp;gt;Configuration Page, but configurations created with IMAP or EXCHANGE protocols only will be listed in Email Action node.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&amp;lt;strong&amp;gt;&lt;/span&gt;Email Action Template :&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/strong&amp;gt;&lt;/span&gt; An XML template of the below format needs to be created and uploaded to repository before using this node&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;table&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;width:100%&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;th&amp;gt;&lt;/span&gt;Template&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;th&amp;gt;&lt;/span&gt;Details&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/th&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;3&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;Message&amp;gt;&amp;lt;UID/&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;UID should be the unique ID of the email retrieved in the
+Email browser.If UID is not present, then the node fails since there is no
+email object to perform actions. This is a mandatory field.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;2&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;UpdateSubject/&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Used to update the subject of the email. This updates the
+given text as subject and saves the email.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;3&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;MoveTo/&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Provide the destination folder to move the email
+Folder pattern :&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;2&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;60&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;shared_mailbox_email&amp;gt;&lt;/span&gt;/&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;parent_folder&amp;gt;&lt;/span&gt;|&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;sub_folder&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;2&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;MarkAsRead/&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Takes true or false as input to mark email as Read.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&amp;lt;textarea&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;rows=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;2&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;cols=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;25&amp;quot;&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;style=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;border:none;&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&amp;lt;MarkAsUnread/&amp;gt;&amp;lt;/Message&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;td&amp;gt;&lt;/span&gt;Takes true or false as input to mark email as Unread.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/table&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;arrowToggle doToggle separator&#34;&gt;Miscellaneous&lt;/div&gt;
+&lt;div class=&#34;arrwoToggleContent doToggleContent&#34;&gt;&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Timer&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Timer node is used to add delays during execution by the time specified in the node.  
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Please refer to UI automation using Jiffy for more details on this:
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;a&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;href=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;https://www.w3schools.com&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;&amp;gt;&lt;/span&gt;UI Automation Using Jiffy&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Rest API&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+REST API node is used to include the REST web services. Please refer to REST &lt;span style=&#34;color: #960050; background-color: #1e0010&#34;&gt;&amp;amp;&lt;/span&gt; SOAP Services in Jiffy for more details.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;File Tranfer&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+FTP node allows the user to SEND files to given location and RECEIVE files from given location.
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+The following needs to be selected in properties
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Configurations needs to be updated in Task Design -&amp;gt;Configurations.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;Mode : MODE set to SEND  is used to send and save the XML template selected in INPUT XML TEMPLATE with name and location mentioned at REMOTE PATH location.&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;MODE set to RECEIVE is used to receive a file to OUTPUT  XML TEMPLATE from REMOTE PATH location. Filename including path needs to be given in location&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Kafka Producer&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color: #f92672&#34;&gt;&amp;lt;br/&amp;gt;&lt;/span&gt;
+Kafka Producer component posts messages to Kafka Topics. It accepts XML/JSON templates as input, if the template selected is XML, Jiffy converts it into JSON before publishing to the Topic.
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

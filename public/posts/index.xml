@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Welcome to the Jiffy-RPA Help Center</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Welcome to the Jiffy-RPA Help Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Aug 2017 21:53:51 +0530</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>newarticle</title>
+      <link>http://localhost:1313/posts/newarticle/</link>
+      <pubDate>Mon, 07 Aug 2017 21:53:51 +0530</pubDate>
+      
+      <guid>http://localhost:1313/posts/newarticle/</guid>
+      <description>Docube is the best way to visualize data, share insights and delight your customers with visuals which speak your story. We have carefully hidden all the complexity of working iteratively over large data, providing a very simple yet flexible user experience.</description>
+    </item>
+    
+  </channel>
+</rss>

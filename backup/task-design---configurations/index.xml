@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Task Design - Configurations-rsses on Welcome to the Jiffy-RPA Help Center</title>
+    <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---configurations/index.xml</link>
+    <description>Recent content in Task Design - Configurations-rsses on Welcome to the Jiffy-RPA Help Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Nov 2016 14:01:40 +0530</lastBuildDate>
+    <atom:link href="http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---configurations/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>1. Overview</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---configurations/1/</link>
+      <pubDate>Mon, 07 Nov 2016 14:01:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---configurations/1/</guid>
+      <description>&lt;p&gt;A Configuration in Jiffy means the environmental details that are required to execute the task. This includes the connection details of all the applications which will be used during task execution. For example,&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Database Configuration&lt;/li&gt;
+&lt;li&gt;Desktop Application Configuration&lt;/li&gt;
+&lt;li&gt;DOCUBE Configuration&lt;/li&gt;
+&lt;li&gt;Email Configuration&lt;/li&gt;
+&lt;li&gt;File Transfer Configuration&lt;/li&gt;
+&lt;li&gt;JMS Queue Configuration&lt;/li&gt;
+&lt;li&gt;Mainframe Application Configuration&lt;/li&gt;
+&lt;li&gt;REST API Configuration&lt;/li&gt;
+&lt;li&gt;SAP Configuration&lt;/li&gt;
+&lt;li&gt;Sterling Configuration&lt;/li&gt;
+&lt;li&gt;Web Application Configuration&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Jiffy provides a feature that the same tasks can be executed across multiple environments. Users can create multiple environments under a process. Once the tasks are designed, users have to assign the task to an environment before they can execute the same.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image32.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Jiffy allows users to define configurations at three levels&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;User Level&lt;/li&gt;
+&lt;li&gt;Environment Level&lt;/li&gt;
+&lt;li&gt;Process Level&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2. Process, Function And User Level Configurations</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---configurations/2/</link>
+      <pubDate>Mon, 07 Nov 2016 10:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---configurations/2/</guid>
+      <description>
+
+&lt;p&gt;Jiffy allows users to define configurations at three levels&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;User Level&lt;/li&gt;
+&lt;li&gt;Environment Level&lt;/li&gt;
+&lt;li&gt;Process Level&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;user-level&#34;&gt;User Level&lt;/h2&gt;
+
+&lt;p&gt;Some of the Jiffy nodes (not all) has this additional feature in properties tab where user can select the option to do execution using user level configuration. For Example, DB node has this feature.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/lzQcPlzPUlA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;p&gt;If this is turned ON, during execution Jiffy use the user level configuration to execute  the DB node.&lt;/p&gt;
+
+&lt;p&gt;User level configurations are available in &lt;em&gt;Settings &amp;gt; User &amp;gt; User Configuration.&lt;/em&gt; For each user, configurations are defined again at Process level. So when a task is being executed, if User level config is turned ON, Jiffy will pick the configurations from the corresponding process under user level.&lt;/p&gt;
+
+&lt;h2 id=&#34;environment-level&#34;&gt;Environment Level&lt;/h2&gt;
+
+&lt;p&gt;Configurations can be updated at environment level at &lt;em&gt;Task Design &amp;gt; Configurations.&lt;/em&gt; Select the Process name and environment name and update configurations.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image33.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;process-level&#34;&gt;Process Level&lt;/h2&gt;
+
+&lt;p&gt;Configurations can be updated at Process level at &lt;em&gt;Task Design &amp;gt; Configurations.&lt;/em&gt; Select the Process name and provide ALL under in the second column as given below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image34.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3. Configuration Priorities</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---configurations/3/</link>
+      <pubDate>Mon, 07 Nov 2016 05:02:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---configurations/3/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Priority of Configurations when Execution triggered from Task Design&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;When a task is executed from Task Design window, only User level configurations and Process level configurations will be used. During execution, the priority would be as below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image35.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note:&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Cases where the user configuration is turned ON but the configurations are not present in user level, Jiffy automatically picks the configuration entries of same name from Process level.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Priority of Configurations when Execution triggered from Task Execution&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;When a task is executed from Task Execution window, the priority would be as below&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image36.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note:&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;If the configurations are not present at user level, Jiffy will look for configurations with same name at environment level if it is still not present at environment level it will look for configurations with same name at Process level.&lt;/p&gt;
+
+&lt;p&gt;Users can add multiple configurations of same item at each of these levels. For example, multiple configurations for DB connections can be added by giving unique names at user/environment/process/level.&lt;/p&gt;
+
+&lt;p&gt;The configurations can be deleted by using the delete button available at the right side of the screen.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

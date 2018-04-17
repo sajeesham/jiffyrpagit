@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Task Design - Tasks - Objects And Properties on Welcome to the Jiffy-RPA Help Center</title>
+    <link>http://localhost:1313/task-design---tasks---objects-and-properties/</link>
+    <description>Recent content in Task Design - Tasks - Objects And Properties on Welcome to the Jiffy-RPA Help Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Nov 2016 14:10:40 +0530</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/task-design---tasks---objects-and-properties/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1. Data Sources</title>
+      <link>http://localhost:1313/task-design---tasks---objects-and-properties/1.-data-sources/</link>
+      <pubDate>Mon, 07 Nov 2016 14:10:40 +0530</pubDate>
+      
+      <guid>http://localhost:1313/task-design---tasks---objects-and-properties/1.-data-sources/</guid>
+      <description>These are the data nodes which can be used to provide input data for the tasks
+CSV Data This can be used where the task input needs to be given in a csv file.
+The CSV file needs to be uploaded into Repository &amp;gt; CSV file prior to using the same in task design.
+Pull the node to task design window and update the properties.
+Refer Using CSV In Jiffy for the further details on CSV.</description>
+    </item>
+    
+    <item>
+      <title>2. Sterling Components</title>
+      <link>http://localhost:1313/task-design---tasks---objects-and-properties/2.-sterling-components/</link>
+      <pubDate>Mon, 07 Nov 2016 14:09:40 +0530</pubDate>
+      
+      <guid>http://localhost:1313/task-design---tasks---objects-and-properties/2.-sterling-components/</guid>
+      <description>These are nodes which can be used to perform different actions in Sterling application.
+Sterling API To invoke an API call to Sterling application. Before using these nodes, complete sterling configuration under Task Design &amp;gt; Configurations. Mention the configuration name, API name to be invoked and the input and output XML templates to be used for API call in the properties of the node.
+Service Node To invoke a service call to Sterling application.</description>
+    </item>
+    
+    <item>
+      <title>3. Validator</title>
+      <link>http://localhost:1313/task-design---tasks---objects-and-properties/3.-validators/</link>
+      <pubDate>Mon, 07 Nov 2016 14:08:40 +0530</pubDate>
+      
+      <guid>http://localhost:1313/task-design---tasks---objects-and-properties/3.-validators/</guid>
+      <description>These are the data nodes which can be used to provide input data for the tasks
+Validator This nodes can be used to implement all kind of validations required as part of task execution. Multiple levels of complex validations rules can be added using constant values/Variables/expressions and different operators like =,!=,&amp;lt;,&amp;gt;,&amp;lt;=,&amp;gt;=,like, AND,OR etc.
+By setting the toggle button - &amp;lsquo;Stop on validation error&amp;rsquo; to ON in properties, the further execution of the tsk can be controlled.</description>
+    </item>
+    
+    <item>
+      <title>4. SubTasks</title>
+      <link>http://localhost:1313/task-design---tasks---objects-and-properties/4.-subtasks/</link>
+      <pubDate>Mon, 07 Nov 2016 14:07:40 +0530</pubDate>
+      
+      <guid>http://localhost:1313/task-design---tasks---objects-and-properties/4.-subtasks/</guid>
+      <description>Component Components are used to save the frequently used Jiffy steps separately in repository so that those can be reused across tasks instead of writing the same steps again and again. These components can be used any number of times in any number of tasks.
+Please Refer to Repository&amp;gt;components to understand more on the usage of Components.
+Start Sub Task &amp;amp; End Sub Task Sub Task consists of two nodes: Start Sub Task and End Sub Task.</description>
+    </item>
+    
+    <item>
+      <title>5. UI</title>
+      <link>http://localhost:1313/task-design---tasks---objects-and-properties/5.-ui/</link>
+      <pubDate>Mon, 07 Nov 2016 14:06:40 +0530</pubDate>
+      
+      <guid>http://localhost:1313/task-design---tasks---objects-and-properties/5.-ui/</guid>
+      <description>Jiffy UI nodes allows user to automate UI pages of any other application. For example, Web pages, Mainframe pages, SAP application, Desktop based applications etc. All UI nodes except Excel node works in similar method. Here automation is a two phase approach, first the UI pages needs to be familiarized using Jiffy UI Learn App and then scripting needs to be done in tasks using corresponding UI nodes. Please refer to UI automation using Jiffy for more details on this.</description>
+    </item>
+    
+    <item>
+      <title>6. Email</title>
+      <link>http://localhost:1313/task-design---tasks---objects-and-properties/6.-email/</link>
+      <pubDate>Mon, 07 Nov 2016 14:05:40 +0530</pubDate>
+      
+      <guid>http://localhost:1313/task-design---tasks---objects-and-properties/6.-email/</guid>
+      <description>There are three nodes available in Jiffy to perform different actions related to Emails. Browsing for a mail with a given search criteria - Email Browser Perform given action on a given Email - Email Actions Send an Email - Email Sender
+Email Browser Email browser is used to search emails based on the configuration and Search criteria given in the node.
+The following needs to be provided in the properties</description>
+    </item>
+    
+    <item>
+      <title>7. Miscellaneous</title>
+      <link>http://localhost:1313/task-design---tasks---objects-and-properties/7.-miscellanous/</link>
+      <pubDate>Mon, 07 Nov 2016 14:04:40 +0530</pubDate>
+      
+      <guid>http://localhost:1313/task-design---tasks---objects-and-properties/7.-miscellanous/</guid>
+      <description>Timer Timer node is used to add delays during execution by the time specified in the node.   Rest API REST API node is used to include the REST web services. Please refer to REST &amp;amp; SOAP Services in Jiffy for more details.   File Tranfer FTP node allows the user to SEND files to given location and RECEIVE files from given location.
+The following needs to be selected in properties</description>
+    </item>
+    
+    <item>
+      <title>8. Global Variable Filtering For CSV</title>
+      <link>http://localhost:1313/task-design---tasks---objects-and-properties/9.-global-variable-filtering-for-csv/</link>
+      <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://localhost:1313/task-design---tasks---objects-and-properties/9.-global-variable-filtering-for-csv/</guid>
+      <description>JIFFY_USER_ID, JIFFY_USER_NAME, JIFFY_ENV_NAME are the 3 global variables used to filter CSV input records during execution.
+These variables are used to filter the input data based on the User Id (Id of the user logged in), User Name(user name of the logged in user) and Environment (environment in which execution is triggered) respectively.
+JIFFY_USER_ID
+When the CSV file is uploaded into the Task Design screen and clicked on View CSV, View CSV window is opened.</description>
+    </item>
+    
+  </channel>
+</rss>

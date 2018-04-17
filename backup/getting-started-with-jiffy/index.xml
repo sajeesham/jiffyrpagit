@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Getting Started With Jiffy-rsses on Welcome to the Jiffy-RPA Help Center</title>
+    <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/getting-started-with-jiffy/index.xml</link>
+    <description>Recent content in Getting Started With Jiffy-rsses on Welcome to the Jiffy-RPA Help Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Nov 2016 14:03:40 +0530</lastBuildDate>
+    <atom:link href="http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/getting-started-with-jiffy/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>1. What is Jiffy?</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/getting-started-with-jiffy/What_is_Jiffy/</link>
+      <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/getting-started-with-jiffy/What_is_Jiffy/</guid>
+      <description>&lt;p&gt;Jiffy is a Robotic Automation tool which provides everything you need to implement a continuous automation framework, Reporting Automation, Cognitive Robots &amp;amp; analytics. Automate any task manually performed on a computer, rule based or non rule based.&lt;/p&gt;
+
+&lt;p&gt;With simple drag and drop, automate any manual activity carried out across desktop applications, web applications or mainframes. The process is further simplified with nodes that can ease interactions wtih excel, email, REST, web services etc.&lt;/p&gt;
+
+&lt;p&gt;JIFFY can not only carryout an exact automation like any other RPA software, it can securely log into the application and execute actions on the application in the same way that an user would, you can also integrate directly with backend services exposed by applications where possible. This reduces the number of automation steps, is less error prone and is much easier to maintain.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2. Jiffy Workspace</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/getting-started-with-jiffy/Jiffy_Workspace/</link>
+      <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/getting-started-with-jiffy/Jiffy_Workspace/</guid>
+      <description>
+
+&lt;p&gt;Jiffy workspace has two components&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Jiffy Application&lt;/strong&gt; and &lt;strong&gt;Jiffy UI Learn application.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Jiffy UI learn application is required only when Jiffy is used for UI automation. During UI automation, user needs to ensure that Jiffy service is running in the machine where the UI automation is performed. Jiffy service is a supporting application which is required for the interaction between Jiffy application and UI application.&lt;/p&gt;
+
+&lt;h2 id=&#34;jiffy-application&#34;&gt;Jiffy Application&lt;/h2&gt;
+
+&lt;p&gt;Jiffy Log-In Screen comes up on entering the Jiffy URL on the browser. Provide Username and Password and click on Log In button to login to the application.&lt;/p&gt;
+
+&lt;p&gt;Jiffy provides standard modules to perform end to end task management activities right from design to execution and reporting. Task Design, Task Execution, Dashboards, Repository and Settings are the standard modules which gives quick links to the various functionalities in Jiffy.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dashboard&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Dashboard provides a quick snapshot of progress made across Task Design and Task Execution.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Task Design&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Task Design module is used to design the automated tasks. In Jiffy, Tasks are managed in a hierarchical structure.
+&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image1.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once the Function and Process is created, Tasks and Environments can be added under Process. The Tasks created under a Process can be executed under any Environment added under the same Process.&lt;/p&gt;
+
+&lt;p&gt;Task Design module comprises of the following menu items: &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Task plan&lt;/em&gt; - To manage the hierarchical structure for tasks – Add/Edit Processes and Environments&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Configurations&lt;/em&gt; - To define the connection parameters for all the applications used in the automated steps of Tasks&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Tasks&lt;/em&gt; - To manage all functionalities of automated tasks&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Task Execution&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Task execution module is to manage the execution of Tasks. This comprises of the following Menu Items,&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Run Tasks&lt;/em&gt; -  To Run/Schedule run for selected task(s) under the selected environment&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Scheduled runs&lt;/em&gt; – To view/cancel scheduled runs&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Execution Summary &amp;amp; History&lt;/em&gt; – To get the details of all the tasks executed&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Polling History&lt;/em&gt; -  To get the details of all the polling tasks (tasks which are continuously getting executed at a given time interval)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Repository&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;All the items which can be reused are saved under repository. Jiffy comes with a rich set of repository functions – Add/Edit/Archive/Replace etc. Repository comprises of the following menu items:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Task repository&lt;/li&gt;
+&lt;li&gt;XML Templates&lt;/li&gt;
+&lt;li&gt;JSON Templates&lt;/li&gt;
+&lt;li&gt;CSV Data&lt;/li&gt;
+&lt;li&gt;XML Data&lt;/li&gt;
+&lt;li&gt;Web Services&lt;/li&gt;
+&lt;li&gt;Expressions&lt;/li&gt;
+&lt;li&gt;UI Controls&lt;/li&gt;
+&lt;li&gt;Labels&lt;/li&gt;
+&lt;li&gt;Excel Macros&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Components&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A group of automated steps that perform a sub task can be made as a component and can be saved here to be used across any other Tasks. This avoids the repeated writing of same steps again and again in the Task design.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Settings&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;All the Jiffy admin functionalities are listed under this menu.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Function&lt;/em&gt; - Create and manage Functions&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Roles&lt;/em&gt; - Create and manage Roles&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Users&lt;/em&gt; - Create and manage Users&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;License&lt;/em&gt; – To view the license details&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3. Administrative Functions</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/getting-started-with-jiffy/Administrative_Functions/</link>
+      <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/getting-started-with-jiffy/Administrative_Functions/</guid>
+      <description>&lt;p&gt;Jiffy Admin is responsible for managing the key administrative functions in Jiffy. All admin functionalities are available under &lt;em&gt;Settings&lt;/em&gt; in the Main Menu. Admin functionalities include: &lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Manage Users&lt;/li&gt;
+&lt;li&gt;Define Roles&lt;/li&gt;
+&lt;li&gt;Assign Roles to Users&lt;/li&gt;
+&lt;li&gt;Manage Functions&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Manage Users :&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;To create new users, Activate/de-activate a user, View the list of users, View the details of individual users.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Define Roles &amp;amp; Assign Roles to Users:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In Jiffy, the user accesses are controlled through the roles assigned against each user. Roles works as given below,&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;For each user action, there will be a pre defined permission in Jiffy. For example, Add a Task, Update a task, Approve repository update, Add XML data to repository etc. These permissions are categorized under three Entity Types – Function, Process and Repository. For example, all permissions related to Repository actions are defined under Entity Type Repository.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Admin users can create different Roles (&lt;em&gt;Settings -&amp;gt; Roles -&amp;gt; Add Role&lt;/em&gt;) by choosing required permissions to it. Roles also will be defined at Entity Level, i.e under one Role, permissions related to only one entity type can be added. But multiple Roles can be created for each Entity type by choosing relevant permissions defined under that entity type.&lt;/li&gt;
+&lt;li&gt;Assign the Roles to users created, so that the user gets access as per the permissions added to the Role.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Admin has the privilege to define any number of Roles and can assign multiple roles to users.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Manage Functions:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Only admin user can create/edit Functions for the task architecture.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/getting-started-with-jiffy/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/getting-started-with-jiffy/test/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

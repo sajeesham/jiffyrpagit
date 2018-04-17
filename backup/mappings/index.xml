@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mappings-rsses on Welcome to the Jiffy-RPA Help Center</title>
+    <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/mappings/index.xml</link>
+    <description>Recent content in Mappings-rsses on Welcome to the Jiffy-RPA Help Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Nov 2016 14:03:40 +0530</lastBuildDate>
+    <atom:link href="http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/mappings/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>1. Overview</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/mappings/1/</link>
+      <pubDate>Sat, 12 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/mappings/1/</guid>
+      <description>&lt;p&gt;Mapping defines the set of data to be passed to a specific node. Mapping for a particular node is defined at the connector that is connected to the input side of the node i.e. data input to the node is given from the connector situated to the left side of the node.&lt;/p&gt;
+
+&lt;p&gt;Once relevant nodes are selected for tasks, the mapping between nodes needs to be defined. This can be done in the mapping window. Jiffy mapping screen is very powerful and easy to update. The output of each of the nodes are available to be mapped as input in all the subsequent nodes.&lt;/p&gt;
+
+&lt;p&gt;Mapping screen appears in two ways:&lt;br /&gt;
+ 1. Double clicking on the link between the two connected nodes or&lt;br /&gt;
+ 2. Clicking the link between the two nodes and click the &amp;lsquo;Edit Mappings&amp;rsquo; button. 
+In the mapping window, Jiffy automatically list out all the outputs of all the previous nodes. User need to just select the template from where it needs to be mapped to the input of the current node.&lt;/p&gt;
+
+&lt;p&gt;There are two types of mapping:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Easy Mapping&lt;/li&gt;
+&lt;li&gt;Element Mapping&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2. Easy Mapping</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/mappings/2/</link>
+      <pubDate>Sat, 12 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/mappings/2/</guid>
+      <description>
+
+&lt;p&gt;If the mapping of the nodes and their attributes (within the Edit Mapping screen) is based on their relative names, Easy Map functionality can be used. Click the required parent node to be mapped on LHS &amp;amp; RHS and click on &amp;lsquo;Easy Map&amp;rsquo; button, this will map all the elements with same name on the either side. Once he easy mappings is done,will appear at the bottom of the screen.&lt;/p&gt;
+
+&lt;p&gt;Easy Map requires both LHS and RHS elements. If an element is selected only at one side and easy mapped, mapping will not be done. More than one value cannot be mapped to one RHS. But same LHS can be mapped to multiple RHS.&lt;/p&gt;
+
+&lt;h3 id=&#34;mapping-at-node-level-and-attribute-level&#34;&gt;Mapping at Node level and Attribute level:&lt;/h3&gt;
+
+&lt;p&gt;Mappings can be done both at node and attribute level.
+If a particular attribute has to be mapped, select that attribute and then you can click on Easy Map button. This will map that element along with its parent node.&lt;/p&gt;
+
+&lt;h3 id=&#34;notes&#34;&gt;Notes:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;In case user is trying to change the mapping which is already easy mapped, mapping will be done as per the new changes and the original history will be maintained.&lt;/li&gt;
+&lt;li&gt;Mapped values can be sorted in the tabular column, by clicking on the the empty area next the field to be sorted, an arrow appears. Click on the arrow to sort in ascending or descending order.&lt;/li&gt;
+&lt;li&gt;&amp;lsquo;From Where&amp;rsquo; field is disabled and hence cannot be changed.&lt;/li&gt;
+&lt;li&gt;Mappings can be searched from the table by typing in the search box.&lt;/li&gt;
+&lt;li&gt;Mapping can be deleted  by clicking on the Cross icon next to the element to be deleted. All the existing mappings can be deleted by clicking on the Recycle Bin icon After you press this icon , the table below will become empty.&lt;/li&gt;
+&lt;li&gt;Filter can be applied in “Which All” field.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/BH1tFgz9KN4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>3. Element Mapping</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/mappings/3/</link>
+      <pubDate>Sat, 12 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/mappings/3/</guid>
+      <description>
+
+&lt;p&gt;If you want to map particular elements you can use ELEMENT MAP.&lt;/p&gt;
+
+&lt;p&gt;This mapping simply maps the LHS element with the selected RHS element. You can click on the node/attribute and click on Element Map button, this will map only that particular element.&lt;/p&gt;
+
+&lt;p&gt;Once the element mapping is completed, it will appear at the bottom.&lt;/p&gt;
+
+&lt;p&gt;Element mapping also can be done both at node and attribute level.&lt;/p&gt;
+
+&lt;p&gt;Unlike Easy Map, Element map doesn’t require both LHS and RHS elements. If you select an element on either side or then press Element Map button, it works as constant mapping.&lt;/p&gt;
+
+&lt;p&gt;Four types of mappings can be selected in LHS&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Easy&lt;/li&gt;
+&lt;li&gt;XPath&lt;/li&gt;
+&lt;li&gt;Constant&lt;/li&gt;
+&lt;li&gt;Expression&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;easy&#34;&gt;Easy :&lt;/h3&gt;
+
+&lt;p&gt;Create XML structure on RHS and then user can edit to make appropriate changes.&lt;/p&gt;
+
+&lt;h3 id=&#34;xpath&#34;&gt;XPath :&lt;/h3&gt;
+
+&lt;p&gt;In Xpath mapping the values are hardcoded about a particular item. Xpath mapping has three options&lt;/p&gt;
+
+&lt;p&gt;i. 1:1 - Say, an item has to be copied from first line to third line, this option can be used&lt;/p&gt;
+
+&lt;p&gt;ii. 1:N - Say, an item has to be copied from 1st line to all lines, this option can be used.&lt;/p&gt;
+
+&lt;p&gt;iii. N:N - Say, an item id from multiple has to be copied to all lines, this option can be used.
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/9Z6SG9A5YQs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&#34;constant&#34;&gt;Constant :&lt;/h3&gt;
+
+&lt;p&gt;A constant value has to be provided in &amp;lsquo;What To Get&amp;rsquo; field, that will be mapped to RHS.
+Constant mapping has two options&lt;/p&gt;
+
+&lt;p&gt;i. 1:1 - Say, one field &amp;lsquo;Order Quantity&amp;rsquo; has to be 100 in first line, this option can be used.&lt;/p&gt;
+
+&lt;p&gt;ii. 1:N - Say, the field &amp;lsquo;Order Quantity&amp;rsquo;  in all lines has to be 100, this option can be used.
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/6veggftAFMU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&#34;expression&#34;&gt;Expression :&lt;/h3&gt;
+
+&lt;p&gt;In Expression mapping Java Script can be used. Click on the Editor button to open up editor screen. Text Editor Screen opens up. On the LHS, user can write Java script to get the desired value which needs to be mapped with RHS. All the output values from the previous nodes can be used to write expressions here, also user can choose the Jiffy built-in functions available on the right hand side of the window.
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/vU2mCdbsN8U&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>4. Stale Mapping</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/mappings/5/</link>
+      <pubDate>Sat, 12 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/mappings/5/</guid>
+      <description>&lt;p&gt;In Jiffy you can use existing task to Create new task. On copying the existing task nodes to the new task, if any mapping is missed then it comes as a red dotted line. This depicts that the mapping is stale. The stale mappings will be listed on the right hand side and those can be fixed easily to run the task.&lt;/p&gt;
+
+&lt;p&gt;Steps to be followed to fix Stale mapping
+&lt;br/&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;After pasting the nodes you can see the red dotted line coming up, this line depicts the stale mapping i.e. mapping is not copied correctly. The task won&amp;rsquo;t run until all the stale mappings are fixed. &amp;lt;/li.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;On double clicking the red dotted line you can view the stale mappings, which will get listed on the right hand side&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;To fix the stale mapping , open up the Mapping window&lt;/li&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Auto Fix button- In order to Auto Fix all the mappings click on the the Auto Fix button . Auto Fix” button acts upon “From where” column and “What to get” column in the table. It is preceded by a drop box which will list all the stale references in the table below.It will replace all the references of selected stale reference with the reference of the node selected at left hand side of the mapping dialog.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Fix Mapping Button-  In order to fix individual Mapping Line click on the the Fix Mapping Button.It is only applicable for the stale mappings whose source node is missing in the target graph. This button will correct the “From where” column of the mapping with the selected node from the left hand side of the mapping tree.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;On fixing all the stale mappings , red dotted lines will disappear and normal green lines will be visible between nodes.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/1238fJRDYrE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>5. Remove Empty Attributes &amp; Remove Empty Nodes</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/mappings/6/</link>
+      <pubDate>Sat, 12 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/mappings/6/</guid>
+      <description>&lt;p&gt;Remove Empty Attributes and Remove Empty Nodes are available as drop down at the RHS of the Edit Mapping data screen. These options are used to remove empty attributes/empty nodes from the input template of RHS node during execution.&lt;/p&gt;
+
+&lt;p&gt;For example, below task&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image29.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt; Mapping between XML data node and Sterling node is&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image28.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;XML data is uploaded as&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image27.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt; Both Remove Empty Attributes &amp;amp; Remove Empty Nodes has been selected in mapping window for RHS node&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image26.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In this case when the task is executed, in iteration 1 input to Sterling node will be formed as below with all attributes&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image30.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Whereas in iteration 2, attribute Enterprise code will not be removed from input template&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image31.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In iteration 3, complete node will be removed from input template&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

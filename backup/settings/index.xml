@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Settings-rsses on Welcome to the Jiffy-RPA Help Center</title>
+    <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/settings/index.xml</link>
+    <description>Recent content in Settings-rsses on Welcome to the Jiffy-RPA Help Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Nov 2016 14:08:40 +0530</lastBuildDate>
+    <atom:link href="http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/settings/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>1. Functions</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/settings/1/</link>
+      <pubDate>Mon, 07 Nov 2016 14:08:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/settings/1/</guid>
+      <description>&lt;p&gt;In Jiffy, automated tasks are managed in a hierarchical structure
+&lt;img src=&#34;&#34; alt=&#34;Image 1&#34; style=&#34;;;&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;lsquo;Function&amp;rsquo; can be user defined according to their requirements. For example, a JIFFY function could be:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Finance&lt;/li&gt;
+&lt;li&gt;HR&lt;/li&gt;
+&lt;li&gt;Admin&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;i.e All Finance related processes &amp;amp; tasks can be tracked under Function Finance, similarly HR and Admin.&lt;/p&gt;
+
+&lt;p&gt;Creation and manage of Functions can be done only by users with ### Admin level access. Admin can also make the project Inactive. If a project is inactive, all the Functions, Processes and Tasks under it will not be visible anywhere.&lt;/p&gt;
+
+&lt;p&gt;The following are the different functionalities available under this folder&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Create FUNCTION - New functions can be created by admin user at &lt;em&gt;Setting &amp;gt; Functions&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Edit FUNCTION - An existing function can be modified here.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2. Roles</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/settings/2/</link>
+      <pubDate>Mon, 07 Nov 2016 14:07:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/settings/2/</guid>
+      <description>
+
+&lt;p&gt;Creation and Manage of Roles can only be done by a user with Admin level access.&lt;/p&gt;
+
+&lt;p&gt;In Jiffy, the user accesses are controlled through the roles assigned against each user. Roles works as given below.&lt;/p&gt;
+
+&lt;p&gt;For each user action, there will be a pre defined permission in Jiffy. For example, Add a Task, Update a task, Approve repository update, Add XML data to repository etc.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;These permissions are categorized under three Entity Types – Function, Process and Repository.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Function - All permissions at Function level&lt;/li&gt;
+&lt;li&gt;Process - All permissions at Process level&lt;/li&gt;
+&lt;li&gt;Repository - All permissions related to Repository&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Admin users can create different Roles (Settings -&amp;gt; Roles -&amp;gt; Add Role ) by choosing required permissions to it. Roles are also defined at Entity Level, i.e under one Role, permissions related to only one entity type can be added. But multiple Roles can be created for each Entity type by choosing required permission set accordingly&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Assign the Roles to users created, so that the user gets access as per the permissions added to the Role.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;note&#34;&gt;Note :&lt;/h3&gt;
+
+&lt;p&gt;Admin user can edit the existing Roles which in turn will affect the permission levels of exiting users who are assigned with that role.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3. Users</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/settings/3/</link>
+      <pubDate>Mon, 07 Nov 2016 14:06:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/settings/3/</guid>
+      <description>
+
+&lt;p&gt;Jiffy users can be created and managed at Setting &amp;gt; Users.
++
+The following are functionalities allowed here.&lt;/p&gt;
+
+&lt;h3 id=&#34;create-user&#34;&gt;Create User&lt;/h3&gt;
+
+&lt;p&gt;Users with admin level access only can create new users. The following details needs to be provided to create a user.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Field&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Username&lt;/td&gt;
+&lt;td&gt;User ID&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Password&lt;/td&gt;
+&lt;td&gt;Password&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;First name&lt;/td&gt;
+&lt;td&gt;First name&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Last name&lt;/td&gt;
+&lt;td&gt;Last name&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Timezone&lt;/td&gt;
+&lt;td&gt;User timezone. This is important as all the time information across different modules in Jiffy will be displayed based on the timezone set here for the logged in user&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Bugtracker user id&lt;/td&gt;
+&lt;td&gt;It is User Id of the JIRA /QC project. This is applicable only when Jira &amp;amp; QC are integrated. This will be the user id used to register new Jira tickets in Jira/QC&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Super User Access&lt;/td&gt;
+&lt;td&gt;Defines the new user has super user access or not.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Admin Access&lt;/td&gt;
+&lt;td&gt;Whether you have admin access or not. Admin has all the permissions by default. No need to add roles to a user with Admin access.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Active&lt;/td&gt;
+&lt;td&gt;Whether the id is active/inactive&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Deactivate User : Select a user, click on &amp;lsquo;deactivate&amp;rsquo; button at the top. Users with admin level access only can deactivate another user.&lt;/li&gt;
+&lt;li&gt;Assign Roles to User.&lt;/li&gt;
+&lt;li&gt;
+Once the users and Roles are created, admin can assign roles to users. Select the user to whom the roles need to be assigned. Goto &amp;lsquo;User Roles&amp;rsquo; tab. Click on &amp;lsquo;Assign Role&amp;rsquo;.&lt;/li&gt;
+&lt;li&gt;
+When a Role of entity type Function is selected, it will ask for the list of functions where the role assigned is applicable to. Similarly for a role at process level, it will ask for all the list of Function &amp;gt; Processes where this assigned role is applicable to.&lt;/li&gt;
+&lt;li&gt;Edit User details : A user with admin level access can edit user details at first tab &amp;lsquo;Over view&amp;rsquo;.&lt;/li&gt;
+&lt;li&gt;User Configurations : All user specific configurations can be viewed/edited in third tab &amp;lsquo;User Configurations&amp;rsquo;.
+*&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>4. Manage Your Password</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/settings/4/</link>
+      <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/settings/4/</guid>
+      <description>
+
+&lt;p&gt;When a User ID is created, user will receive an automated email with password details.&lt;/p&gt;
+
+&lt;h3 id=&#34;forgot-your-password&#34;&gt;Forgot Your Password?&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Click on Forgot password button from the Login page&lt;/li&gt;
+&lt;li&gt;Password Reset page appears, Enter email id&lt;/li&gt;
+&lt;li&gt;Click on Reset my password button&lt;/li&gt;
+&lt;li&gt;Password reset successful page appears. You will get an email for setting up the new password&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;to-change-password&#34;&gt;To Change Password&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Click on the username displayed on the right side on the top of the page. The drop down contains the Change Password option&lt;/li&gt;
+&lt;li&gt;Click on the Change Password option&lt;/li&gt;
+&lt;li&gt;Password change screen appears&lt;/li&gt;
+&lt;li&gt;Key in the details&lt;/li&gt;
+&lt;li&gt;Click on the Change my password button&lt;/li&gt;
+&lt;li&gt;Password is successfully changed&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Task Design - Tasks - Objects And Properties-rsses on Welcome to the Jiffy-RPA Help Center</title>
+    <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks---objects-and-properties/index.xml</link>
+    <description>Recent content in Task Design - Tasks - Objects And Properties-rsses on Welcome to the Jiffy-RPA Help Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Nov 2016 14:10:40 +0530</lastBuildDate>
+    <atom:link href="http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks---objects-and-properties/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>1. Data Sources</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks---objects-and-properties/1/</link>
+      <pubDate>Mon, 07 Nov 2016 14:10:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks---objects-and-properties/1/</guid>
+      <description>
+
+&lt;p&gt;These are the data nodes which can be used to provide input data for the tasks&lt;/p&gt;
+
+&lt;h2 id=&#34;csv-data&#34;&gt;CSV Data&lt;/h2&gt;
+
+&lt;p&gt;This can be used where the task input needs to be given in a csv file.&lt;br /&gt;
+The CSV file needs to be uploaded into Repository &amp;gt; CSV file prior to using the same in task design.&lt;br /&gt;
+Pull the node to task design window and update the properties.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image10.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Refer Using CSV In Jiffy for the further details on CSV. &lt;/p&gt;
+
+&lt;h2 id=&#34;xml-data&#34;&gt;XML Data&lt;/h2&gt;
+
+&lt;p&gt;This can be used where the task input needs to be given as XML data. The XML Data node expects the source file to be under &lt;JiffyRoot&gt; root element. Configuring XML data node is similar to CSV Data, XML file has to be selected instead of CSV file.&lt;/p&gt;
+
+&lt;h2 id=&#34;json-data&#34;&gt;JSON Data&lt;/h2&gt;
+
+&lt;p&gt;This can be used where the task input needs to be given as JSON data.&lt;/p&gt;
+
+&lt;h2 id=&#34;db&#34;&gt;DB&lt;/h2&gt;
+
+&lt;p&gt;A DB node is used when the input data is stored in the database. Jiffy DB(Database) node allows to connect to any configured Oracle Database. Jiffy allows Read/Update functionalities from the DB node.&lt;/p&gt;
+
+&lt;p&gt;Notes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;DB configuration has to be completed at &lt;i&gt;Task design &amp;gt; Configurations &amp;gt; Database Configurations&lt;/i&gt; prior to using the node in tasks&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Refer Designing An Automated task In JIFFY - Example Step 2 for the details on configuring the DB node&lt;/p&gt;
+
+&lt;h2 id=&#34;docube-query&#34;&gt;Docube Query&lt;/h2&gt;
+
+&lt;p&gt;This node allows the user to take input data from Jiffy Docube application. Here user can write SQL queries to read data from CSV files available in Docube application.&lt;/p&gt;
+
+&lt;p&gt;Notes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Docube configuration has to be completed at Task design -&amp;gt; Docube Configurations prior to using the node in tasks &lt;/li&gt;&lt;/li&gt;
+&lt;li&gt;Query can be written to get data from existing CSV files from Docube applications. Only Select queries are allowed and the following are the formats to be used in queries&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Sl No&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;th&gt;Format to be used&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Basic Queries to fetch all the data from the file&lt;/td&gt;
+&lt;td&gt;select * from ${file_name}&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;Query to fetch records if a given string matching with values in a particular column of CSV&lt;/td&gt;
+&lt;td&gt;select * from ${file_name} where coloumn_name=&amp;lsquo;string_to_matched&amp;rsquo;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;Query to fetch records if a given integer matching with values in a particular column of CSV&lt;/td&gt;
+&lt;td&gt;select * from ${file_name} where coloumn_name=integer_to_matched&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;Query to fetch records if the value of a mapped variable (integer type) matching with values in a particular column of CSV&lt;/td&gt;
+&lt;td&gt;select * from ${file_name} where coloumn_name=$[mapping_parameter]&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Query to fetch records if the value of a mapped variable (string type) matching with values in a particular column of CSV&lt;/td&gt;
+&lt;td&gt;select * from ${file_name} where coloumn_name=&amp;lsquo;$[mapping_parameter]&amp;rsquo;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;In case of specific column names to be returned, mention the exact column names in CSV file in properties tab with space separated&lt;/li&gt;&lt;/li&gt;
+&lt;li&gt;All the values returned will be available to be mapped as input to all nodes comes after Docube node&lt;/li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;random-number&#34;&gt;Random Number&lt;/h2&gt;
+
+&lt;p&gt;Random number node creates a random number within the given range.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2. Sterling Components</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks---objects-and-properties/2/</link>
+      <pubDate>Mon, 07 Nov 2016 14:09:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks---objects-and-properties/2/</guid>
+      <description>
+
+&lt;p&gt;These are nodes which can be used to perform different actions in Sterling application.&lt;/p&gt;
+
+&lt;h2 id=&#34;sterling-api&#34;&gt;Sterling API&lt;/h2&gt;
+
+&lt;p&gt;To invoke an API call to Sterling application. Before using these nodes, complete sterling configuration under &lt;em&gt;Task Design &amp;gt; Configurations&lt;/em&gt;. Mention the configuration name, API name to be invoked and the input and output XML templates to be used for API call in the properties of the node.&lt;/p&gt;
+
+&lt;h2 id=&#34;service-node&#34;&gt;Service Node&lt;/h2&gt;
+
+&lt;p&gt;To invoke a service call to Sterling application. Before using these nodes, complete sterling configuration under &lt;em&gt;Task Design &amp;gt; Configurations&lt;/em&gt;. Mention the configuration name, Service name to be invoked and the input and output XML templates to be used for service call in the properties of the node.&lt;/p&gt;
+
+&lt;h2 id=&#34;jms-publisher&#34;&gt;JMS Publisher&lt;/h2&gt;
+
+&lt;p&gt;JMS Publisher node publishes messages to any standard queue that is configured to Sterling process/server. Sterling process/server in turn picks up the messages and processes the message based on the business rules. Before using these nodes, complete JMS queue configuration under &lt;em&gt;Task Design &amp;gt; Configurations&lt;/em&gt;. Mention the configuration name and XML template to be used to publish message in the properties of node.&lt;/p&gt;
+
+&lt;h2 id=&#34;jms-queuebrowser&#34;&gt;JMS QueueBrowser&lt;/h2&gt;
+
+&lt;p&gt;JMS QueueBrowser is used to browse for a message in the queue as per the given search criteria. The queue browser reads the last 1000 messages and returns the message which matches as per the selection criteria.&lt;/p&gt;
+
+&lt;p&gt;Example 1: An email confirmation message is sent to the customer once an invoice is processed in the application. In order to get the email details, user can use Jiffy JMS queue browser to read the messages in the queue and get the correct email details from the queue&lt;/p&gt;
+
+&lt;h2 id=&#34;sterling-soap-request&#34;&gt;Sterling SOAP Request&lt;/h2&gt;
+
+&lt;p&gt;To invoke a SOAP based service call to other applications. Before using these nodes, complete SOAP configuration under &lt;em&gt;Task Design &amp;gt; Configurations&lt;/em&gt;. Mention the configuration name, Service name to be invoked and the input and output XML templates to be used for service call in the properties of the node.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3. Validator</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks---objects-and-properties/3/</link>
+      <pubDate>Mon, 07 Nov 2016 14:08:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks---objects-and-properties/3/</guid>
+      <description>
+
+&lt;p&gt;These are the data nodes which can be used to provide input data for the tasks&lt;/p&gt;
+
+&lt;h2 id=&#34;validator&#34;&gt;Validator&lt;/h2&gt;
+
+&lt;p&gt;This nodes can be used to implement all kind of validations required as part of task execution. Multiple levels of complex validations rules can be added using constant values/Variables/expressions and different operators like =,!=,&amp;lt;,&amp;gt;,&amp;lt;=,&amp;gt;=,like, AND,OR etc.&lt;/p&gt;
+
+&lt;p&gt;By setting the toggle button - &amp;lsquo;Stop on validation error&amp;rsquo; to ON in properties, the further execution of the tsk can be controlled.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/q5N6VzrH7Jo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>4. SubTasks</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks---objects-and-properties/4/</link>
+      <pubDate>Mon, 07 Nov 2016 14:07:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks---objects-and-properties/4/</guid>
+      <description>
+
+&lt;h2 id=&#34;component&#34;&gt;Component&lt;/h2&gt;
+
+&lt;p&gt;Components are used to save the frequently used Jiffy steps separately in repository so that those can be reused across tasks instead of writing the same steps again and again. These components can be used any number of times in any number of tasks.&lt;/p&gt;
+
+&lt;p&gt;Please Refer to &lt;em&gt;Repository&amp;gt;components&lt;/em&gt; to understand more on the usage of Components.&lt;/p&gt;
+
+&lt;h2 id=&#34;start-sub-task-end-sub-task&#34;&gt;Start Sub Task &amp;amp; End Sub Task&lt;/h2&gt;
+
+&lt;p&gt;Sub Task consists of two nodes: Start Sub Task and End Sub Task. They work as a group. Maximum loop count and Maximum time that a sub task to be executed can be defined in the properties. This can be used in cases where&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A group of nodes needs to be executed until some criteria is met&lt;/li&gt;
+&lt;li&gt;A group of nodes needs to be executed for N times&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For example, as part of a task execution, step 4 can be executed only if an email is triggered post step 3. Add a subtask group after step 3 with a maximum delay of X seconds and loop count of Y times. Add a validator for the email in between start sub task and end sub task. In this case, the execution will come out of subtask and proceed with the execution of subsequent nodes if any one of the below condition is satisfied&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;If all nodes in the subtask is passed successfully (if there are more than one validator node within subtask, all validator nodes has to be passed successfully)&lt;/li&gt;
+&lt;li&gt;If the loop count reaches Y times&lt;/li&gt;
+&lt;li&gt;If the subtask execution time reaches X seconds&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;if-else-endif&#34;&gt;If, Else &amp;amp; EndIf&lt;/h2&gt;
+
+&lt;p&gt;If-else-End If nodes brings conditional execution in JIFFY. Refer *task &amp;gt; If - Else – Endif* for more details.&lt;/p&gt;
+
+&lt;p&gt;Task&lt;/p&gt;
+
+&lt;p&gt;Task node allows the users to access and execute another task of same release as a child task from the current task (Parent task). &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Notes :&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Any number of child task nodes can be added in the parent task&lt;/li&gt;
+&lt;li&gt;No data can be passed between child task and parent task. i.e Task node does not allow any data to be mapped to the child task from previous nodes or mapped from child task to use in further nodes of parent task&lt;/li&gt;
+&lt;li&gt;Nested tasks are not allowed, i.e another parent task (any task which has a task node) cannot be used in task node&lt;/li&gt;
+&lt;li&gt;Task nodes are not allowed in Components&lt;/li&gt;
+&lt;li&gt;Task nodes cannot be used in iteration. For example, if the execution of a task needs to be iterated with different input data, then a task node cannot be used&lt;/li&gt;
+&lt;li&gt;When CONTINUE ON FAILURE in properties is set to Off, if the child task execution is failed, then the nodes which comes after task node will not be executed&lt;/li&gt;
+&lt;li&gt;When the parent task executed from task design, the execution details of child task can be viewed only in Task Execution - &amp;gt; Execution History. The Run ID can be obtained  by clicking the view button of child task node and use the Run ID to get more details of the execution in Task Execution - &amp;gt; Execution History&lt;/li&gt;
+&lt;li&gt;When the parent task is executed form Task Execution tab, separate entries will be created in Execution history for parent task and each individual child task with all the execution details of each node&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;h2 id=&#34;polling-nodes&#34;&gt;Polling Nodes&lt;/h2&gt;
+
+&lt;p&gt;Polling nodes are used to trigger the execution of other tasks continuously at given time interval. Only task nodes are allowed within polling nodes. The execution of polling nodes will be continued until it is stopped manually, irrespective of child tasks are successfully executed or failed. So this can be considered as a scheduler which can trigger the execution of other child tasks at a given time interval. &lt;/p&gt;
+
+&lt;p&gt;Polling task execution can be triggered either from Task Design or Task Execution.  As soon as the polling task execution is triggered it creates the following, &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;An entry in polling history with Status as POLLING, which says the execution is in progress&lt;/li&gt;
+&lt;li&gt;An entry in Execution Summary for each child task with details as how many times the child tasks are executed, out of which how many are successful execution and how many are failed&lt;/li&gt;
+&lt;li&gt;An entry for each round of execution for each of the child task within polling nodes, i.e if the child task within the polling nodes are executed 50 times, the execution history will have 50 entries with the details of each round of execution&lt;/li&gt;
+&lt;li&gt;If the polling task is triggered from Task execution, in addition to the above-mentioned entries it will have an entry for parent task in Execution Summary and Execution History&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;stopping-the-polling-node-execution&#34;&gt;Stopping the polling node execution&lt;/h2&gt;
+
+&lt;p&gt;Once the execution is triggered, it can be stopped by selecting the record from Polling history. If the execution is triggered from Task Design, user can also stop the execution by using Stop Run button available in Task design window.
+When the user click on Stop button, execution will not be instantly stopped, instead it will continue till the current iteration is completed for all the child tasks within polling nodes and then will be stopped.  Once stopped, the status of polling task in Polling History will be updated as STOPPED.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Notes:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Only task nodes are allowed within the polling nodes. In case if any other nodes are used, the polling will not be executed and the status in Polling history and Execution summary will be updated as INVALIDATED&lt;/li&gt;
+&lt;li&gt;No iterations are allowed within the polling nodes&lt;/li&gt;
+&lt;li&gt;Polling nodes are not allowed in components&lt;/li&gt;
+&lt;li&gt;Nested polling nodes are not allowed&lt;/li&gt;
+&lt;li&gt;Tasks which has polling node cannot be selected in Task nodes, ie those tasks cannot be used as child tasks&lt;/li&gt;
+&lt;li&gt;RESTART functionality will not be available for polling tasks&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>5. UI</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks---objects-and-properties/5/</link>
+      <pubDate>Mon, 07 Nov 2016 14:06:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks---objects-and-properties/5/</guid>
+      <description>
+
+&lt;p&gt;Jiffy UI nodes allows user to automate UI pages of any other application. For example, Web pages, Mainframe pages, SAP application, Desktop based applications etc. All UI nodes except Excel node works in similar method. Here automation is a two phase approach, first the UI pages needs to be familiarized using Jiffy UI Learn App and then scripting needs to be done in tasks using corresponding UI nodes. Please refer to UI automation using Jiffy for more details on this.&lt;/p&gt;
+
+&lt;p&gt;But Excel node does not require UI familiarization, any excel sheet can be accessed and automated directly using Excel nodes.&lt;/p&gt;
+
+&lt;h2 id=&#34;web-ui&#34;&gt;Web UI&lt;/h2&gt;
+
+&lt;p&gt;Web UI nodes are used to automate web pages.&lt;/p&gt;
+
+&lt;p&gt;Please refer to UI automation using Jiffy for more details on this:
+&lt;a href=&#34;http://localhost:1313/docs/7.-ui-tasks/1.-overview/&#34;&gt;UI Automation Using Jiffy&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;desktop-ui&#34;&gt;Desktop UI&lt;/h2&gt;
+
+&lt;p&gt;To automate UI pages of any desktop application.&lt;/p&gt;
+
+&lt;h2 id=&#34;mainframe-ui&#34;&gt;Mainframe UI&lt;/h2&gt;
+
+&lt;p&gt;To automate UI pages of Mainframe application.&lt;/p&gt;
+
+&lt;h2 id=&#34;sap-ui&#34;&gt;SAP UI&lt;/h2&gt;
+
+&lt;p&gt;To automate UI pages of SAP application.&lt;/p&gt;
+
+&lt;h2 id=&#34;excel&#34;&gt;Excel&lt;/h2&gt;
+
+&lt;p&gt;To access an excel sheet and perform different actions in excel sheets using Jiffy. Excel node does not require familiarization. Excel configurations needs to be completed in Task Design -&amp;gt; Configurations. Once configurations are completed, choose the correct configuration and the Excel sheet to be accessed (File path) in properties. File path needs to be provided with location and file name.&lt;/p&gt;
+
+&lt;p&gt;Double click on the node to update the actions to be performed on given Excel sheet.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Sl No&lt;/th&gt;
+&lt;th&gt;Command&lt;/th&gt;
+&lt;th&gt;Purpose&lt;/th&gt;
+&lt;th&gt;Syntax to be used/Parameters to be used&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Copy Selection&lt;/td&gt;
+&lt;td&gt;To copy the content of selected cells&lt;/td&gt;
+&lt;td&gt;Prior to this command, Select the required cells using Select Cells or Select Cell.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;Get Selected Cell Value&lt;/td&gt;
+&lt;td&gt;To get the cell values copied into predefined output variable&lt;/td&gt;
+&lt;td&gt;Excel_Output to be used outside Excel node. Prior to this command, use Select and copy commands to copy the required data. The variable Excel_Output is predefined and does not require explicit definition.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;Paste&lt;/td&gt;
+&lt;td&gt;To paste the copied content to the location currently selected&lt;/td&gt;
+&lt;td&gt;1. Keep_Source_Formatting, Options – True/False.Prior to this command, use Select and copy commands to copy the required data and again select the location where it needs to be pasted.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;Save File AS&lt;/td&gt;
+&lt;td&gt;To save the file using the name and location given in arguments, with all the latest changes done using excel node scripting.&lt;/td&gt;
+&lt;td&gt;1. folder location, 2. File name, 3. Replace_if_Existing (True/False)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Select Range&lt;/td&gt;
+&lt;td&gt;To select the given range of cells.&lt;/td&gt;
+&lt;td&gt;1. Range_Value – Values to be selected. Single cell or a range - Eg C3, A3:C3&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;Update&lt;/td&gt;
+&lt;td&gt;To update a cell/the selected range with given value&lt;/td&gt;
+&lt;td&gt;1. Range_Value – Range of cells to be updated with given value. Eg C3, A3:C3. 2. Value - Value to be updated in the selected range.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;The values read from Excel using Get Selected Cell Value/Send Copied Cells/Send data will be saved in default pre defined variable Excel_Output. Once the execution is completed, these values can be viewed in the output data of excel node and can be mapped to further nodes.&lt;/p&gt;
+
+&lt;h2 id=&#34;excel-macros&#34;&gt;Excel Macros&lt;/h2&gt;
+
+&lt;p&gt;Excel macros can be created and saved in repository and can be used while doing the scripting for Excel node in task design&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Notes:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;In order to use macros, the excel sheet used should be macro enabled with file extension .xlsm&lt;/li&gt;
+&lt;li&gt;Excel has to be configured to accept VBA macros execution. Select the below marked options in File-&amp;gt; Option-&amp;gt;Trust Center -&amp;gt;Macro Settings&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image11.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>6. Email</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks---objects-and-properties/6/</link>
+      <pubDate>Mon, 07 Nov 2016 14:05:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks---objects-and-properties/6/</guid>
+      <description>
+
+&lt;p&gt;There are three nodes available in Jiffy to perform different actions related to Emails. &lt;/p&gt;
+
+&lt;p&gt;Browsing for a mail with a given search criteria - Email Browser
+Perform given action on a given Email - Email Actions
+Send an Email -  Email Sender&lt;/p&gt;
+
+&lt;h2 id=&#34;email-browser&#34;&gt;Email Browser&lt;/h2&gt;
+
+&lt;p&gt;Email browser is used to search emails based on the configuration and Search criteria given in the node.&lt;/p&gt;
+
+&lt;p&gt;The following needs to be provided in the properties&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Configuration :&lt;/strong&gt;
+Once the configuration entries are created in Task Design - &amp;gt; Configurations, those entries will be available in drop down of Email browser node in task window. All the Email protocols like IMAP/SMTP/EXCHANGE are available in Task Design - &amp;gt;Configuration Page, but configurations created with IMAP or EXCHANGE protocols only will be listed in Email Browser node.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Search in folder :&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Provide the folder to be searched. Follow the below format. Default would be INBOX.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image14.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Search Order:&lt;/strong&gt; The order in which the mailbox needs to searched. Two options&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Latest first (Default) :&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Provides the latest email matching the search criteria based on received date
+Earliest first : Provides the earliest email matching the search criteria based on received date&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Build Search Query :&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;To build the search query. This action can be invoked by clicking on &amp;ldquo;Build Search Query&amp;rdquo; button or double clicking the Email browser icon. Search criteria is similar to building rules in Validation node.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Condition&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;FROM&lt;/td&gt;
+&lt;td&gt;Name/Email address of the sender&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;TO&lt;/td&gt;
+&lt;td&gt;Name/Email address of TO recipient&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;CC&lt;/td&gt;
+&lt;td&gt;Name/Email address of CC recipient&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;BCC&lt;/td&gt;
+&lt;td&gt;Name/Email address of BCC recipient&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Subject&lt;/td&gt;
+&lt;td&gt;Text to search in subject&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Body&lt;/td&gt;
+&lt;td&gt;Text to search in the body&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Received Date&lt;/td&gt;
+&lt;td&gt;Received date of email in format :  [MM/dd/yyyy HH:mm:ss]&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Is Read&lt;/td&gt;
+&lt;td&gt;Takes boolean (true, false) to search read or unread emails&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Default&lt;/td&gt;
+&lt;td&gt;All emails shall be considered in the search&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Email UID&lt;/td&gt;
+&lt;td&gt;Takes Unique ID of email to search email ( When this search criteria is provided all other search criteria&amp;rsquo;s shall be ignored.)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/dFfvlM70FOA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;h2 id=&#34;email-sender&#34;&gt;Email Sender&lt;/h2&gt;
+
+&lt;p&gt;Email Sender node is used to send new emails or forward/reply to the existing emails.&lt;/p&gt;
+
+&lt;p&gt;The following needs to be provided in the properties&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Configuration :&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Once the configuration entries are created in Task Design - &amp;gt; Configurations, those entries will be available in drop down of Email Sender node in design window. All the Email protocols like IMAP/SMTP/EXCHANGE are available in Task Design - &amp;gt;Configuration Page, but configurations created with SMTP or EXCHANGE protocols only will be listed in Email Sender node.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Email Message Template:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In order to mention the Mail to be forwarded/replied or the details of mail to be send, the details needs to be captured in the below XML template format and the XML template needs to be uploaded into repository.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image37.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;email-actions&#34;&gt;Email Actions&lt;/h2&gt;
+
+&lt;p&gt;Email Actions node is used to perform below actions on the email object.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;UpdateSubject&lt;/li&gt;
+&lt;li&gt;MoveTo another folder&lt;/li&gt;
+&lt;li&gt;MarkAsRead&lt;/li&gt;
+&lt;li&gt;MarkAsUnread&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following needs to be provided in the properties&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Configuration :&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Once the configuration entries are created in Task Design - &amp;gt; Configurations, those entries will be available in drop down of Email action node in task window. All the Email protocols like IMAP/SMTP/EXCHANGE are available in Task Design - &amp;gt;Configuration Page, but configurations created with IMAP or EXCHANGE protocols only will be listed in Email Action node.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Email Action Template :&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;An XML template of the below format needs to be created and uploaded to repository before using this node&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/media/image12.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>7. Miscellaneous</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks---objects-and-properties/7/</link>
+      <pubDate>Mon, 07 Nov 2016 14:04:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks---objects-and-properties/7/</guid>
+      <description>
+
+&lt;h2 id=&#34;timer&#34;&gt;Timer&lt;/h2&gt;
+
+&lt;p&gt;Timer node is used to add delays during execution by the time specified in the node. 
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/B8izkogxBd0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;rest-api&#34;&gt;Rest API&lt;/h2&gt;
+
+&lt;p&gt;REST API node is used to include the REST web services. Please refer to REST &amp;amp; SOAP Services in Jiffy for more details.
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/N9pgkMMKm5k&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;file-tranfer&#34;&gt;File Tranfer&lt;/h2&gt;
+
+&lt;p&gt;FTP node allows the user to SEND files to given location and RECEIVE files from given location.&lt;/p&gt;
+
+&lt;p&gt;The following needs to be selected in properties&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Configurations needs to be updated in Task Design -&amp;gt;Configurations.&lt;/li&gt;
+&lt;li&gt;Mode : MODE set to SEND  is used to send and save the XML template selected in INPUT XML TEMPLATE with name and location mentioned at REMOTE PATH location.&lt;/li&gt;
+&lt;li&gt;MODE set to RECEIVE is used to receive a file to OUTPUT  XML TEMPLATE from REMOTE PATH location. Filename including path needs to be given in location&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;kafka-producer&#34;&gt;Kafka Producer&lt;/h2&gt;
+
+&lt;p&gt;Kafka Producer component posts messages to Kafka Topics. It accepts XML/JSON templates as input, if the template selected is XML, Jiffy converts it into JSON before publishing to the Topic.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>8. Global Variable Filtering For CSV</title>
+      <link>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks---objects-and-properties/9/</link>
+      <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://support.jiffyrpa.com.s3-website-us-east-1.amazonaws.com/task-design---tasks---objects-and-properties/9/</guid>
+      <description>&lt;p&gt;JIFFY_USER_ID, JIFFY_USER_NAME, JIFFY_ENV_NAME are the 3 global variables used to filter CSV input records during execution.&lt;/p&gt;
+
+&lt;p&gt;These variables are used to filter the input data based on the User Id (Id of the user logged in), User Name(user name of the logged in user) and Environment (environment in which execution is triggered) respectively.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JIFFY_USER_ID&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;When the CSV file is uploaded into the Task Design screen and clicked on View CSV, View CSV window is opened. The first row in window available for filtering.&lt;/p&gt;
+
+&lt;p&gt;If $[JIFFY_USER_ID] is typed in the USER ID  filtering column; then all the rows with the User ID of Jiffy logged-in user will be displayed.
+Say a user - User1 with user ID - 743, logged into Jiffy and types $[JIFFY_USER_ID] in the User Id filtering field, all the rows containing user ID 743 is filtered and displayed. Similarly, task will be executed only with those two input records.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JIFFY_USER_NAME&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Here $[JIFFY_USER_NAME] variable is used to filter the rows containing user name of Jiffy logged in user. Same as JIFFY_USER_ID.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JIFFY_ENV_NAME&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;JIFFY_ENV_NAME filtering is used to limit the CSV iteration according to environment in which the execution is triggered.
+This filter is applicable only for Task Execution screen. The Trial run execution in Task Design has no effect as it works at process level. If the Trial Run screen has to be tested, then it has to be filtered manually.
+When the execution is triggered from Task Execution, Iteration would be done only for the input records with Environment name same as environment in which execution is triggered.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2. Dashboards on Welcome to the Jiffy-RPA Help Center</title>
+    <link>http://localhost:1313/2.-dashboards/</link>
+    <description>Recent content in 2. Dashboards on Welcome to the Jiffy-RPA Help Center</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Nov 2016 14:03:40 +0530</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/2.-dashboards/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1. Actionables</title>
+      <link>http://localhost:1313/2.-dashboards/1.-actionables/</link>
+      <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
+      
+      <guid>http://localhost:1313/2.-dashboards/1.-actionables/</guid>
+      <description>Annotes are typically unstuctured contents that you can associate with a slice of data. Annotes could be
+ an outcome of a data analysis, which you would want to associate with the slice of data for future reference. a question you have on the data, which you would like to ask others. or even could be issues associated with data, which you want to highlight or request to be fixed.</description>
+    </item>
+    
+    <item>
+      <title>2. Report: Task Design</title>
+      <link>http://localhost:1313/2.-dashboards/2.-report-task-design/</link>
+      <pubDate>Mon, 07 Nov 2016 14:02:40 +0530</pubDate>
+      
+      <guid>http://localhost:1313/2.-dashboards/2.-report-task-design/</guid>
+      <description>You can view annotes at various levels
+ You can view all the annotes around the data presented on the card by clicking on the annotes icon (without selecting a component on visual). The count indicates the total number of annotes available on the data presented. A blue colored annotes icon indicates that you have unread annotes on this slice of data. As soon as an annotes is rendered, it is considered as read by the used.</description>
+    </item>
+    
+    <item>
+      <title>3. Report: Task Execution</title>
+      <link>http://localhost:1313/2.-dashboards/3.-report-task-execution/</link>
+      <pubDate>Mon, 07 Nov 2016 14:02:40 +0530</pubDate>
+      
+      <guid>http://localhost:1313/2.-dashboards/3.-report-task-execution/</guid>
+      <description>You can view annotes at various levels
+ You can view all the annotes around the data presented on the card by clicking on the annotes icon (without selecting a component on visual). The count indicates the total number of annotes available on the data presented. A blue colored annotes icon indicates that you have unread annotes on this slice of data. As soon as an annotes is rendered, it is considered as read by the used.</description>
+    </item>
+    
+    <item>
+      <title>4. System Health</title>
+      <link>http://localhost:1313/2.-dashboards/4.-system-health/</link>
+      <pubDate>Mon, 07 Nov 2016 14:02:40 +0530</pubDate>
+      
+      <guid>http://localhost:1313/2.-dashboards/4.-system-health/</guid>
+      <description>You can view annotes at various levels
+ You can view all the annotes around the data presented on the card by clicking on the annotes icon (without selecting a component on visual). The count indicates the total number of annotes available on the data presented. A blue colored annotes icon indicates that you have unread annotes on this slice of data. As soon as an annotes is rendered, it is considered as read by the used.</description>
+    </item>
+    
+  </channel>
+</rss>
