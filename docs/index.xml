@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome to the Jiffy-RPA Help Center</title>
-    <link>http://localhost:1313/</link>
+    <link>https://sajeesham.github.io/jiffyrpagit/</link>
     <description>Recent content on Welcome to the Jiffy-RPA Help Center</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 07 Aug 2017 21:53:51 +0530</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sajeesham.github.io/jiffyrpagit/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>newarticle</title>
-      <link>http://localhost:1313/posts/newarticle/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/posts/newarticle/</link>
       <pubDate>Mon, 07 Aug 2017 21:53:51 +0530</pubDate>
       
-      <guid>http://localhost:1313/posts/newarticle/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/posts/newarticle/</guid>
       <description>Docube is the best way to visualize data, share insights and delight your customers with visuals which speak your story. We have carefully hidden all the complexity of working iteratively over large data, providing a very simple yet flexible user experience.</description>
     </item>
     
     <item>
       <title>1. Overview</title>
-      <link>http://localhost:1313/mappings/1.-overview/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/mappings/1.-overview/</link>
       <pubDate>Sat, 12 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/mappings/1.-overview/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/mappings/1.-overview/</guid>
       <description>Mapping defines the set of data to be passed to a specific node. Mapping for a particular node is defined at the connector that is connected to the input side of the node i.e. data input to the node is given from the connector situated to the left side of the node.
 Once relevant nodes are selected for tasks, the mapping between nodes needs to be defined. This can be done in the mapping window.</description>
     </item>
     
     <item>
       <title>2. Easy Mapping</title>
-      <link>http://localhost:1313/mappings/2.-easy-mapping/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/mappings/2.-easy-mapping/</link>
       <pubDate>Sat, 12 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/mappings/2.-easy-mapping/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/mappings/2.-easy-mapping/</guid>
       <description>If the mapping of the nodes and their attributes (within the Edit Mapping screen) is based on their relative names, Easy Map functionality can be used. Click the required parent node to be mapped on LHS &amp;amp; RHS and click on &amp;lsquo;Easy Map&amp;rsquo; button, this will map all the elements with same name on the either side. Once he easy mappings is done,will appear at the bottom of the screen.</description>
     </item>
     
     <item>
       <title>3. Element Mapping</title>
-      <link>http://localhost:1313/mappings/3.-element-mapping/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/mappings/3.-element-mapping/</link>
       <pubDate>Sat, 12 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/mappings/3.-element-mapping/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/mappings/3.-element-mapping/</guid>
       <description>If you want to map particular elements you can use ELEMENT MAP.
 This mapping simply maps the LHS element with the selected RHS element. You can click on the node/attribute and click on Element Map button, this will map only that particular element.
 Once the element mapping is completed, it will appear at the bottom.
@@ -54,20 +54,20 @@ Unlike Easy Map, Element map doesn’t require both LHS and RHS elements.</descr
     
     <item>
       <title>4. Stale Mapping</title>
-      <link>http://localhost:1313/mappings/5.-stale-mapping/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/mappings/5.-stale-mapping/</link>
       <pubDate>Sat, 12 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/mappings/5.-stale-mapping/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/mappings/5.-stale-mapping/</guid>
       <description>In Jiffy you can use existing task to Create new task. On copying the existing task nodes to the new task, if any mapping is missed then it comes as a red dotted line. This depicts that the mapping is stale. The stale mappings will be listed on the right hand side and those can be fixed easily to run the task.
 Steps to be followed to fix Stale mapping</description>
     </item>
     
     <item>
       <title>5. Remove Empty Attributes &amp; Remove Empty Nodes</title>
-      <link>http://localhost:1313/mappings/6.-remove-empty-attributes--remove-empty-nodes-/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/mappings/6.-remove-empty-attributes--remove-empty-nodes-/</link>
       <pubDate>Sat, 12 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/mappings/6.-remove-empty-attributes--remove-empty-nodes-/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/mappings/6.-remove-empty-attributes--remove-empty-nodes-/</guid>
       <description>Remove Empty Attributes and Remove Empty Nodes are available as drop down at the RHS of the Edit Mapping data screen. These options are used to remove empty attributes/empty nodes from the input template of RHS node during execution.
 For example, below task
  Mapping between XML data node and Sterling node is
@@ -77,29 +77,29 @@ XML data is uploaded as
     
     <item>
       <title>1. Process</title>
-      <link>http://localhost:1313/task-design---task-plan/1.-process/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-design---task-plan/1.-process/</link>
       <pubDate>Tue, 08 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-design---task-plan/1.-process/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-design---task-plan/1.-process/</guid>
       <description>Create ProcessOnce the Function is defined by admin user, any number of Processes can be added under that Function.From Jiffy main screen, navigate to *Task Design&amp;gt;Task Plan.* Select a Function and click on Add Process button at the top.&amp;lt;br/&amp;gt;Edit ProcessAn existing Process Name, Start date, End Date and Description can be edited from Task Plan. From Jiffy main screen, navigate to *Task Design &amp;gt; Task Plan.</description>
     </item>
     
     <item>
       <title>2. Environments</title>
-      <link>http://localhost:1313/task-design---task-plan/2.-environments/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-design---task-plan/2.-environments/</link>
       <pubDate>Tue, 08 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-design---task-plan/2.-environments/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-design---task-plan/2.-environments/</guid>
       <description>Once a Process is created, environments can be added. Environment is the system/environment where the tasks needs to be executed. Jiffy provides the following functionalities for Environments.
 Add EnvironmentFrom Jiffy main screen, navigate to Task Design &amp;gt; Task Plan. Select a Process under a Function and click on Add Environment button at the top.Delete EnvironmentDeletion of Environment is allowed only if there are no Tasks assigned to the selected environment.</description>
     </item>
     
     <item>
       <title>1. Overview</title>
-      <link>http://localhost:1313/repository/1.-overview/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/repository/1.-overview/</link>
       <pubDate>Mon, 07 Nov 2016 14:13:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/repository/1.-overview/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/repository/1.-overview/</guid>
       <description>Repository refers to a central place where tasks and all other components which are reusable (eg. Input data files, templates, components etc) are stored and maintained. Users with relevent access can upload/download items into repository.
 The following are the sub folders in repository
  Test Case Repository XML templates JSON templates CSV data JSON data Web Services UI Controls Expressions Labels Macros  </description>
@@ -107,29 +107,29 @@ The following are the sub folders in repository
     
     <item>
       <title>2. Task Repository</title>
-      <link>http://localhost:1313/repository/2.-task-repository/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/repository/2.-task-repository/</link>
       <pubDate>Mon, 07 Nov 2016 14:12:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/repository/2.-task-repository/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/repository/2.-task-repository/</guid>
       <description>The primary objective of a task repository is to maintain the baselined versions of tasks that can be reused in future. The Repository provides a folder structure where you can logically group the tasks under various functional heads.
 Once the task designed and verified, if it needs to be baselined to use in future it can be checked into the test case repository. The versioning feature of Jiffy allows to view the previous version of the task in the repository.</description>
     </item>
     
     <item>
       <title>1. Objects And Properties</title>
-      <link>http://localhost:1313/extras/1.-objects-and-properties/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/extras/1.-objects-and-properties/</link>
       <pubDate>Mon, 07 Nov 2016 14:11:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/extras/1.-objects-and-properties/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/extras/1.-objects-and-properties/</guid>
       <description>Data SourcesThese are the data nodes which can be used to provide input data for the tasks&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;b&amp;gt;CSV Data&amp;lt;/b&amp;gt;&amp;lt;br/&amp;gt;This can be used where the task input needs to be given in a csv file. The CSV file needs to be uploaded into Repository &amp;gt; CSV file prior to using the same in task design. Pull the node to task design window and update the properties.</description>
     </item>
     
     <item>
       <title>1. Add Task</title>
-      <link>http://localhost:1313/task-design---tasks/1.-add-task/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-design---tasks/1.-add-task/</link>
       <pubDate>Mon, 07 Nov 2016 14:10:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-design---tasks/1.-add-task/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-design---tasks/1.-add-task/</guid>
       <description>Add/Edit task
 Navigate to Task Design &amp;gt;Tasks. Select Function &amp;amp; Process under which the task has to be created/edited. Click Add task button/select a task. Goto STEPS tab.
 Tasks can be designed/edited in this window using the built-in Jiffy nodes. Please refer to Task Design&amp;gt;Objects and Properties for more details on built-in Jiffy nodes.
@@ -138,10 +138,10 @@ Please refer to the video for more details on how to create a task.   Update Tas
     
     <item>
       <title>1. Data Sources</title>
-      <link>http://localhost:1313/task-design---tasks---objects-and-properties/1.-data-sources/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-design---tasks---objects-and-properties/1.-data-sources/</link>
       <pubDate>Mon, 07 Nov 2016 14:10:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-design---tasks---objects-and-properties/1.-data-sources/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-design---tasks---objects-and-properties/1.-data-sources/</guid>
       <description>These are the data nodes which can be used to provide input data for the tasks
 CSV Data This can be used where the task input needs to be given in a csv file.
 The CSV file needs to be uploaded into Repository &amp;gt; CSV file prior to using the same in task design.
@@ -151,20 +151,20 @@ Refer Using CSV In Jiffy for the further details on CSV.</description>
     
     <item>
       <title>3. XML Templates</title>
-      <link>http://localhost:1313/repository/3.-xml-templates/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/repository/3.-xml-templates/</link>
       <pubDate>Mon, 07 Nov 2016 14:10:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/repository/3.-xml-templates/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/repository/3.-xml-templates/</guid>
       <description>The template repository is used to store all the templates that will be used as input/output templates for Jiffy nodes like API&amp;rsquo;s, Services etc in task design. As a one time activity, users have to upload all the templates that are required into this repository. The following are the different functionalities available
 Add new templates Add new template to repository. Jiffy provides an option to mention the mandatory fields during upload.</description>
     </item>
     
     <item>
       <title>2. Manage Task</title>
-      <link>http://localhost:1313/task-design---tasks/2.-manage-task/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-design---tasks/2.-manage-task/</link>
       <pubDate>Mon, 07 Nov 2016 14:09:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-design---tasks/2.-manage-task/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-design---tasks/2.-manage-task/</guid>
       <description>Navigate to Task Design &amp;gt; Tasks. Select Function &amp;amp; Process under which the task has to be viewed/edited. Select a task. Goto Overview tab.
 The following actions are available in overview page.
  Duplicate a task :
@@ -175,10 +175,10 @@ Click on Tag to Environment to tag a task to an environment.</description>
     
     <item>
       <title>2. Sterling Components</title>
-      <link>http://localhost:1313/task-design---tasks---objects-and-properties/2.-sterling-components/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-design---tasks---objects-and-properties/2.-sterling-components/</link>
       <pubDate>Mon, 07 Nov 2016 14:09:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-design---tasks---objects-and-properties/2.-sterling-components/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-design---tasks---objects-and-properties/2.-sterling-components/</guid>
       <description>These are nodes which can be used to perform different actions in Sterling application.
 Sterling API To invoke an API call to Sterling application. Before using these nodes, complete sterling configuration under Task Design &amp;gt; Configurations. Mention the configuration name, API name to be invoked and the input and output XML templates to be used for API call in the properties of the node.
 Service Node To invoke a service call to Sterling application.</description>
@@ -186,19 +186,19 @@ Service Node To invoke a service call to Sterling application.</description>
     
     <item>
       <title>4. JSON Templates</title>
-      <link>http://localhost:1313/repository/4.-json-templates/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/repository/4.-json-templates/</link>
       <pubDate>Mon, 07 Nov 2016 14:09:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/repository/4.-json-templates/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/repository/4.-json-templates/</guid>
       <description>The functionalities of JSON templates are same as XML templates. Please refer to Repositories &amp;gt; XML template for the details.</description>
     </item>
     
     <item>
       <title>1. Functions</title>
-      <link>http://localhost:1313/settings/1.-functions/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/settings/1.-functions/</link>
       <pubDate>Mon, 07 Nov 2016 14:08:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/settings/1.-functions/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/settings/1.-functions/</guid>
       <description>In Jiffy, automated tasks are managed in a hierarchical structure
 &amp;lsquo;Function&amp;rsquo; can be user defined according to their requirements. For example, a JIFFY function could be:
  Finance HR Admin  i.e All Finance related processes &amp;amp; tasks can be tracked under Function Finance, similarly HR and Admin.
@@ -207,10 +207,10 @@ Creation and manage of Functions can be done only by users with ### Admin level 
     
     <item>
       <title>3. Re-Using Design Nodes (Copy And Paste)</title>
-      <link>http://localhost:1313/task-design---tasks/3.-re-using-design-nodes-copy-and-paste/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-design---tasks/3.-re-using-design-nodes-copy-and-paste/</link>
       <pubDate>Mon, 07 Nov 2016 14:08:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-design---tasks/3.-re-using-design-nodes-copy-and-paste/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-design---tasks/3.-re-using-design-nodes-copy-and-paste/</guid>
       <description>To reuse the jiffy nodes from existing tasks, users can copy and paste the Jiffy nodes from existing tasks to new tasks.
 Steps to be followed,
  Open existing task Press CTRL key+ Select the nodes Copy the nodes (Ctrl +C) Open new task Paste (CTRL +V)    </description>
@@ -218,10 +218,10 @@ Steps to be followed,
     
     <item>
       <title>3. Validator</title>
-      <link>http://localhost:1313/task-design---tasks---objects-and-properties/3.-validators/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-design---tasks---objects-and-properties/3.-validators/</link>
       <pubDate>Mon, 07 Nov 2016 14:08:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-design---tasks---objects-and-properties/3.-validators/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-design---tasks---objects-and-properties/3.-validators/</guid>
       <description>These are the data nodes which can be used to provide input data for the tasks
 Validator This nodes can be used to implement all kind of validations required as part of task execution. Multiple levels of complex validations rules can be added using constant values/Variables/expressions and different operators like =,!=,&amp;lt;,&amp;gt;,&amp;lt;=,&amp;gt;=,like, AND,OR etc.
 By setting the toggle button - &amp;lsquo;Stop on validation error&amp;rsquo; to ON in properties, the further execution of the tsk can be controlled.</description>
@@ -229,10 +229,10 @@ By setting the toggle button - &amp;lsquo;Stop on validation error&amp;rsquo; to
     
     <item>
       <title>5. CSV Data</title>
-      <link>http://localhost:1313/repository/5.-csv-data/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/repository/5.-csv-data/</link>
       <pubDate>Mon, 07 Nov 2016 14:08:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/repository/5.-csv-data/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/repository/5.-csv-data/</guid>
       <description>These data repositories are used to upload the input data files that will be used as input data nodes in task design. The files loaded here will be available as dropdown option for user to choose in task design.
 The following are the different functionalities available
 Add new data file Add new data file to repository.
@@ -241,10 +241,10 @@ View data Data can be viewed as tree data or as Raw Data</description>
     
     <item>
       <title>2. Roles</title>
-      <link>http://localhost:1313/settings/2.-roles/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/settings/2.-roles/</link>
       <pubDate>Mon, 07 Nov 2016 14:07:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/settings/2.-roles/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/settings/2.-roles/</guid>
       <description>Creation and Manage of Roles can only be done by a user with Admin level access.
 In Jiffy, the user accesses are controlled through the roles assigned against each user. Roles works as given below.
 For each user action, there will be a pre defined permission in Jiffy. For example, Add a Task, Update a task, Approve repository update, Add XML data to repository etc.
@@ -253,10 +253,10 @@ For each user action, there will be a pre defined permission in Jiffy. For examp
     
     <item>
       <title>4. SubTasks</title>
-      <link>http://localhost:1313/task-design---tasks---objects-and-properties/4.-subtasks/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-design---tasks---objects-and-properties/4.-subtasks/</link>
       <pubDate>Mon, 07 Nov 2016 14:07:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-design---tasks---objects-and-properties/4.-subtasks/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-design---tasks---objects-and-properties/4.-subtasks/</guid>
       <description>Component Components are used to save the frequently used Jiffy steps separately in repository so that those can be reused across tasks instead of writing the same steps again and again. These components can be used any number of times in any number of tasks.
 Please Refer to Repository&amp;gt;components to understand more on the usage of Components.
 Start Sub Task &amp;amp; End Sub Task Sub Task consists of two nodes: Start Sub Task and End Sub Task.</description>
@@ -264,28 +264,28 @@ Start Sub Task &amp;amp; End Sub Task Sub Task consists of two nodes: Start Sub 
     
     <item>
       <title>4. Trial Run</title>
-      <link>http://localhost:1313/task-design---tasks/4.-trial-run/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-design---tasks/4.-trial-run/</link>
       <pubDate>Mon, 07 Nov 2016 14:07:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-design---tasks/4.-trial-run/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-design---tasks/4.-trial-run/</guid>
       <description>When the task design is completed, task can be trial runned by clicking on the play button at the top. The task gets automatically saved before the trial run. Irrespective of the task is tagged to any environment, the trial run picks the process level configuration to execute the task. As the execution in progress, the color of the node changes based on the status of the node. Refer Color codes of the nodes for details.</description>
     </item>
     
     <item>
       <title>6. XML Data</title>
-      <link>http://localhost:1313/repository/6.-xml-data/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/repository/6.-xml-data/</link>
       <pubDate>Mon, 07 Nov 2016 14:07:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/repository/6.-xml-data/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/repository/6.-xml-data/</guid>
       <description>The functionalities of XML data are same as CSV data. Please refer to Repositories &amp;gt; XML data for the details.</description>
     </item>
     
     <item>
       <title>3. Users</title>
-      <link>http://localhost:1313/settings/3.-users/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/settings/3.-users/</link>
       <pubDate>Mon, 07 Nov 2016 14:06:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/settings/3.-users/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/settings/3.-users/</guid>
       <description>Jiffy users can be created and managed at Setting &amp;gt; Users. + The following are functionalities allowed here.
 Create User Users with admin level access only can create new users. The following details needs to be provided to create a user.
    Field Description     Username User ID   Password Password   First name First name   Last name Last name   Timezone User timezone.</description>
@@ -293,37 +293,37 @@ Create User Users with admin level access only can create new users. The followi
     
     <item>
       <title>5. Design Controls</title>
-      <link>http://localhost:1313/task-design---tasks/5.-design-controls/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-design---tasks/5.-design-controls/</link>
       <pubDate>Mon, 07 Nov 2016 14:06:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-design---tasks/5.-design-controls/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-design---tasks/5.-design-controls/</guid>
       <description>These are the tools provided at the right top corner of the design screen.</description>
     </item>
     
     <item>
       <title>5. UI</title>
-      <link>http://localhost:1313/task-design---tasks---objects-and-properties/5.-ui/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-design---tasks---objects-and-properties/5.-ui/</link>
       <pubDate>Mon, 07 Nov 2016 14:06:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-design---tasks---objects-and-properties/5.-ui/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-design---tasks---objects-and-properties/5.-ui/</guid>
       <description>Jiffy UI nodes allows user to automate UI pages of any other application. For example, Web pages, Mainframe pages, SAP application, Desktop based applications etc. All UI nodes except Excel node works in similar method. Here automation is a two phase approach, first the UI pages needs to be familiarized using Jiffy UI Learn App and then scripting needs to be done in tasks using corresponding UI nodes. Please refer to UI automation using Jiffy for more details on this.</description>
     </item>
     
     <item>
       <title>7. JSON Data</title>
-      <link>http://localhost:1313/repository/7.-json-data/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/repository/7.-json-data/</link>
       <pubDate>Mon, 07 Nov 2016 14:06:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/repository/7.-json-data/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/repository/7.-json-data/</guid>
       <description>The functionalities of JSON data are same as CSV data. Please refer to Repositories &amp;gt; CSV data for the details.</description>
     </item>
     
     <item>
       <title>6. Email</title>
-      <link>http://localhost:1313/task-design---tasks---objects-and-properties/6.-email/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-design---tasks---objects-and-properties/6.-email/</link>
       <pubDate>Mon, 07 Nov 2016 14:05:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-design---tasks---objects-and-properties/6.-email/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-design---tasks---objects-and-properties/6.-email/</guid>
       <description>There are three nodes available in Jiffy to perform different actions related to Emails. Browsing for a mail with a given search criteria - Email Browser Perform given action on a given Email - Email Actions Send an Email - Email Sender
 Email Browser Email browser is used to search emails based on the configuration and Search criteria given in the node.
 The following needs to be provided in the properties</description>
@@ -331,68 +331,68 @@ The following needs to be provided in the properties</description>
     
     <item>
       <title>8. Web Services</title>
-      <link>http://localhost:1313/repository/8.-web-services/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/repository/8.-web-services/</link>
       <pubDate>Mon, 07 Nov 2016 14:05:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/repository/8.-web-services/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/repository/8.-web-services/</guid>
       <description>Jiffy web service is framework for mocking web service responses for any external web service calls in the system. This framework provides a simple means to process the input and mock the response of external web services. In case the actual web service is not available or not integrated in the environment then users can create a webservice in Jiffy in order to proceed with task execution.
 The following are the functionalities available in Repository &amp;gt; Web services</description>
     </item>
     
     <item>
       <title>6. Iterations</title>
-      <link>http://localhost:1313/task-design---tasks/6.-iteration/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-design---tasks/6.-iteration/</link>
       <pubDate>Mon, 07 Nov 2016 14:05:07 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-design---tasks/6.-iteration/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-design---tasks/6.-iteration/</guid>
       <description>Jiffy allows multiple iteration of the task with multiple input data provided in input file. Each iteration will be continued from node to node only if the execution of the current node is successful.
 For example, consider an input node with N lines of data. All N lines will be passed to first node, in case first node fails for x records in the input file then only N-x iterations will be passed to next node.</description>
     </item>
     
     <item>
       <title>7. Miscellaneous</title>
-      <link>http://localhost:1313/task-design---tasks---objects-and-properties/7.-miscellanous/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-design---tasks---objects-and-properties/7.-miscellanous/</link>
       <pubDate>Mon, 07 Nov 2016 14:04:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-design---tasks---objects-and-properties/7.-miscellanous/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-design---tasks---objects-and-properties/7.-miscellanous/</guid>
       <description>Timer Timer node is used to add delays during execution by the time specified in the node.   Rest API REST API node is used to include the REST web services. Please refer to REST &amp;amp; SOAP Services in Jiffy for more details.   File Tranfer FTP node allows the user to SEND files to given location and RECEIVE files from given location.
 The following needs to be selected in properties</description>
     </item>
     
     <item>
       <title>9. UI Controls</title>
-      <link>http://localhost:1313/repository/9.-ui-controls/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/repository/9.-ui-controls/</link>
       <pubDate>Mon, 07 Nov 2016 14:04:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/repository/9.-ui-controls/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/repository/9.-ui-controls/</guid>
       <description>UI Controls are used to save all the UI Modules and Controls which are created during UI familiarization using Jiffy UI Learn App. During familiarization when the familiarized controls are saved, those are automatically saved under this folder. If required, users can manually add new UI controls here. Also users are allowed to edit the existing UI controls for any new changes in UI pages instead of re familiarizing the page again.</description>
     </item>
     
     <item>
       <title>1. Actionables</title>
-      <link>http://localhost:1313/2.-dashboards/1.-actionables/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/2.-dashboards/1.-actionables/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/2.-dashboards/1.-actionables/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/2.-dashboards/1.-actionables/</guid>
       <description>Annotes are typically unstuctured contents that you can associate with a slice of data. Annotes could be
  an outcome of a data analysis, which you would want to associate with the slice of data for future reference. a question you have on the data, which you would like to ask others. or even could be issues associated with data, which you want to highlight or request to be fixed.</description>
     </item>
     
     <item>
       <title>1. How do i edit specific Columns in a spreadsheet.</title>
-      <link>http://localhost:1313/faq/1.how-do-i-edit/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/faq/1.how-do-i-edit/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/faq/1.how-do-i-edit/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/faq/1.how-do-i-edit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>1. Overview</title>
-      <link>http://localhost:1313/components/1.-overview/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/components/1.-overview/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/components/1.-overview/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/components/1.-overview/</guid>
       <description>Components in Jiffy allows user to save the frequently used Jiffy steps separately in repository so that those can be reused across tasks instead of writing the same steps again and again in tasks. These components can be used any number of times in any number of tasks. There are two types of components,  Bundled Components
  UI Components
   Bundled Components JIFFY users are provided with the functionality where a group of jiffy nodes that performs a task can be made as a component and can be used in any task.</description>
@@ -400,38 +400,38 @@ The following needs to be selected in properties</description>
     
     <item>
       <title>1. Overview</title>
-      <link>http://localhost:1313/task-execution/1.-overview/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-execution/1.-overview/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-execution/1.-overview/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-execution/1.-overview/</guid>
       <description>Once the tasks are designed, it can be executed from Task Execution. In order to trigger execution from Task Execution, the tasks needs to be assigned to environments. The following options are available in Task Execution  To execute single task/ bulk of tasks from same environment To schedule the execution of single task/bulk of tasks from same environment To execute/to schedule execution of tasks at LABEL level</description>
     </item>
     
     <item>
       <title>1. Overview</title>
-      <link>http://localhost:1313/ui-tasks/1.-overview/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/ui-tasks/1.-overview/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/ui-tasks/1.-overview/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/ui-tasks/1.-overview/</guid>
       <description>Jiffy UI automation framework allows user to automate UI pages of both Web application and desktop based applications. Jiffy uses a two phase approach - Familiarization of the application to be automated followed by the automation task design.   UI Familiarization : Jiffy Familiarization application is a desktop client that enables users to familiarize the UI objects of an application. Once familiarized, the UI objects are saved in repository and can then be used in task design steps.</description>
     </item>
     
     <item>
       <title>1. What is Jiffy?</title>
-      <link>http://localhost:1313/getting-started-with-jiffy/what_is_jiffy/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/getting-started-with-jiffy/what_is_jiffy/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/getting-started-with-jiffy/what_is_jiffy/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/getting-started-with-jiffy/what_is_jiffy/</guid>
       <description>Jiffy is a Robotic Automation tool which provides everything you need to implement a continuous automation framework, Reporting Automation, Cognitive Robots &amp;amp; analytics. Automate any task manually performed on a computer, rule based or non rule based.
 With simple drag and drop, automate any manual activity carried out across desktop applications, web applications or mainframes. The process is further simplified with nodes that can ease interactions wtih excel, email, REST, web services etc.</description>
     </item>
     
     <item>
       <title>10. Expressions</title>
-      <link>http://localhost:1313/repository/10.-expressions/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/repository/10.-expressions/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/repository/10.-expressions/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/repository/10.-expressions/</guid>
       <description>This is used to save custom expressions which can be used in scripting of all UI nodes. These expressions has to be written in Python language and can be reused in UI nodes of tasks across Processes.
 Users are allowed to create/edit/view/delete custom expressions in Repository &amp;gt; Expressions
 Note: Jiffy also allows users to write expressions in mappings and places where conditions are written like validator node, IF node, IF/While conditions etc.</description>
@@ -439,10 +439,10 @@ Note: Jiffy also allows users to write expressions in mappings and places where 
     
     <item>
       <title>2. Bundled Components</title>
-      <link>http://localhost:1313/components/2.-bundled-components/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/components/2.-bundled-components/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/components/2.-bundled-components/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/components/2.-bundled-components/</guid>
       <description>Create/Edit Component To create a new component go to Components in the Jiffy menu and click on Bundled Components. You can see the list of existing bundled components. Also new bundled components can be created by clicking the button ‘Add Component’ on the top right of the screen.
 It contains 3 tabs - Overview, Component and Trial room.
 Overview : Overview contains the basic details of the components. User can make any changes and save using save button.</description>
@@ -450,29 +450,29 @@ Overview : Overview contains the basic details of the components. User can make 
     
     <item>
       <title>2. Configuration</title>
-      <link>http://localhost:1313/ui-tasks/2.-configuration/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/ui-tasks/2.-configuration/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/ui-tasks/2.-configuration/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/ui-tasks/2.-configuration/</guid>
       <description>The following configurations needs to be completed to start with familiarization.
  Define the details of application to be familiarized in Jiffy. This needs to be defined in page ‘Jiffy base URL/mojo’, for eg. http://172.16.10.21:8484/mojo. Only users with admin level access can define this in Jiffy.     2. Once the application details are added to mojo page, the same app needs to be added to user level configuration under Settings &amp;gt; User &amp;gt; UI learn configuration.</description>
     </item>
     
     <item>
       <title>2. How do i draw a visual with data from multiple sheets</title>
-      <link>http://localhost:1313/faq/2.how-do-i-draw/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/faq/2.how-do-i-draw/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/faq/2.how-do-i-draw/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/faq/2.how-do-i-draw/</guid>
       <description></description>
     </item>
     
     <item>
       <title>2. Jiffy Workspace</title>
-      <link>http://localhost:1313/getting-started-with-jiffy/jiffy_workspace/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/getting-started-with-jiffy/jiffy_workspace/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/getting-started-with-jiffy/jiffy_workspace/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/getting-started-with-jiffy/jiffy_workspace/</guid>
       <description>Jiffy workspace has two components
 Jiffy Application and Jiffy UI Learn application.
 Jiffy UI learn application is required only when Jiffy is used for UI automation. During UI automation, user needs to ensure that Jiffy service is running in the machine where the UI automation is performed. Jiffy service is a supporting application which is required for the interaction between Jiffy application and UI application.
@@ -481,19 +481,19 @@ Jiffy Application Jiffy Log-In Screen comes up on entering the Jiffy URL on the 
     
     <item>
       <title>2. Run Tasks</title>
-      <link>http://localhost:1313/task-execution/2.-run-tasks/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-execution/2.-run-tasks/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-execution/2.-run-tasks/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-execution/2.-run-tasks/</guid>
       <description>Execute single task:  Navigate to Task Execution &amp;gt; Run Task. Select the task to be executed. Click on Run button, the execution will be triggered immediately.  Execute bulk of tasks :  Navigate to Task Execution &amp;gt; Run Task. Select the set of tasks to be executed. Click on Run button, the execution will be triggered immediately. A bulkrun ID will be generated and user can use this bulkrun ID to refer the execution details later.</description>
     </item>
     
     <item>
       <title>3. Administrative Functions</title>
-      <link>http://localhost:1313/getting-started-with-jiffy/administrative_functions/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/getting-started-with-jiffy/administrative_functions/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/getting-started-with-jiffy/administrative_functions/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/getting-started-with-jiffy/administrative_functions/</guid>
       <description>Jiffy Admin is responsible for managing the key administrative functions in Jiffy. All admin functionalities are available under Settings in the Main Menu. Admin functionalities include:  Manage Users Define Roles Assign Roles to Users Manage Functions  Manage Users :
 To create new users, Activate/de-activate a user, View the list of users, View the details of individual users.
 Define Roles &amp;amp; Assign Roles to Users:
@@ -502,10 +502,10 @@ In Jiffy, the user accesses are controlled through the roles assigned against ea
     
     <item>
       <title>3. O3 Jiffy UI Learn Application</title>
-      <link>http://localhost:1313/ui-tasks/3.-o3-jiffy-ui-learn-application/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/ui-tasks/3.-o3-jiffy-ui-learn-application/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/ui-tasks/3.-o3-jiffy-ui-learn-application/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/ui-tasks/3.-o3-jiffy-ui-learn-application/</guid>
       <description>Jiffy UI Learn Application canbe installed in a windows machine. Shortcut will be created on the desktop.
 Steps to be followed to familiarize an application:
  Enter Username and Password (Jiffy Credentials) and click the Log In button. Select the process name from the process drop down and select Web/Windows from the mode drop down. Click on Proceed. O3 Jiffy UI Learn App screen will open up.O3 Jiffy UI Learn Application screen comprises of 3 windows</description>
@@ -513,57 +513,57 @@ Steps to be followed to familiarize an application:
     
     <item>
       <title>3. Scheduled Runs</title>
-      <link>http://localhost:1313/task-execution/3.-scheduled-runs/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-execution/3.-scheduled-runs/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-execution/3.-scheduled-runs/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-execution/3.-scheduled-runs/</guid>
       <description>Schedule the execution of single task/bulk of tasks : This allows user to schedule the execution of selected tasks for a given date and time. Navigate to Task Execution &amp;gt; Run Task. Select the set of tasks to be executed. Click on Schedule button, provide the date and time to trigger the execution. The schedule will be created and Jiffy will automatically initiate the execution on the exact date and time mentioned in schedule.</description>
     </item>
     
     <item>
       <title>3. UI Components</title>
-      <link>http://localhost:1313/components/3.-ui-components/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/components/3.-ui-components/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/components/3.-ui-components/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/components/3.-ui-components/</guid>
       <description>To create a new UI Component To create a new UI component go to Components in the Jiffy menu and click on UI Components. You can see the list of existing UI components. Also new UI components can be created by clicking the button ‘Add UI Component’ on the top right of the screen.
  Click on ADD UI Component. Provide the details, choose the App from the drop down.</description>
     </item>
     
     <item>
       <title>4. Execution Summary</title>
-      <link>http://localhost:1313/task-execution/4.-execution-summary/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-execution/4.-execution-summary/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-execution/4.-execution-summary/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-execution/4.-execution-summary/</guid>
       <description>All the tasks which are executed from Task Execution will have summary and history captured in Task Execution &amp;gt; Execution Summary and Task Execution &amp;gt; Execution history.  Execution Summary: Summary will have details like Run Id, Execution Start time, total execution time, Total number of test cases (in case of bulk execution), Result of execution (Passed/Failed/Invalidated). In case of bulk execution, it will provide how many tasks are passed, how many are failed and how many are invalidated.</description>
     </item>
     
     <item>
       <title>4. How to add multiple schedule refreshes</title>
-      <link>http://localhost:1313/faq/4.how-to-add/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/faq/4.how-to-add/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/faq/4.how-to-add/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/faq/4.how-to-add/</guid>
       <description></description>
     </item>
     
     <item>
       <title>4. Manage Your Password</title>
-      <link>http://localhost:1313/settings/4.-manage-your-password-/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/settings/4.-manage-your-password-/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/settings/4.-manage-your-password-/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/settings/4.-manage-your-password-/</guid>
       <description>When a User ID is created, user will receive an automated email with password details.
 Forgot Your Password?  Click on Forgot password button from the Login page Password Reset page appears, Enter email id Click on Reset my password button Password reset successful page appears. You will get an email for setting up the new password  To Change Password  Click on the username displayed on the right side on the top of the page.</description>
     </item>
     
     <item>
       <title>4. UI Task Design</title>
-      <link>http://localhost:1313/ui-tasks/4.-ui-task-design/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/ui-tasks/4.-ui-task-design/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/ui-tasks/4.-ui-task-design/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/ui-tasks/4.-ui-task-design/</guid>
       <description>Task design using UI nodes are same as other Jiffy nodes.The UI node needs to be used here.
 The steps to be followed.
  Create a new task in Jiffy Navigate to the &amp;ldquo;Steps&amp;rdquo; tab. Click on the &amp;lsquo;UI&amp;rsquo; tab in the &amp;ldquo;Objects&amp;rdquo; section on the right hand side of the page. Drag and drop the UI node to the design screen. Click on the UI node. Properties tab opens up on the right hand side of the page.</description>
@@ -571,37 +571,37 @@ The steps to be followed.
     
     <item>
       <title>5. Execution History</title>
-      <link>http://localhost:1313/task-execution/5.-execution-history/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-execution/5.-execution-history/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-execution/5.-execution-history/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-execution/5.-execution-history/</guid>
       <description></description>
     </item>
     
     <item>
       <title>5. How </title>
-      <link>http://localhost:1313/faq/5.how/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/faq/5.how/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/faq/5.how/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/faq/5.how/</guid>
       <description>   d   Test   </description>
     </item>
     
     <item>
       <title>6. Polling History</title>
-      <link>http://localhost:1313/task-execution/6.-polling-history/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-execution/6.-polling-history/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-execution/6.-polling-history/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-execution/6.-polling-history/</guid>
       <description>Polling history maintains the history details of all polling tasks which are execution In progress/Completed. This gives the below details for all the polling tasks  Run ID Task ID Status  Polling – Execution in progress Stopped – Execution Completed Pending – The very first round of execution in progress Invalidated – Task design is incorrect. Execution cannot be performed Execution time * Until the execution in progress, it gives execution triggered time.</description>
     </item>
     
     <item>
       <title>8. Global Variable Filtering For CSV</title>
-      <link>http://localhost:1313/task-design---tasks---objects-and-properties/9.-global-variable-filtering-for-csv/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-design---tasks---objects-and-properties/9.-global-variable-filtering-for-csv/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-design---tasks---objects-and-properties/9.-global-variable-filtering-for-csv/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-design---tasks---objects-and-properties/9.-global-variable-filtering-for-csv/</guid>
       <description>JIFFY_USER_ID, JIFFY_USER_NAME, JIFFY_ENV_NAME are the 3 global variables used to filter CSV input records during execution.
 These variables are used to filter the input data based on the User Id (Id of the user logged in), User Name(user name of the logged in user) and Environment (environment in which execution is triggered) respectively.
 JIFFY_USER_ID
@@ -610,10 +610,10 @@ When the CSV file is uploaded into the Task Design screen and clicked on View CS
     
     <item>
       <title>How do I join multiple sheets to create a new consolidated sheet</title>
-      <link>http://localhost:1313/faq/3.how-do-join-multiple-sheets-to-create-a-new-sungle-sheet/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/faq/3.how-do-join-multiple-sheets-to-create-a-new-sungle-sheet/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/faq/3.how-do-join-multiple-sheets-to-create-a-new-sungle-sheet/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/faq/3.how-do-join-multiple-sheets-to-create-a-new-sungle-sheet/</guid>
       <description>Docube allows you to join multiple sheets the way you would do join two tables in SQL. You can use ANSI SQL not only to join but also transform the data.
  SELECT datasheet1.column1, datasheet2.column2 FROM ${/home/Datasheet1} AS datasheet1, ${/home/Datasheet2} AS datasheet2 WHERE datasheet2.column1=datasheet1.column2
 
@@ -622,10 +622,10 @@ Key note  You can refer to a datasheet by its absolute path in the SQL editor by
     
     <item>
       <title>11. Labels</title>
-      <link>http://localhost:1313/repository/11.-labels/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/repository/11.-labels/</link>
       <pubDate>Mon, 07 Nov 2016 14:02:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/repository/11.-labels/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/repository/11.-labels/</guid>
       <description>Labels are used for the logical grouping of tasks. Tasks that are spread across Function, Processes and Environments can be grouped under one label. During execution, users can select all the tasks labelled with same name under an environment for execution.
 The following are the different functionalities available in Repositories &amp;gt; Labels
 Add Label Navigate to Repository &amp;gt; Labels, Click on Add Labels.
@@ -634,40 +634,40 @@ View all tasks linked to the same label Click on label ID, all the tasks would b
     
     <item>
       <title>2. Report: Task Design</title>
-      <link>http://localhost:1313/2.-dashboards/2.-report-task-design/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/2.-dashboards/2.-report-task-design/</link>
       <pubDate>Mon, 07 Nov 2016 14:02:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/2.-dashboards/2.-report-task-design/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/2.-dashboards/2.-report-task-design/</guid>
       <description>You can view annotes at various levels
  You can view all the annotes around the data presented on the card by clicking on the annotes icon (without selecting a component on visual). The count indicates the total number of annotes available on the data presented. A blue colored annotes icon indicates that you have unread annotes on this slice of data. As soon as an annotes is rendered, it is considered as read by the used.</description>
     </item>
     
     <item>
       <title>3. Report: Task Execution</title>
-      <link>http://localhost:1313/2.-dashboards/3.-report-task-execution/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/2.-dashboards/3.-report-task-execution/</link>
       <pubDate>Mon, 07 Nov 2016 14:02:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/2.-dashboards/3.-report-task-execution/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/2.-dashboards/3.-report-task-execution/</guid>
       <description>You can view annotes at various levels
  You can view all the annotes around the data presented on the card by clicking on the annotes icon (without selecting a component on visual). The count indicates the total number of annotes available on the data presented. A blue colored annotes icon indicates that you have unread annotes on this slice of data. As soon as an annotes is rendered, it is considered as read by the used.</description>
     </item>
     
     <item>
       <title>4. System Health</title>
-      <link>http://localhost:1313/2.-dashboards/4.-system-health/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/2.-dashboards/4.-system-health/</link>
       <pubDate>Mon, 07 Nov 2016 14:02:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/2.-dashboards/4.-system-health/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/2.-dashboards/4.-system-health/</guid>
       <description>You can view annotes at various levels
  You can view all the annotes around the data presented on the card by clicking on the annotes icon (without selecting a component on visual). The count indicates the total number of annotes available on the data presented. A blue colored annotes icon indicates that you have unread annotes on this slice of data. As soon as an annotes is rendered, it is considered as read by the used.</description>
     </item>
     
     <item>
       <title>1. Overview</title>
-      <link>http://localhost:1313/task-design---configurations/1.-overview/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-design---configurations/1.-overview/</link>
       <pubDate>Mon, 07 Nov 2016 14:01:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-design---configurations/1.-overview/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-design---configurations/1.-overview/</guid>
       <description>A Configuration in Jiffy means the environmental details that are required to execute the task. This includes the connection details of all the applications which will be used during task execution. For example,
  Database Configuration Desktop Application Configuration DOCUBE Configuration Email Configuration File Transfer Configuration JMS Queue Configuration Mainframe Application Configuration REST API Configuration SAP Configuration Sterling Configuration Web Application Configuration
   Jiffy provides a feature that the same tasks can be executed across multiple environments.</description>
@@ -675,10 +675,10 @@ View all tasks linked to the same label Click on label ID, all the tasks would b
     
     <item>
       <title>12. Excel Macros</title>
-      <link>http://localhost:1313/repository/12.-excel-macros/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/repository/12.-excel-macros/</link>
       <pubDate>Mon, 07 Nov 2016 14:01:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/repository/12.-excel-macros/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/repository/12.-excel-macros/</guid>
       <description>Excel macros can be created and saved in repository and can be used while doing the scripting for Excel node in task design.
 The following are the functionalities available
  Create new macros Edit existing macros Archive macros  Once the macros are created in repository, this can be reused in Excel node scripting in task design.</description>
@@ -686,19 +686,19 @@ The following are the functionalities available
     
     <item>
       <title>7. Color Codes Of The Nodes</title>
-      <link>http://localhost:1313/task-design---tasks/7.-color-codes-of-the-nodes/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-design---tasks/7.-color-codes-of-the-nodes/</link>
       <pubDate>Mon, 07 Nov 2016 13:04:07 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-design---tasks/7.-color-codes-of-the-nodes/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-design---tasks/7.-color-codes-of-the-nodes/</guid>
       <description>Jiffy presents 5 different color codes for the nodes based on the execution status of the nodes.</description>
     </item>
     
     <item>
       <title>8. Global Variable Filtering For CSV</title>
-      <link>http://localhost:1313/task-design---tasks/8.-global-variable-filtering-for-csv/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-design---tasks/8.-global-variable-filtering-for-csv/</link>
       <pubDate>Mon, 07 Nov 2016 13:03:07 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-design---tasks/8.-global-variable-filtering-for-csv/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-design---tasks/8.-global-variable-filtering-for-csv/</guid>
       <description>JIFFY_USER_ID, JIFFY_USER_NAME, JIFFY_ENV_NAME are the 3 global variables used to filter CSV input records during execution.
 These variables are used to filter the input data based on the User Id (Id of the user logged in), User Name(user name of the logged in user) and Environment (environment in which execution is triggered) respectively.
 JIFFY_USER_ID
@@ -707,10 +707,10 @@ When the CSV file is uploaded into the Task Design screen and clicked on View CS
     
     <item>
       <title>2. Process, Function And User Level Configurations</title>
-      <link>http://localhost:1313/task-design---configurations/2.-process-function-and-user-level-configurations/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-design---configurations/2.-process-function-and-user-level-configurations/</link>
       <pubDate>Mon, 07 Nov 2016 10:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-design---configurations/2.-process-function-and-user-level-configurations/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-design---configurations/2.-process-function-and-user-level-configurations/</guid>
       <description>Jiffy allows users to define configurations at three levels
  User Level Environment Level Process Level  User Level Some of the Jiffy nodes (not all) has this additional feature in properties tab where user can select the option to do execution using user level configuration. For Example, DB node has this feature.
   If this is turned ON, during execution Jiffy use the user level configuration to execute the DB node.</description>
@@ -718,10 +718,10 @@ When the CSV file is uploaded into the Task Design screen and clicked on View CS
     
     <item>
       <title>3. Configuration Priorities</title>
-      <link>http://localhost:1313/task-design---configurations/3.-configuration-priorities/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-design---configurations/3.-configuration-priorities/</link>
       <pubDate>Mon, 07 Nov 2016 05:02:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-design---configurations/3.-configuration-priorities/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-design---configurations/3.-configuration-priorities/</guid>
       <description>Priority of Configurations when Execution triggered from Task Design
 When a task is executed from Task Design window, only User level configurations and Process level configurations will be used. During execution, the priority would be as below:
 Note:
@@ -731,10 +731,10 @@ Priority of Configurations when Execution triggered from Task Execution</descrip
     
     <item>
       <title></title>
-      <link>http://localhost:1313/getting-started-with-jiffy/test/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/getting-started-with-jiffy/test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/getting-started-with-jiffy/test/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/getting-started-with-jiffy/test/</guid>
       <description></description>
     </item>
     

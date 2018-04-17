@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Components on Welcome to the Jiffy-RPA Help Center</title>
-    <link>http://localhost:1313/components/</link>
+    <link>https://sajeesham.github.io/jiffyrpagit/components/</link>
     <description>Recent content in Components on Welcome to the Jiffy-RPA Help Center</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 07 Nov 2016 14:03:40 +0530</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/components/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sajeesham.github.io/jiffyrpagit/components/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>1. Overview</title>
-      <link>http://localhost:1313/components/1.-overview/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/components/1.-overview/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/components/1.-overview/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/components/1.-overview/</guid>
       <description>Components in Jiffy allows user to save the frequently used Jiffy steps separately in repository so that those can be reused across tasks instead of writing the same steps again and again in tasks. These components can be used any number of times in any number of tasks. There are two types of components,  Bundled Components
  UI Components
   Bundled Components JIFFY users are provided with the functionality where a group of jiffy nodes that performs a task can be made as a component and can be used in any task.</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>2. Bundled Components</title>
-      <link>http://localhost:1313/components/2.-bundled-components/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/components/2.-bundled-components/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/components/2.-bundled-components/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/components/2.-bundled-components/</guid>
       <description>Create/Edit Component To create a new component go to Components in the Jiffy menu and click on Bundled Components. You can see the list of existing bundled components. Also new bundled components can be created by clicking the button ‘Add Component’ on the top right of the screen.
 It contains 3 tabs - Overview, Component and Trial room.
 Overview : Overview contains the basic details of the components. User can make any changes and save using save button.</description>
@@ -35,10 +35,10 @@ Overview : Overview contains the basic details of the components. User can make 
     
     <item>
       <title>3. UI Components</title>
-      <link>http://localhost:1313/components/3.-ui-components/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/components/3.-ui-components/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/components/3.-ui-components/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/components/3.-ui-components/</guid>
       <description>To create a new UI Component To create a new UI component go to Components in the Jiffy menu and click on UI Components. You can see the list of existing UI components. Also new UI components can be created by clicking the button ‘Add UI Component’ on the top right of the screen.
  Click on ADD UI Component. Provide the details, choose the App from the drop down.</description>
     </item>

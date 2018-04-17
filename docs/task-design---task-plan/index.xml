@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Task Design - Task Plans on Welcome to the Jiffy-RPA Help Center</title>
-    <link>http://localhost:1313/task-design---task-plan/</link>
+    <link>https://sajeesham.github.io/jiffyrpagit/task-design---task-plan/</link>
     <description>Recent content in Task Design - Task Plans on Welcome to the Jiffy-RPA Help Center</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 08 Nov 2016 14:03:40 +0530</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/task-design---task-plan/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sajeesham.github.io/jiffyrpagit/task-design---task-plan/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>1. Process</title>
-      <link>http://localhost:1313/task-design---task-plan/1.-process/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-design---task-plan/1.-process/</link>
       <pubDate>Tue, 08 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-design---task-plan/1.-process/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-design---task-plan/1.-process/</guid>
       <description>Create ProcessOnce the Function is defined by admin user, any number of Processes can be added under that Function.From Jiffy main screen, navigate to *Task Design&amp;gt;Task Plan.* Select a Function and click on Add Process button at the top.&amp;lt;br/&amp;gt;Edit ProcessAn existing Process Name, Start date, End Date and Description can be edited from Task Plan. From Jiffy main screen, navigate to *Task Design &amp;gt; Task Plan.</description>
     </item>
     
     <item>
       <title>2. Environments</title>
-      <link>http://localhost:1313/task-design---task-plan/2.-environments/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-design---task-plan/2.-environments/</link>
       <pubDate>Tue, 08 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-design---task-plan/2.-environments/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-design---task-plan/2.-environments/</guid>
       <description>Once a Process is created, environments can be added. Environment is the system/environment where the tasks needs to be executed. Jiffy provides the following functionalities for Environments.
 Add EnvironmentFrom Jiffy main screen, navigate to Task Design &amp;gt; Task Plan. Select a Process under a Function and click on Add Environment button at the top.Delete EnvironmentDeletion of Environment is allowed only if there are no Tasks assigned to the selected environment.</description>
     </item>

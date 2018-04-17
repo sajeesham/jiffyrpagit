@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Task Design - Tasks on Welcome to the Jiffy-RPA Help Center</title>
-    <link>http://localhost:1313/task-design---tasks/</link>
+    <link>https://sajeesham.github.io/jiffyrpagit/task-design---tasks/</link>
     <description>Recent content in Task Design - Tasks on Welcome to the Jiffy-RPA Help Center</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 07 Nov 2016 14:10:40 +0530</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/task-design---tasks/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sajeesham.github.io/jiffyrpagit/task-design---tasks/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>1. Add Task</title>
-      <link>http://localhost:1313/task-design---tasks/1.-add-task/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-design---tasks/1.-add-task/</link>
       <pubDate>Mon, 07 Nov 2016 14:10:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-design---tasks/1.-add-task/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-design---tasks/1.-add-task/</guid>
       <description>Add/Edit task
 Navigate to Task Design &amp;gt;Tasks. Select Function &amp;amp; Process under which the task has to be created/edited. Click Add task button/select a task. Goto STEPS tab.
 Tasks can be designed/edited in this window using the built-in Jiffy nodes. Please refer to Task Design&amp;gt;Objects and Properties for more details on built-in Jiffy nodes.
@@ -25,10 +25,10 @@ Please refer to the video for more details on how to create a task.   Update Tas
     
     <item>
       <title>2. Manage Task</title>
-      <link>http://localhost:1313/task-design---tasks/2.-manage-task/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-design---tasks/2.-manage-task/</link>
       <pubDate>Mon, 07 Nov 2016 14:09:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-design---tasks/2.-manage-task/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-design---tasks/2.-manage-task/</guid>
       <description>Navigate to Task Design &amp;gt; Tasks. Select Function &amp;amp; Process under which the task has to be viewed/edited. Select a task. Goto Overview tab.
 The following actions are available in overview page.
  Duplicate a task :
@@ -39,10 +39,10 @@ Click on Tag to Environment to tag a task to an environment.</description>
     
     <item>
       <title>3. Re-Using Design Nodes (Copy And Paste)</title>
-      <link>http://localhost:1313/task-design---tasks/3.-re-using-design-nodes-copy-and-paste/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-design---tasks/3.-re-using-design-nodes-copy-and-paste/</link>
       <pubDate>Mon, 07 Nov 2016 14:08:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-design---tasks/3.-re-using-design-nodes-copy-and-paste/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-design---tasks/3.-re-using-design-nodes-copy-and-paste/</guid>
       <description>To reuse the jiffy nodes from existing tasks, users can copy and paste the Jiffy nodes from existing tasks to new tasks.
 Steps to be followed,
  Open existing task Press CTRL key+ Select the nodes Copy the nodes (Ctrl +C) Open new task Paste (CTRL +V)    </description>
@@ -50,47 +50,47 @@ Steps to be followed,
     
     <item>
       <title>4. Trial Run</title>
-      <link>http://localhost:1313/task-design---tasks/4.-trial-run/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-design---tasks/4.-trial-run/</link>
       <pubDate>Mon, 07 Nov 2016 14:07:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-design---tasks/4.-trial-run/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-design---tasks/4.-trial-run/</guid>
       <description>When the task design is completed, task can be trial runned by clicking on the play button at the top. The task gets automatically saved before the trial run. Irrespective of the task is tagged to any environment, the trial run picks the process level configuration to execute the task. As the execution in progress, the color of the node changes based on the status of the node. Refer Color codes of the nodes for details.</description>
     </item>
     
     <item>
       <title>5. Design Controls</title>
-      <link>http://localhost:1313/task-design---tasks/5.-design-controls/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-design---tasks/5.-design-controls/</link>
       <pubDate>Mon, 07 Nov 2016 14:06:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-design---tasks/5.-design-controls/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-design---tasks/5.-design-controls/</guid>
       <description>These are the tools provided at the right top corner of the design screen.</description>
     </item>
     
     <item>
       <title>6. Iterations</title>
-      <link>http://localhost:1313/task-design---tasks/6.-iteration/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-design---tasks/6.-iteration/</link>
       <pubDate>Mon, 07 Nov 2016 14:05:07 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-design---tasks/6.-iteration/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-design---tasks/6.-iteration/</guid>
       <description>Jiffy allows multiple iteration of the task with multiple input data provided in input file. Each iteration will be continued from node to node only if the execution of the current node is successful.
 For example, consider an input node with N lines of data. All N lines will be passed to first node, in case first node fails for x records in the input file then only N-x iterations will be passed to next node.</description>
     </item>
     
     <item>
       <title>7. Color Codes Of The Nodes</title>
-      <link>http://localhost:1313/task-design---tasks/7.-color-codes-of-the-nodes/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-design---tasks/7.-color-codes-of-the-nodes/</link>
       <pubDate>Mon, 07 Nov 2016 13:04:07 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-design---tasks/7.-color-codes-of-the-nodes/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-design---tasks/7.-color-codes-of-the-nodes/</guid>
       <description>Jiffy presents 5 different color codes for the nodes based on the execution status of the nodes.</description>
     </item>
     
     <item>
       <title>8. Global Variable Filtering For CSV</title>
-      <link>http://localhost:1313/task-design---tasks/8.-global-variable-filtering-for-csv/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/task-design---tasks/8.-global-variable-filtering-for-csv/</link>
       <pubDate>Mon, 07 Nov 2016 13:03:07 +0530</pubDate>
       
-      <guid>http://localhost:1313/task-design---tasks/8.-global-variable-filtering-for-csv/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/task-design---tasks/8.-global-variable-filtering-for-csv/</guid>
       <description>JIFFY_USER_ID, JIFFY_USER_NAME, JIFFY_ENV_NAME are the 3 global variables used to filter CSV input records during execution.
 These variables are used to filter the input data based on the User Id (Id of the user logged in), User Name(user name of the logged in user) and Environment (environment in which execution is triggered) respectively.
 JIFFY_USER_ID

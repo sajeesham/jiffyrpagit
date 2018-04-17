@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mappings on Welcome to the Jiffy-RPA Help Center</title>
-    <link>http://localhost:1313/mappings/</link>
+    <link>https://sajeesham.github.io/jiffyrpagit/mappings/</link>
     <description>Recent content in Mappings on Welcome to the Jiffy-RPA Help Center</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 12 Nov 2016 14:03:40 +0530</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/mappings/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sajeesham.github.io/jiffyrpagit/mappings/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>1. Overview</title>
-      <link>http://localhost:1313/mappings/1.-overview/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/mappings/1.-overview/</link>
       <pubDate>Sat, 12 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/mappings/1.-overview/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/mappings/1.-overview/</guid>
       <description>Mapping defines the set of data to be passed to a specific node. Mapping for a particular node is defined at the connector that is connected to the input side of the node i.e. data input to the node is given from the connector situated to the left side of the node.
 Once relevant nodes are selected for tasks, the mapping between nodes needs to be defined. This can be done in the mapping window.</description>
     </item>
     
     <item>
       <title>2. Easy Mapping</title>
-      <link>http://localhost:1313/mappings/2.-easy-mapping/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/mappings/2.-easy-mapping/</link>
       <pubDate>Sat, 12 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/mappings/2.-easy-mapping/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/mappings/2.-easy-mapping/</guid>
       <description>If the mapping of the nodes and their attributes (within the Edit Mapping screen) is based on their relative names, Easy Map functionality can be used. Click the required parent node to be mapped on LHS &amp;amp; RHS and click on &amp;lsquo;Easy Map&amp;rsquo; button, this will map all the elements with same name on the either side. Once he easy mappings is done,will appear at the bottom of the screen.</description>
     </item>
     
     <item>
       <title>3. Element Mapping</title>
-      <link>http://localhost:1313/mappings/3.-element-mapping/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/mappings/3.-element-mapping/</link>
       <pubDate>Sat, 12 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/mappings/3.-element-mapping/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/mappings/3.-element-mapping/</guid>
       <description>If you want to map particular elements you can use ELEMENT MAP.
 This mapping simply maps the LHS element with the selected RHS element. You can click on the node/attribute and click on Element Map button, this will map only that particular element.
 Once the element mapping is completed, it will appear at the bottom.
@@ -45,20 +45,20 @@ Unlike Easy Map, Element map doesn’t require both LHS and RHS elements.</descr
     
     <item>
       <title>4. Stale Mapping</title>
-      <link>http://localhost:1313/mappings/5.-stale-mapping/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/mappings/5.-stale-mapping/</link>
       <pubDate>Sat, 12 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/mappings/5.-stale-mapping/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/mappings/5.-stale-mapping/</guid>
       <description>In Jiffy you can use existing task to Create new task. On copying the existing task nodes to the new task, if any mapping is missed then it comes as a red dotted line. This depicts that the mapping is stale. The stale mappings will be listed on the right hand side and those can be fixed easily to run the task.
 Steps to be followed to fix Stale mapping</description>
     </item>
     
     <item>
       <title>5. Remove Empty Attributes &amp; Remove Empty Nodes</title>
-      <link>http://localhost:1313/mappings/6.-remove-empty-attributes--remove-empty-nodes-/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/mappings/6.-remove-empty-attributes--remove-empty-nodes-/</link>
       <pubDate>Sat, 12 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/mappings/6.-remove-empty-attributes--remove-empty-nodes-/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/mappings/6.-remove-empty-attributes--remove-empty-nodes-/</guid>
       <description>Remove Empty Attributes and Remove Empty Nodes are available as drop down at the RHS of the Edit Mapping data screen. These options are used to remove empty attributes/empty nodes from the input template of RHS node during execution.
 For example, below task
  Mapping between XML data node and Sterling node is

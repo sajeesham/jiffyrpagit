@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Getting Started With Jiffies on Welcome to the Jiffy-RPA Help Center</title>
-    <link>http://localhost:1313/getting-started-with-jiffy/</link>
+    <link>https://sajeesham.github.io/jiffyrpagit/getting-started-with-jiffy/</link>
     <description>Recent content in Getting Started With Jiffies on Welcome to the Jiffy-RPA Help Center</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 07 Nov 2016 14:03:40 +0530</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/getting-started-with-jiffy/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sajeesham.github.io/jiffyrpagit/getting-started-with-jiffy/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>1. What is Jiffy?</title>
-      <link>http://localhost:1313/getting-started-with-jiffy/what_is_jiffy/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/getting-started-with-jiffy/what_is_jiffy/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/getting-started-with-jiffy/what_is_jiffy/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/getting-started-with-jiffy/what_is_jiffy/</guid>
       <description>Jiffy is a Robotic Automation tool which provides everything you need to implement a continuous automation framework, Reporting Automation, Cognitive Robots &amp;amp; analytics. Automate any task manually performed on a computer, rule based or non rule based.
 With simple drag and drop, automate any manual activity carried out across desktop applications, web applications or mainframes. The process is further simplified with nodes that can ease interactions wtih excel, email, REST, web services etc.</description>
     </item>
     
     <item>
       <title>2. Jiffy Workspace</title>
-      <link>http://localhost:1313/getting-started-with-jiffy/jiffy_workspace/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/getting-started-with-jiffy/jiffy_workspace/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/getting-started-with-jiffy/jiffy_workspace/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/getting-started-with-jiffy/jiffy_workspace/</guid>
       <description>Jiffy workspace has two components
 Jiffy Application and Jiffy UI Learn application.
 Jiffy UI learn application is required only when Jiffy is used for UI automation. During UI automation, user needs to ensure that Jiffy service is running in the machine where the UI automation is performed. Jiffy service is a supporting application which is required for the interaction between Jiffy application and UI application.
@@ -35,10 +35,10 @@ Jiffy Application Jiffy Log-In Screen comes up on entering the Jiffy URL on the 
     
     <item>
       <title>3. Administrative Functions</title>
-      <link>http://localhost:1313/getting-started-with-jiffy/administrative_functions/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/getting-started-with-jiffy/administrative_functions/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/getting-started-with-jiffy/administrative_functions/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/getting-started-with-jiffy/administrative_functions/</guid>
       <description>Jiffy Admin is responsible for managing the key administrative functions in Jiffy. All admin functionalities are available under Settings in the Main Menu. Admin functionalities include:  Manage Users Define Roles Assign Roles to Users Manage Functions  Manage Users :
 To create new users, Activate/de-activate a user, View the list of users, View the details of individual users.
 Define Roles &amp;amp; Assign Roles to Users:
@@ -47,10 +47,10 @@ In Jiffy, the user accesses are controlled through the roles assigned against ea
     
     <item>
       <title></title>
-      <link>http://localhost:1313/getting-started-with-jiffy/test/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/getting-started-with-jiffy/test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/getting-started-with-jiffy/test/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/getting-started-with-jiffy/test/</guid>
       <description></description>
     </item>
     

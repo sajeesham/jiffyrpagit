@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FAQs on Welcome to the Jiffy-RPA Help Center</title>
-    <link>http://localhost:1313/faq/</link>
+    <link>https://sajeesham.github.io/jiffyrpagit/faq/</link>
     <description>Recent content in FAQs on Welcome to the Jiffy-RPA Help Center</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 07 Nov 2016 14:03:40 +0530</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/faq/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sajeesham.github.io/jiffyrpagit/faq/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>1. How do i edit specific Columns in a spreadsheet.</title>
-      <link>http://localhost:1313/faq/1.how-do-i-edit/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/faq/1.how-do-i-edit/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/faq/1.how-do-i-edit/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/faq/1.how-do-i-edit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>2. How do i draw a visual with data from multiple sheets</title>
-      <link>http://localhost:1313/faq/2.how-do-i-draw/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/faq/2.how-do-i-draw/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/faq/2.how-do-i-draw/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/faq/2.how-do-i-draw/</guid>
       <description></description>
     </item>
     
     <item>
       <title>4. How to add multiple schedule refreshes</title>
-      <link>http://localhost:1313/faq/4.how-to-add/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/faq/4.how-to-add/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/faq/4.how-to-add/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/faq/4.how-to-add/</guid>
       <description></description>
     </item>
     
     <item>
       <title>5. How </title>
-      <link>http://localhost:1313/faq/5.how/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/faq/5.how/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/faq/5.how/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/faq/5.how/</guid>
       <description>   d   Test   </description>
     </item>
     
     <item>
       <title>How do I join multiple sheets to create a new consolidated sheet</title>
-      <link>http://localhost:1313/faq/3.how-do-join-multiple-sheets-to-create-a-new-sungle-sheet/</link>
+      <link>https://sajeesham.github.io/jiffyrpagit/faq/3.how-do-join-multiple-sheets-to-create-a-new-sungle-sheet/</link>
       <pubDate>Mon, 07 Nov 2016 14:03:40 +0530</pubDate>
       
-      <guid>http://localhost:1313/faq/3.how-do-join-multiple-sheets-to-create-a-new-sungle-sheet/</guid>
+      <guid>https://sajeesham.github.io/jiffyrpagit/faq/3.how-do-join-multiple-sheets-to-create-a-new-sungle-sheet/</guid>
       <description>Docube allows you to join multiple sheets the way you would do join two tables in SQL. You can use ANSI SQL not only to join but also transform the data.
  SELECT datasheet1.column1, datasheet2.column2 FROM ${/home/Datasheet1} AS datasheet1, ${/home/Datasheet2} AS datasheet2 WHERE datasheet2.column1=datasheet1.column2
 
